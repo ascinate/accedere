@@ -117,15 +117,7 @@ function about(){
                <div className="our-customer-div">
                   <div className="container">
                       <div className="row row-cols-1 row-cols-lg-2">
-                          <div className="col">
-                                <figure className="ab-top3">
-                                    <Image src="/coustomer.jpg" alt="about"
-                                    width={700}
-                                    height={900}
-                                    layout="responsive"
-                                    />
-                                </figure>
-                          </div>
+                          
                           <div className="col">
                               <h2 className="comon-head-main"> Our Customers </h2>
                               <ul className="list-unstyled mt-4">
@@ -178,6 +170,16 @@ function about(){
                                   <span> Healthcare and many more </span>
                                </li>
                             </ul>
+                          </div>
+
+                          <div className="col">
+                                <figure className="ab-top3">
+                                    <Image src="/coustomer.jpg" alt="about"
+                                    width={700}
+                                    height={900}
+                                    layout="responsive"
+                                    />
+                                </figure>
                           </div>
                       </div>
                   </div>
