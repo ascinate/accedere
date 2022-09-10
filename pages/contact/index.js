@@ -22,7 +22,7 @@ function contact(){
                                 Complete the contact form and our team will reach out within 24 hours.  </p>
                                 
                                 <div className="map-div-1 mt-4">
-                                     <Image src="/googlemap.jpg"
+                                     <Image src="/googlemap.png"
                                      alt="am"
                                      layout="fill"
                                      />
