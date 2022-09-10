@@ -1254,6 +1254,74 @@ button.close-menu {
 .ison-spn1{
   height: 920px;
 }
+
+.bg-black .navbar{
+	background:#fff;
+	position: fixed !important;
+	top:0;
+	animation:slide-down 0.7s;
+	left:0;
+	right:0;
+    box-shadow:4px -86px 103px rgba(0,0,0,0.9);
+	z-index:250;
+  display: inline-block;
+  width: 100%;
+  padding-top: 10px !important;
+		
+  }
+.fiex-logo{
+  display: block;
+}
+  .bg-white .color-logo{
+    display: none !important;
+  }
+
+  .bg-white .navbar-brand a > span:last-child{
+    display: none !important;
+  }
+  .bg-black .navbar-brand a > span:first-child{
+    display: none !important;
+  }
+  .bg-black .navbar-brand a > span:first-child span{
+    display: none !important;
+  }
+  .bg-black .color-logo{
+    display: block !important;
+  }
+  .bg-black .fiex-logo{
+    display: none !important;
+  }
+  .bg-black > span
+  .bg-black .fiex-logo{
+    display: none !important;
+  }
+  .bg-black .navbar-nav .nav-link{
+    color: #000 !important;
+  }
+  .bg-black .navbar-nav li.active .nav-link{
+    border-bottom: solid 1px #000;
+
+  }
+
+@keyframes slide-down {
+		  0% {
+			  transform: translateY(-100%);
+		  } 
+		  100% {
+			  transform: translateY(0);
+		  } 
+	  }
+	  
+	  @keyframes slide {
+		0% {
+			opacity: 0;
+			transform: translateY(50%);
+		} 
+		100% {
+			opacity: 1;
+			transform: translateY(0);
+		} 
+	}
 @media (max-width:1180px){
 
   .video-sec video {
