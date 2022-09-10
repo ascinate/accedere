@@ -7,7 +7,7 @@ import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 
 
-function soc2cloud(){
+function soccloudsecurity(){
     return(
         <>
           <Navbar/>
@@ -101,7 +101,7 @@ function soc2cloud(){
                         
                         <div className="row row-cols-1 row-cols-lg-2  g-lg-5 mt-0">
                             <div className="col">
-                                 <figure className="cmr-small-pic my-5 my-lg-0">
+                                 <figure className="cmr-small-pic">
                                         <Image src="/what-is-cloud-security01.jpg" alt="about"
                                         layout='fill'
                                         />
@@ -123,9 +123,9 @@ function soc2cloud(){
                 <div className="para-grap-div">
                     <div className="container">
                         
-                        <div className="row row-cols-1 row-cols-lg-2 g-lg-5 mt-0 flex-column-reverse flex-lg-row">
+                        <div className="row row-cols-1 row-cols-lg-2 g-lg-5 mt-0">
                             <div className="col">
-                                <h2 className="comon-head-main mt-5 mt-lg-0"> IoT and Cloud </h2>
+                                <h2 className="comon-head-main "> IoT and Cloud </h2>
                                 <p className="mt-4"> Connected devices and cyber-physical systems are becoming more prevalent in enterprise environments. As the cloud environment expands to encompass these technologies, the connected world depends on devices to manage, orchestrate, and provision data. By 2023, the number of connected devices is forecast to reach 20 billion. This increase in volume is a growing challenge for service providers tasked with trying to keep their networks secure and for enterprises and critical
                                  infrastructure entities deploying and managing devices. </p>
 
@@ -142,8 +142,8 @@ function soc2cloud(){
 
                             </div>
                             <div className="col">
-                                 <figure className="cmr-small-pic lot-img">
-                                        <Image src="/cloud-img2.jpg" alt="about"
+                                 <figure className="cmr-small-pic cy1">
+                                        <Image src="/iso-one.webp" alt="about"
                                         layout='fill'
                                         />
                                 </figure>
@@ -170,7 +170,7 @@ function soc2cloud(){
                                     </figure>
                             </div>
                             <div className="col-lg-7 ps-lg-5">
-                                <h2 className="comon-head-main mt-5 mt-lg-0"> Security Responsibilities in the Cloud </h2>
+                                <h2 className="comon-head-main "> Security Responsibilities in the Cloud </h2>
                                 <h5 className="mt-4"> At a high level, security responsibility maps to the degree of control any given 
                                 actor has over the cloud architecture stack consists of:</h5>
 
@@ -216,11 +216,11 @@ function soc2cloud(){
                 <div className="para-grap-div">
                     <div className="container">
                         
-                        <div className="row flex-column-reverse flex-lg-row">
+                        <div className="row">
                             
                             
                             <div className="col-lg-7 pe-lg-5">
-                                <h2 className="comon-head-main mt-5 mt-lg-0"> Shared Responsibility Model </h2>
+                                <h2 className="comon-head-main "> Shared Responsibility Model </h2>
                                  
                                 <p> Some SaaS providers believe that if they are hosting their application on platforms such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud and they are automatically compliant just because these platforms may be. This may be applicable to other IaaS or PaaS providers. SaaS CSPs may also need to review the exact controls in the SOC reports and examine whether the relevant controls and criteria are covered in those SOC reports. The availability of a SOC report should 
                                 not be just a checkbox for third-party (vendor) risk compliance.</p>
@@ -256,7 +256,7 @@ function soc2cloud(){
                             </div>
                             
                             <div className="col-lg-7 ps-lg-5">
-                                <h2 className="comon-head-main  mt-5 mt-lg-0"> Data Governance in the Cloud </h2>
+                                <h2 className="comon-head-main "> Data Governance in the Cloud </h2>
                                  
                                 <p> Governance issues also relate to regulatory compliance, security, privacy, and similar concerns impacting today&apos;s organizations. Today&apos;s data management and storage landscape, where data entropy and data sprawl 
                                 are rampant, has far-reaching consequences for data security.</p>
@@ -280,7 +280,7 @@ function soc2cloud(){
                 <div className="bg-grapy para-grap-div py-5">
                     <div className="container">
                                 
-                        <h2 className="comon-head-main mt-5 mt-lg-0"> Data Encryption or Anonymization </h2>
+                        <h2 className="comon-head-main "> Data Encryption or Anonymization </h2>
                                     
                         <p> Privacy mandates such as the EU General Data Protection Regulation (GDPR) recommend data anonymization, which can be another form of encryption. Without a proper data governance program, organizations may face challenges in meeting these privacy compliance mandates. Data encryption is also mandated for the US Health Insurance Portability and Accountability Act (HIPAA) 
                         and the Payment Card Industry Data Security Standard (PCI DSS).</p>
@@ -434,4 +434,4 @@ function soc2cloud(){
         </>
     );
 }
-export default soc2cloud;
+export default soccloudsecurity;

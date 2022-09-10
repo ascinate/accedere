@@ -41,7 +41,7 @@ function soc2privacy(){
                         <div className="row row-cols-1 row-cols-lg-2 g-lg-5">
 
                         <div className="col">
-                               <figure className="cmr-small-pic cpn1">
+                               <figure className="cmr-small-pic cpn1 d-none d-lg-block">
                                     <Image src="/socpng.png" alt="about"
                                   
                                     layout='fill'
@@ -49,7 +49,7 @@ function soc2privacy(){
                                </figure>
                            </div>
                            <div className="col">
-                              <h2 className="comon-head-main text-white"> SOC2 with Cloud and Privacy Controls </h2>
+                              <h2 className="comon-head-main text-white mt-5 mt-lg-0"> SOC2 with Cloud and Privacy Controls </h2>
 
                               <p className="text-white mt-3"> CSA in Collaboration with the AICPA, developed a third-party Assessment program of cloud provides Officially Known as
                               CSA Security Trust & Assurance Ragistry (Star) Attestation. STAR Attestation provides a framework for CPAs performing independent assessment of cloud providers using SOC 2@ engagements with CSA&apos;s Cloud Controls Matrix
@@ -86,7 +86,7 @@ function soc2privacy(){
                                 </figure>
                             </div>
                             <div className="col">
-                                <h2 className="comon-head-main"> Cloud Vendors as Third-Party Risks </h2>
+                                <h2 className="comon-head-main mt-5 mt-lg-0"> Cloud Vendors as Third-Party Risks </h2>
                                  <p className="mt-4"> Managing third-party risk is an important aspect of the overall risk management process and Zero Trust Security. Cloud providers are third parties that store or process valuable information. “From a cybersecurity perspective, third party risks frequently involve a set of threats that may exceed the scope of the organization&apos;s risk management activities. Some organizations focus too narrowly on risks. For example, when hosting data in the cloud, most organizations ask the 
                                  vendor for attestations or some evidence of cybersecurity capability. </p>
          
@@ -101,9 +101,9 @@ function soc2privacy(){
                 <div className="para-grap-div">
                     <div className="container">
                         
-                        <div className="row row-cols-1 row-cols-lg-2 g-lg-5 mt-0">
+                        <div className="row row-cols-1 row-cols-lg-2 g-lg-5 mt-0 flex-column-reverse flex-lg-row">
                             <div className="col">
-                                <h2 className="comon-head-main "> IoT and Cloud </h2>
+                                <h2 className="comon-head-main mt-5 mt-lg-0"> IoT and Cloud </h2>
                                 <p className="mt-4"> Connected devices and cyber-physical systems are becoming more prevalent in enterprise environments. As the cloud environment expands to encompass these technologies, the connected world depends on devices to manage, orchestrate, and provision data. By 2023, the number of connected devices is forecast to reach 20 billion. This increase in volume is a growing challenge for service providers tasked with trying to keep their networks secure and for enterprises and critical
                                  infrastructure entities deploying and managing devices. </p>
 
@@ -120,8 +120,8 @@ function soc2privacy(){
 
                             </div>
                             <div className="col">
-                                 <figure className="cmr-small-pic">
-                                        <Image src="/data.jpeg" alt="about"
+                                 <figure className="cmr-small-pic ison-sp1">
+                                        <Image src="/cloud-img2.jpg" alt="about"
                                         layout='fill'
                                         />
                                 </figure>
@@ -141,14 +141,14 @@ function soc2privacy(){
                         <div className="row">
                             
                             <div className="col-lg-5">
-                                    <figure className="cmr-small-pic">
+                                    <figure className="cmr-small-pic ison-sp1">
                                         <Image src="/adata.jpg" alt="about"
                                         layout='fill'
                                         />
                                     </figure>
                             </div>
                             <div className="col-lg-7 ps-lg-5">
-                                <h2 className="comon-head-main "> Security Responsibilities in the Cloud </h2>
+                                <h2 className="comon-head-main mt-5 mt-lg-0"> Security Responsibilities in the Cloud </h2>
                                 <h5 className="mt-4"> At a high level, security responsibility maps to the degree of control any given 
                                 actor has over the cloud architecture stack consists of:</h5>
 
@@ -194,11 +194,11 @@ function soc2privacy(){
                 <div className="para-grap-div">
                     <div className="container">
                         
-                        <div className="row">
+                        <div className="row flex-column-reverse flex-lg-row">
                             
                             
                             <div className="col-lg-7 pe-lg-5">
-                                <h2 className="comon-head-main "> Shared Responsibility Model </h2>
+                                <h2 className="comon-head-main mt-5 mt-lg-0"> Shared Responsibility Model </h2>
                                  
                                 <p> Some SaaS providers believe that if they are hosting their application on platforms such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud and they are automatically compliant just because these platforms may be. This may be applicable to other IaaS or PaaS providers. SaaS CSPs may also need to review the exact controls in the SOC reports and examine whether the relevant controls and criteria are covered in those SOC reports. The availability of a SOC report should 
                                 not be just a checkbox for third-party (vendor) risk compliance.</p>
@@ -234,7 +234,7 @@ function soc2privacy(){
                             </div>
                             
                             <div className="col-lg-7 ps-lg-5">
-                                <h2 className="comon-head-main "> Data Governance in the Cloud </h2>
+                                <h2 className="comon-head-main mt-5 mt-lg-0"> Data Governance in the Cloud </h2>
                                  
                                 <p> Governance issues also relate to regulatory compliance, security, privacy, and similar concerns impacting today&apos;s organizations. Today&apos;s data management and storage landscape, where data entropy and data sprawl 
                                 are rampant, has far-reaching consequences for data security.</p>

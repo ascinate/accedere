@@ -30,7 +30,7 @@ export default function scadaics() {
                    </div>
                    <div className="col">
                        <figure className="comon-banner-img">
-                          <Image src="/ad-socl-1.jpg"
+                          <Image src="/ind1.jpg"
                           alt="name2"
                           layout="fill"/>
                        </figure>
@@ -48,7 +48,7 @@ export default function scadaics() {
                      
                      <div className="col">
                               <figure className="comon-sub-main2">
-                                 <Image src="/pexels-christina-morillo-1181216.jpg" alt="about"
+                                 <Image src="/ind22.jpg" alt="about"
                                  layout="fill"
                                  />
                            </figure>
@@ -119,8 +119,8 @@ export default function scadaics() {
                   <div className="row row-cols-1 row-cols-lg-2 g-lg-5 mt-0">
                      
                      <div className="col">
-                              <figure className="comon-sub-main2">
-                                 <Image src="/pexels-christina-morillo-1181216.jpg" alt="about"
+                              <figure className="comon-sub-main2 cy1">
+                                 <Image src="/bnm.jpg" alt="about"
                                  layout="fill"
                                  />
                            </figure>
@@ -299,7 +299,7 @@ export default function scadaics() {
                      </div>
 
                      <div className="col">
-                              <figure className="comon-sub-main2">
+                              <figure className="comon-sub-main2 ison-sp1">
                                  <Image src="/pexels-christina-morillo-1181216.jpg" alt="about"
                                  layout="fill"
                                  />

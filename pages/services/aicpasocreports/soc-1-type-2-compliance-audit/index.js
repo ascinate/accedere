@@ -51,11 +51,9 @@ function ComplianceAudit(){
                         <h2 className="comon-head-main text-center"> SOC 1 Type 2 Compliance Audit FAQ </h2> 
                         <div className="row row-cols-1 row-cols-lg-2 align-items-center g-lg-5 mt-0">
                             <div className="col">
-                                 <figure className="mn-big-div3">
+                                 <figure className="mn-big-div3 my-5 my-lg-0">
                                         <Image src="/why1.jpg" alt="about"
-                                        width={700}
-                                        height={900}
-                                        layout="responsive"
+                                        layout="fill"
                                         />
                                 </figure>
                             </div>

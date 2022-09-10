@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRightShort, BsXDiamondFill } from "react-icons/bs";
 
-export default function aicpasocreports() {
+export default function cloudsecurity() {
   return (
     <div>
     <Navbar/>
@@ -15,7 +15,7 @@ export default function aicpasocreports() {
             <div className="container">
                 <div className="row row-cols-1 row-cols-md-2 g-lg-5">
                    <div className="col">
-                       <h2 className="text-white comon-head-main mt-0"> AICPA SOC 1, 2, 3 Reports  </h2>
+                       <h2 className="text-white comon-head-main mt-0"> Cloud Security </h2>
                        <p className="text-white"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
                        typesetting, remaining essentially unchanged.</p>
@@ -25,7 +25,8 @@ export default function aicpasocreports() {
                    </div>
                    <div className="col">
                        <figure className="comon-banner-img">
-                          <Image src="/ad-socl-1.jpg"
+                          <Image src="/cloud-img.jpg"
+                          alt="syber1"
                           layout="fill"/>
                        </figure>
                    </div>
@@ -36,82 +37,52 @@ export default function aicpasocreports() {
 
          <div className="comon-inside-services py-5">
             <div className="container">
-                <h2 className="comon-head-main text-center"> AICPA SOC 1, 2, 3 Reports Services </h2>
-                <p className="text-center col-lg-7 mx-auto"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard 
-                dummy text ever </p>
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-5 gy-lg-5 mt-0">
+                <h2 className="comon-head-main text-center"> Cloud Security Services </h2>
+                <p className="text-center col-lg-7 mx-auto"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever </p>
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-lg-5 mt-0">
                     <div className="col">
-                      <Link href="/services/aicpasocreports/soc-reporting-services">
+                      <Link href="/services/cloudsecurity/cloudsecurityassessment">
                           <div className="comon-services-part">
                                <figure>
-                                  <Image src="/1321938.png"
+                                  <Image src="/4673944.png"
+                                  alt="cloud5"
                                   layout="fill"
                                   />
                                </figure>
-                               <h5> SOC Reporting Services </h5>
-                               <p>One of the most important reports for a third party (vendor) data security and SOX compliance is the SOC Report, SOC 1 Report or SOC 2 Type 2 Report.
+                               <h5> Cloud Security Assessment </h5>
+                               <p> As per Gartner &apos;The IoT will continue to deliver new opportunities for digital business innovation for the next decade
                                </p>
                                <span className="btn"> read more <BsArrowRightShort/> </span> 
                           </div>
                       </Link>
                     </div>
                     <div className="col">
-                      <Link href="/services/aicpasocreports/soc-1-type-2-compliance-audit">
+                      <Link href="/services/cloudsecurity/soccloudsecurity">
+                          <div className="comon-services-part">
+                               <figure>
+                                  <Image src="/417669.png"
+                                  alt="cloud4"
+                                  layout="fill"
+                                  />
+                               </figure>
+                               <h5> SOC for Cloud Security </h5>
+                               <p> Operations technology (OT) is the term used in industrial operations and is comprised...
+                               </p> 
+                               <span className="btn"> read more <BsArrowRightShort/> </span>
+                          </div>
+                      </Link>
+                    </div>
+                    <div className="col">
+                      <Link href="/services/cloudsecurity/socreportsprivacy">
                           <div className="comon-services-part">
                                <figure>
                                   <Image src="/1265775.png"
-                                  layout="fill"
-                                  />
-                               </figure>
-                               <h5> SOC 1 Type 2 Compliance Audit </h5>
-                               <p>One of the most important reports for a third party (vendor) data security and SOX compliance is the SOC Report, SOC 1 Report or SOC 2 Type 2 Report.
-                               </p> 
-                               <span className="btn"> read more <BsArrowRightShort/> </span>
-                          </div>
-                      </Link>
-                    </div>
-                    <div className="col">
-                      <Link href="/services/aicpasocreports/soc-2-type-2-compliance-audit">
-                          <div className="comon-services-part">
-                               <figure>
-                                  <Image src="/1265775.png"
-                                  layout="fill"
-                                  />
-                               </figure>
-                               <h5> SOC 2 Type 2 Compliance Audit </h5>
-                               <p>One of the most important reports for a third party (vendor) data security and SOX compliance is the SOC Report, SOC 1 Report or SOC 2 Type 2 Report.
-                               </p> 
-                               <span className="btn"> read more <BsArrowRightShort/> </span>
-                          </div>
-                      </Link>
-                    </div>
-
-                    <div className="col">
-                      <Link href="/services/aicpasocreports/soc2cloud">
-                          <div className="comon-services-part">
-                               <figure>
-                                  <Image src="/7818296.png"
-                                  layout="fill"
-                                  />
-                               </figure>
-                               <h5> SOC Reports for Cloud Security </h5>
-                               <p>One of the most important reports for a third party (vendor) data security and SOX compliance is the SOC Report, SOC 1 Report or SOC 2 Type 2 Report.
-                               </p> 
-                               <span className="btn"> read more <BsArrowRightShort/> </span>
-                          </div>
-                      </Link>
-                    </div>
-
-                    <div className="col">
-                      <Link href="/services/aicpasocreports/soc2privacy">
-                          <div className="comon-services-part">
-                               <figure>
-                                  <Image src="/4248625.png"
+                                  alt="cloud3"
                                   layout="fill"
                                   />
                                </figure>
                                <h5> SOC Reports for Privacy </h5>
-                               <p>One of the most important reports for a third party (vendor) data security and SOX compliance is the SOC Report, SOC 1 Report or SOC 2 Type 2 Report.
+                               <p>Average time to detect an attack (Dwell time) hovers about 200 days as reported...
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
                           </div>
@@ -119,36 +90,22 @@ export default function aicpasocreports() {
                     </div>
 
                     <div className="col">
-                      <Link href="/services/aicpasocreports/soc4cyber">
+                      <Link href="/services/cloudsecurity/hire-cybersecurity-contactor">
                           <div className="comon-services-part">
                                <figure>
-                                  <Image src="/1067263.png"
+                                  <Image src="/2273136.png"
+                                  alt="cloud2"
                                   layout="fill"
                                   />
                                </figure>
-                               <h5> SOC Reports for Cyber Risk </h5>
-                               <p>One of the most important reports for a third party (vendor) data security and SOX compliance is the SOC Report, SOC 1 Report or SOC 2 Type 2 Report.
+                               <h5> Hire Cybersecurity Contractor </h5>
+                               <p>We primarily follow the Open Web Application Security Project (OWASP) guidelines
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
                           </div>
                       </Link>
                     </div>
 
-                    <div className="col">
-                      <Link href="/services/aicpasocreports/soc-supply-chain">
-                          <div className="comon-services-part">
-                              <figure>
-                                  <Image src="/5074591.png"
-                                  layout="fill"
-                                  />
-                              </figure>
-                              <h5> SOC for Supply Chain </h5>
-                              <p>One of the most important reports for a third party (vendor) data security and SOX compliance is the SOC Report, SOC 1 Report or SOC 2 Type 2 Report.
-                              </p> 
-                              <span className="btn"> read more <BsArrowRightShort/> </span>
-                          </div>
-                      </Link>
-                    </div>
 
 
                     
@@ -158,10 +115,11 @@ export default function aicpasocreports() {
 
          <div className="comon-next-gray-bg py-5">
             <div className="container">
-               <div className="row row-cols-1 row-cols-md-2 g-lg-5">
+               <div className="row row-cols-1 row-cols-lg-2 g-lg-5">
                     <div className="col">
                         <figure className="right-img-nm">
-                            <Image src="/ad-comon1.jpg"
+                            <Image src="/cloud-img2.jpg"
+                            alt="cloud"
                             layout="fill"/>
                         </figure>
                     </div>

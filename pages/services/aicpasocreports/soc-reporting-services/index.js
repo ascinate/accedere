@@ -49,10 +49,10 @@ function socreportingservices(){
 
                 <div className="para-grap-div">
                     <div className="container">
-                        <div className="row row-cols-1 row-cols-lg-2 align-items-center g-lg-5">
+                        <div className="row row-cols-1 row-cols-lg-2 align-items-center g-lg-5 flex-column-reverse flex-lg-row">
                             
                             <div className="col">
-                                <h2 className="comon-head-main"> Introduction </h2>
+                                <h2 className="comon-head-main mt-5 mt-lg-0"> Introduction </h2>
                                 <p className="mt-4"> A SOC 2 Type II or SOC compliance report provides for operating effectiveness of 
                                 controls over a period of minimum 6 months to maximum 12 months in contrast to certifications 
                                 such as ISO/IEC 27001 that provides a certificate which is valid for 3 years. For missing periods 
@@ -98,7 +98,7 @@ function socreportingservices(){
                                 </figure>
                             </div>
                             <div className="col">
-                                <h2 className="comon-head-main"> Introduction </h2>
+                                <h2 className="comon-head-main mt-5 mt-lg-0"> Introduction </h2>
                                  <ul className="list-unstyled mt-4">
                                      <li>
                                         <span className="iconbn">

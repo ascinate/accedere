@@ -7,9 +7,9 @@ function Whychoose(){
         <>
          <div className="chooser-div1">
            <div className="container">
-               <div className="row row-cols-1 row-cols-lg-2 align-items-center">
+               <div className="row row-cols-1 row-cols-md-2 align-items-center flex-column-reverse flex-md-row">
                    <div className="col">
-                        <h4 className="comon-head-sub"> why choose us</h4>
+                        <h4 className="comon-head-sub mt-5 mt-lg-0"> why choose us</h4>
                         <h2 className="comon-head-main"> SOC 1, SOC 2, SOC 3 Attest <span className="d-block">
                         Reports And ISO/IEC 27000 Audits </span> </h2>
 

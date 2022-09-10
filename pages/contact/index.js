@@ -15,14 +15,17 @@ function contact(){
                
               <div className="top-contact-div">
                     <div className="container">
-                        <div className="row row-cols-1 row-cols-lg-2 g-lg-5">
+                        <div className="row row-cols-1 row-cols-md-2 g-lg-5">
                             <div className="col">
                                 <h2 className="comon-head-main text-white">Contact Us </h2>
                                 <p className="text-white"> Our team is ready to assist you with any of your compliance, cybersecurity and privacy needs. 
                                 Complete the contact form and our team will reach out within 24 hours.  </p>
                                 
                                 <div className="map-div-1 mt-4">
-                                    
+                                     <Image src="/googlemap.jpg"
+                                     alt="am"
+                                     layout="fill"
+                                     />
                                 </div>
                             </div>
                             <div className="col">
@@ -56,7 +59,7 @@ function contact(){
                                         </div>
 
                                         <div className="col-lg-12">
-                                            
+                                             <input type="submit" className="btn sub-mit-bn" value="Submit"/>
                                         </div>
 
                                         

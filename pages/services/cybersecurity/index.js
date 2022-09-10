@@ -13,7 +13,7 @@ export default function aicpasocreports() {
            
          <div className="comon-top-space">
             <div className="container">
-                <div className="row row-cols-1 row-cols-lg-2 g-lg-5">
+                <div className="row row-cols-1 row-cols-md-2 g-lg-5">
                    <div className="col">
                        <h2 className="text-white comon-head-main mt-4"> Cybersecurity  </h2>
                        <p className="text-white"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -25,7 +25,8 @@ export default function aicpasocreports() {
                    </div>
                    <div className="col">
                        <figure className="comon-banner-img">
-                          <Image src="/ad-socl-1.jpg"
+                          <Image src="/cyber1.jpg"
+                          alt="syber"
                           layout="fill"/>
                        </figure>
                    </div>
@@ -38,12 +39,12 @@ export default function aicpasocreports() {
             <div className="container">
                 <h2 className="comon-head-main text-center"> Cybersecurity Services </h2>
                 <p className="text-center col-lg-7 mx-auto"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever </p>
-                <div className="row row-cols-1 row-cols-lg-4 gy-lg-5 mt-0">
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-5 gy-lg-5 mt-0">
                     <div className="col">
                       <Link href="/services/cybersecurity/lotsecurity">
                           <div className="comon-services-part">
                                <figure>
-                                  <Image src="/1321938.png"
+                                  <Image src="/1320500.png"
                                   layout="fill"
                                   />
                                </figure>
@@ -73,7 +74,7 @@ export default function aicpasocreports() {
                       <Link href="/services/cybersecurity/soc">
                           <div className="comon-services-part">
                                <figure>
-                                  <Image src="/1265775.png"
+                                  <Image src="/1797588.png"
                                   layout="fill"
                                   />
                                </figure>

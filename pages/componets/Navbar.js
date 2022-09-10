@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { BsArrowRightShort,BsChevronRight, BsFillGridFill, BsFillShieldLockFill,BsFillBookmarkFill,BsLayersFill, BsCloudHaze2Fill, BsFileEarmarkBarGraphFill,BsKeyFill } from "react-icons/bs";
 
-import { FaAngleRight } from "react-icons/fa";
+import { FaAngleRight, FaBars } from "react-icons/fa";
 
 
 
@@ -26,8 +26,8 @@ function Navbar(){
                 />
             </a>
             </Link>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
-            <span className="navbar-toggler-icon"></span>
+            <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasmenu" >
+                 <FaBars/>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -80,7 +80,7 @@ function Navbar(){
 
                                     <div className='col'>
                                         <h5>
-                                            <Link href='/'> 
+                                            <Link href='/services/cloudsecurity'> 
                                                 <a className='comon-link0'>
                                                     <figure className='sm-icbn m-0'>
                                                        <Image src="/cld.png"
@@ -95,7 +95,7 @@ function Navbar(){
 
                                     <div className='col'>
                                         <h5> 
-                                            <Link href='/'> 
+                                            <Link href='/services/privacy'> 
                                                 <a className='comon-link0'>
                                                     <figure className='sm-icbn m-0'>
                                                        <Image src="/pri.png"
@@ -110,7 +110,7 @@ function Navbar(){
 
                                     <div className='col'>
                                         <h5> 
-                                            <Link href='/'> 
+                                            <Link href='/services/blockchain'> 
                                                 <a className='comon-link0'>
                                                    <figure className='sm-icbn m-0'>
                                                        <Image src="/block.png"
@@ -125,7 +125,7 @@ function Navbar(){
 
                                     <div className='col'>
                                         <h5> 
-                                            <Link href='/'> 
+                                            <Link href='/services/iso-certification-services'> 
                                                 <a className='comon-link0'>
                                                    <figure className='sm-icbn m-0'>
                                                        <Image src="/iso.png"
@@ -166,6 +166,99 @@ function Navbar(){
             
          </div>
         </nav>
+
+
+        
+        <div className="offcanvas offcanvas-start mobile-menu-div" id="offcanvasmenu">
+            <div className="offcanvas-header">
+            
+                    <button type="button" className="close-menu" data-bs-dismiss="offcanvas" >
+                        <span> Close </span> 
+                    </button>
+            </div>
+
+    
+            <div className="offcanvas-body">
+                
+                <div className="head-contact">
+              
+
+                    <Link href='/' className="navbar-brand">
+                                <a className='logo-side'> 
+                                    <Image
+                                    src="/logo.png"
+                                    alt="Picture of the author"
+                                    width={177}
+                                    height={33}
+                                    />
+                                </a>
+                    </Link>
+               
+               
+                <div className="mobile-menu-sec mt-3">
+                    <ul className="list-unstyled">
+                    
+                        
+                        <li className={router.pathname == "/about" ? "active" : ""}>
+                            <Link href='/about' > 
+                                <span className="nav-link">  About</span>
+                            </Link>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" >
+                                Services
+                            </a>
+                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li data-bs-dismiss="offcanvas" >
+                                    <Link href='/services/aicpasocreports'> 
+                                        <span className="dropdown-item">  AICPA SOC 1, 2, 3 Reports </span>
+                                    </Link>
+                                </li>
+
+                                <li data-bs-dismiss="offcanvas" >
+                                    <Link href='/services/cybersecurity'> 
+                                        <span className="dropdown-item">  Cybersecurity  </span>
+                                    </Link>
+                                </li>
+
+                                <li data-bs-dismiss="offcanvas" >
+                                    <Link href='/services/cloudsecurity'> 
+                                        <span className="dropdown-item"> Cloud Security   </span>
+                                    </Link>
+                                </li>
+
+                                <li data-bs-dismiss="offcanvas" >
+                                    <Link href='/services/privacy'> 
+                                        <span className="dropdown-item">  Privacy    </span>
+                                    </Link>
+                                </li>
+                                <li data-bs-dismiss="offcanvas" >
+                                    <Link href='/services/blockchain'> 
+                                        <span className="dropdown-item">  Blockchain Assessments    </span>
+                                    </Link>
+                                </li>
+                                <li data-bs-dismiss="offcanvas" >
+                                    <Link href='/services/iso-certification-services'> 
+                                        <span className="dropdown-item">  ISO Certification Services     </span>
+                                    </Link>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li className={router.pathname == "/contact" ? "active" : ""}>
+                            <Link href='/contact' > 
+                                <span className="nav-link">  Contact </span>
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+                
+               
+                </div>
+            </div>
+  
+
+        </div>
         </>
     )
 }

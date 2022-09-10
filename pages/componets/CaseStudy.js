@@ -11,7 +11,7 @@ function CaseStudy(){
                     <h4 className="comon-head-sub"> Case Studies </h4>
                     <h2 className="comon-head-main"> Featured Case Studies  </h2>
 
-                    <div className="row row-cols-1 row-cols-lg-3 mt-5">
+                    <div className="row row-cols-1 row-cols-lg-3 gy-5 g-lg-0 mt-0 mt-lg-5">
 
                         <div className="col">
                                 <Link href="/">

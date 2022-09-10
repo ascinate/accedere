@@ -20,7 +20,7 @@ function CountingSection(){
                    Compliance Reports.</p>
 
 
-                   <div className="row row-cols-1 row-cols-md-4  g-lg-5 mt-0">
+                   <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 gy-5 g-lg-5 mt-0">
                         <div className="col">
                             <div className="comon-number1">
                                 <div className="d-flex align-items-center justify-content-center">

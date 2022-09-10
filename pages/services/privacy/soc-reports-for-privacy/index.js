@@ -7,7 +7,7 @@ import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 
 
-function soc2cloud(){
+function soc2privacy2(){
     return(
         <>
           <Navbar/>
@@ -17,12 +17,13 @@ function soc2cloud(){
                     <div className="container">
                         <div className="row row-cols-1 row-cols-lg-2 g-lg-5">
                            <div className="col">
-                              <h2 className="comon-head-main text-white"> ISO 27001 Certification or SOC 2 Compliance For CSA STAR </h2>
-                              <h2 className="text-white mt-5"> Growing Cloud Adoption  </h2>
-                              <h5 className="text-white mt-3"> The worldwide public cloud services market is forecast to grow to 1 
-                              Trillion USD by 2024.</h5>
-                              <p className="text-white mt-4"> According to some estimates, there are more than 20,000 SaaS providers globally. SaaS Software as a service (SaaS) will remain the largest market segment, 
-                              which is forecast to grow to $141 billion by 2022.
+                              <h2 className="comon-head-main text-white"> Privacy Assurance with SOC 2 </h2>
+
+                              <p className="text-white mt-3"> The SOC 2 compliance report provides an assurance to the internal and external stakeholders of the organization, the specific controls implemented, and/or operating effectively for complying with privacy regulatory requirements. A single SOC 2 report can provide information about the organization&apos;s controls over PII data based on the AICPA&apos;s Privacy 
+                              Category of the Trust Services Criteria and, any specific privacy requirements.</p>
+
+                              <p className="text-white mt-4"> The SOC 2 can provide service organizations the ability to increase transparency and communicate through a single deliverable to customers, business partners, and stakeholders both in and outside the organization. Organizations should also demand a SOC 2 report from their business associates, CSP&apos;s, and other third parties or vendors to understand and to have an assurance over the controls 
+                              implemented and operating effectiveness of the relevant controls covering Privacy.
                               </p>
      
                            </div>
@@ -36,57 +37,34 @@ function soc2cloud(){
                            </div>
                         </div>
 
-                        <h2 className="comon-head-main text-center text-white mt-5"> 
-                         Cloud Security Challenges </h2>
 
-                         <p className="text-white text-center"> Cloud Security Alliance has presented some of 
-                         the following major cloud challenges. </p>
+                        <div className="row row-cols-1 row-cols-lg-2 g-lg-5">
 
-                         <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-5 g-lg-4 mt-0">
-                            <div className="col">
-                                <div className="comon-soc1">
-                                   <h5 className="text-center"> Misconfiguration
-                                   and Inadequate Change Control </h5>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="comon-soc1">
-                                  <h5 className="text-center"> Lack Of  Cloud Security Architecture and Strategy </h5>
-                                </div>
-                            </div>
+                        <div className="col">
+                               <figure className="cmr-small-pic cpn1 d-none d-lg-block">
+                                    <Image src="/socpng.png" alt="about"
+                                  
+                                    layout='fill'
+                                    />
+                               </figure>
+                           </div>
+                           <div className="col">
+                              <h2 className="comon-head-main text-white"> SOC2 with Cloud and Privacy Controls </h2>
 
-                            <div className="col">
-                                <div className="comon-soc1">
-                                  <h5 className="text-center"> Insufficient Identity, Credential,Access
-                                  and Key Management </h5>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="comon-soc1">
-                                  <h5 className="text-center"> Insider Threat </h5>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="comon-soc1">
-                                  <h5 className="text-center"> Insider Threat </h5>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="comon-soc1">
-                                  <h5 className="text-center"> Abuse and Nefarious Use Of Cloud Services </h5>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="comon-soc1">
-                                  <h5 className="text-center"> Insecure Interfaces and APIs </h5>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="comon-soc1">
-                                  <h5 className="text-center"> Account Hijacking </h5>
-                                </div>
-                            </div>
-                         </div>
+                              <p className="text-white mt-3"> CSA in Collaboration with the AICPA, developed a third-party Assessment program of cloud provides Officially Known as
+                              CSA Security Trust & Assurance Ragistry (Star) Attestation. STAR Attestation provides a framework for CPAs performing independent assessment of cloud providers using SOC 2@ engagements with CSA&apos;s Cloud Controls Matrix
+                              </p>
+
+                              <p className="text-white mt-4"> The C5  is intended primarily for CSP&apos;s, their auditors and customers of the CPS&apos;a A SOC 2 report proves that a CSp complies with requirments of the catalogue.
+                              </p>
+
+                              <p className="text-white mt-4"> The C5  is intended primarily for CSP&apos;s, their auditors and customers of the CPS&apos;a A SOC 2 report proves that a CSp complies with requirments of the catalogue.
+                              </p>
+     
+                           </div>
+                           
+                        </div>
+
 
 
                         
@@ -101,7 +79,7 @@ function soc2cloud(){
                         
                         <div className="row row-cols-1 row-cols-lg-2  g-lg-5 mt-0">
                             <div className="col">
-                                 <figure className="cmr-small-pic my-5 my-lg-0">
+                                 <figure className="cmr-small-pic">
                                         <Image src="/what-is-cloud-security01.jpg" alt="about"
                                         layout='fill'
                                         />
@@ -123,9 +101,9 @@ function soc2cloud(){
                 <div className="para-grap-div">
                     <div className="container">
                         
-                        <div className="row row-cols-1 row-cols-lg-2 g-lg-5 mt-0 flex-column-reverse flex-lg-row">
+                        <div className="row row-cols-1 row-cols-lg-2 g-lg-5 mt-0">
                             <div className="col">
-                                <h2 className="comon-head-main mt-5 mt-lg-0"> IoT and Cloud </h2>
+                                <h2 className="comon-head-main "> IoT and Cloud </h2>
                                 <p className="mt-4"> Connected devices and cyber-physical systems are becoming more prevalent in enterprise environments. As the cloud environment expands to encompass these technologies, the connected world depends on devices to manage, orchestrate, and provision data. By 2023, the number of connected devices is forecast to reach 20 billion. This increase in volume is a growing challenge for service providers tasked with trying to keep their networks secure and for enterprises and critical
                                  infrastructure entities deploying and managing devices. </p>
 
@@ -142,8 +120,8 @@ function soc2cloud(){
 
                             </div>
                             <div className="col">
-                                 <figure className="cmr-small-pic lot-img">
-                                        <Image src="/cloud-img2.jpg" alt="about"
+                                 <figure className="cmr-small-pic cy1">
+                                        <Image src="/rio.jpg" alt="about"
                                         layout='fill'
                                         />
                                 </figure>
@@ -170,7 +148,7 @@ function soc2cloud(){
                                     </figure>
                             </div>
                             <div className="col-lg-7 ps-lg-5">
-                                <h2 className="comon-head-main mt-5 mt-lg-0"> Security Responsibilities in the Cloud </h2>
+                                <h2 className="comon-head-main "> Security Responsibilities in the Cloud </h2>
                                 <h5 className="mt-4"> At a high level, security responsibility maps to the degree of control any given 
                                 actor has over the cloud architecture stack consists of:</h5>
 
@@ -216,11 +194,11 @@ function soc2cloud(){
                 <div className="para-grap-div">
                     <div className="container">
                         
-                        <div className="row flex-column-reverse flex-lg-row">
+                        <div className="row">
                             
                             
                             <div className="col-lg-7 pe-lg-5">
-                                <h2 className="comon-head-main mt-5 mt-lg-0"> Shared Responsibility Model </h2>
+                                <h2 className="comon-head-main "> Shared Responsibility Model </h2>
                                  
                                 <p> Some SaaS providers believe that if they are hosting their application on platforms such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud and they are automatically compliant just because these platforms may be. This may be applicable to other IaaS or PaaS providers. SaaS CSPs may also need to review the exact controls in the SOC reports and examine whether the relevant controls and criteria are covered in those SOC reports. The availability of a SOC report should 
                                 not be just a checkbox for third-party (vendor) risk compliance.</p>
@@ -256,7 +234,7 @@ function soc2cloud(){
                             </div>
                             
                             <div className="col-lg-7 ps-lg-5">
-                                <h2 className="comon-head-main  mt-5 mt-lg-0"> Data Governance in the Cloud </h2>
+                                <h2 className="comon-head-main "> Data Governance in the Cloud </h2>
                                  
                                 <p> Governance issues also relate to regulatory compliance, security, privacy, and similar concerns impacting today&apos;s organizations. Today&apos;s data management and storage landscape, where data entropy and data sprawl 
                                 are rampant, has far-reaching consequences for data security.</p>
@@ -280,7 +258,7 @@ function soc2cloud(){
                 <div className="bg-grapy para-grap-div py-5">
                     <div className="container">
                                 
-                        <h2 className="comon-head-main mt-5 mt-lg-0"> Data Encryption or Anonymization </h2>
+                        <h2 className="comon-head-main "> Data Encryption or Anonymization </h2>
                                     
                         <p> Privacy mandates such as the EU General Data Protection Regulation (GDPR) recommend data anonymization, which can be another form of encryption. Without a proper data governance program, organizations may face challenges in meeting these privacy compliance mandates. Data encryption is also mandated for the US Health Insurance Portability and Accountability Act (HIPAA) 
                         and the Payment Card Industry Data Security Standard (PCI DSS).</p>
@@ -434,4 +412,4 @@ function soc2cloud(){
         </>
     );
 }
-export default soc2cloud;
+export default soc2privacy2;

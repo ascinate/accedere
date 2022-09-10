@@ -14,7 +14,7 @@ function HomeServices(){
                 <h4 className='comon-head-sub text-center'> Our Services </h4>
                 <h2 className='comon-head-main text-center'> Introduce Our Best Security Services </h2>
 
-                <div className="row row-cols-1 row-cols-lg-4 mt-0 g-lg-4">
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mt-0 gy-5 g-lg-4">
 
                     <div className="col">
                         <Link href="/">

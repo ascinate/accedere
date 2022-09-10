@@ -49,7 +49,7 @@ function Footer(){
                           </ul>
                       </div>
                       <div className="col-lg-6">
-                         <div className="comon-footer-s">
+                         <div className="comon-footer-s mt-4 mt-lg-0">
                             <h5 className="ft-comon-part">Services </h5>
                             <ul className="list-unstyled services-ul-links mt-4">
                                <li>

@@ -31,9 +31,7 @@ function about(){
                            <div className="col">
                                 <figure className="ab-top1">
                                      <Image src="/about-company.jpg" alt="about"
-                                     width={700}
-                                     height={900}
-                                     layout="responsive"
+                                     layout="fill"
                                      />
                                 </figure>
                            </div>
@@ -116,7 +114,7 @@ function about(){
 
                <div className="our-customer-div">
                   <div className="container">
-                      <div className="row row-cols-1 row-cols-lg-2">
+                      <div className="row row-cols-1 row-cols-lg-2 flex-lg-row flex-column-reverse">
                           
                           <div className="col">
                               <h2 className="comon-head-main"> Our Customers </h2>

@@ -35,7 +35,7 @@ export default function lotsecurity() {
                    </div>
                    <div className="col">
                        <figure className="comon-banner-img">
-                          <Image src="/ad-socl-1.jpg"
+                          <Image src="/ind1.jpg"
                           alt="name1"
                           layout="fill"/>
                        </figure>
@@ -46,13 +46,13 @@ export default function lotsecurity() {
          </div>
 
        
-         <div className="para-grap-div">
+         <div className="para-grap-div mb-5">
                <div className="container">
                   
                   <div className="row row-cols-1 row-cols-lg-2 g-lg-5 mt-0">
                      
                      <div className="col">
-                              <figure className="comon-sub-main2">
+                              <figure className="comon-sub-main2 ison-sp1">
                                  <Image src="/pexels-christina-morillo-1181216.jpg" alt="about"
                                  layout="fill"
                                  />
