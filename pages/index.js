@@ -13,7 +13,10 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div>
-    <title>Accedere - Home</title>
+    <Head>
+        <title>Accedere - Home</title>
+        <meta name="description" content="Schellman has helped the world's leading organizations accelerate and streamline their IT audit and attestation initiatives through our extensive experience and depth of services."/>
+    </Head>
     <Navbar/>
     <Banner/>
     <div className='totals-body-part float-start w-100  comon-body-part'>

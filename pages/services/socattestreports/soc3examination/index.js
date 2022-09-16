@@ -6,11 +6,17 @@ import Link from "next/link";
 import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 import ComonSlide from "../../../componets/ComonSlide";
+import Head from "next/head";
 
 
 function soc2examination(){
     return(
         <>
+
+        <Head>
+            <title>Accedere - SOC 3 Examination </title>
+            
+        </Head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>
                

@@ -6,11 +6,16 @@ import { BsArrowRightShort, BsXDiamondFill } from "react-icons/bs";
 import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 import ComonSlide from "../../../componets/ComonSlide";
+import Head from "next/head";
 
 
 export default function privacy() {
   return (
     <div>
+    <Head>
+    <title>Accedere -   HIPPA Compliance</title>
+
+    </Head>
     <Navbar/>
     <div className='sub-page-body float-start w-100'>
            

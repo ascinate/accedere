@@ -53,52 +53,43 @@ function Footer(){
                             <h5 className="ft-comon-part">Services </h5>
                             <ul className="list-unstyled services-ul-links mt-4">
                                <li>
-                                 <Link href="/">
-                                   <span> SOC Reporting Services </span>
+                                 <Link href='/services/socattestreports'>
+                                   <span> SOC Attest Reports </span>
                                  </Link>
                                </li>
                                <li>
-                                 <Link href="/">
-                                   <span> SOC 1 Type 2 Compliance Audit </span>
+                                 <Link href='/services/india-cert-assetsments'>
+                                   <span> India CERT-IN Assetsments</span>
                                  </Link>
                                </li>
                                <li>
-                                 <Link href="/">
-                                   <span>  SCADA | ICS </span>
+                                 <Link href='/services/iso-certification-services'>
+                                   <span>  ISO/IEC Certifications </span>
                                  </Link>
                                </li>
                               
                                <li>
-                                 <Link href="/">
-                                   <span> SOC 1 Type 2 Compliance Audit </span>
+                                 <Link href='/services/penetration-testing'>
+                                   <span> Vulnerability Assessment & Penetration 
+                                   Testing </span>
                                  </Link>
                                </li>
                                <li>
-                                 <Link href="/">
-                                   <span> SOC 2 Type 2 Compliance Audit </span>
+                                 <Link href='/services/privacy'>
+                                   <span> Privacy Assessments </span>
                                  </Link>
                                </li>
                                <li>
-                                 <Link href="/">
-                                   <span> SOC 2 Type 2 Compliance Audit </span>
+                                 <Link href='/services/cloudsecurity'>
+                                   <span> Cloud Security Assessments </span>
                                  </Link>
                                </li>
                                <li>
-                                 <Link href="/">
-                                   <span> Cloud Security </span>
+                                 <Link href='/services/cybersecurity'>
+                                   <span> Other Cyber Security Services </span>
                                  </Link>
                                </li>
-                               <li>
-                                 <Link href="/">
-                                   <span> Cybersecurity </span>
-                                 </Link>
-                               </li>
-                               <li>
-                                    <Link href="/">
-                                        <span> Privacy </span>
-                                    </Link>
                                
-                               </li>
                                
                             </ul>
                          </div>
@@ -107,12 +98,12 @@ function Footer(){
                          <h5 className="ft-comon-part">Company </h5>
                         <ul className="list-unstyled mt-4">
                                <li>
-                                 <Link href="/">
+                                 <Link href="/about">
                                    <span> About </span>
                                  </Link>
                                </li>
                                <li>
-                                    <Link href="/">
+                                    <Link href="/contact">
                                         <span> Contact </span>
                                     </Link>
                                 </li>

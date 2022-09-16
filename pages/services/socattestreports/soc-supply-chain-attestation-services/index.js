@@ -6,11 +6,16 @@ import Link from "next/link";
 import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 import ComonSlide from "../../../componets/ComonSlide";
+import Head from "next/head";
 
 
 function socsupplychain(){
     return(
         <>
+        <Head>
+        <title>Accedere - SOC for Supply Chain </title>
+        
+        </Head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>
                

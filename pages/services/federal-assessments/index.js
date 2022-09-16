@@ -4,10 +4,16 @@ import Footer from "../../componets/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRightShort, BsXDiamondFill } from "react-icons/bs";
+import Head from "next/head";
 
 export default function federalassessments() {
   return (
     <div>
+    
+    <Head>
+            <title>Accedere - Federal Assessments</title>
+            <meta name="description" content="Learn more about how Schellman &amp;amp; Company&amp;s team of experts can help you with your f assessderalement needs."/>
+      </Head>
     <Navbar/>
     <div className='sub-page-body float-start w-100'>
            

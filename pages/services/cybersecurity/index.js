@@ -4,10 +4,16 @@ import Footer from "../../componets/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRightShort, BsXDiamondFill } from "react-icons/bs";
+import Head from "next/head";
 
 export default function aicpasocreports() {
   return (
     <div>
+    <Head>
+            <title>Accedere - Cybersecurity</title>
+            <meta name="description" content="IoT and Smart Infrastructure Security covering Smart Grid,Smart Cities, IoT Privacy using ISO 27701"/>
+            
+    </Head>
     <Navbar/>
     <div className='sub-page-body float-start w-100'>
            

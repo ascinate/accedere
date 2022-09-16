@@ -4,11 +4,18 @@ import Footer from "../componets/Footer";
 import Clientlogo from "../componets/Clientlogo";
 import Image from "next/image";
 import { BsXDiamondFill } from "react-icons/bs";
+import Head from "next/head";
 
 
 function about(){
     return(
         <>
+        <div>
+        <Head>
+            <title>Accedere - About</title>
+            <meta name="description" content="SOC 1,2,3 Compliance Auditor,SOC 2 Auditor,SOC Auditor,GDPR CCPA Privacy Auditor,ISO 27001 Auditor,ISO 27701 Auditor"/>
+            <meta name="keywords" content="Privacy Auditors, SOC 2 for privacy Auditor, SOC Auditors, Service Auditors, SOX Auditors, SSAE 16 auditors, SSAE 18 Auditors, SOC 2 Auditors, SOC 1 Auditors, SAS 70 SOC Auditors, SSAE 16 Auditors, SOC 1 Type 2 Auditors, SOC 2 Type 2 Auditors, CCPA Auditors, Privacy auditors, cloud security alliance auditors, PCAOB Auditors, CPA Auditors, ISO-ISMS auditors, ISO 27001 Auditors, Cloud CCSK, CCM 4, CCAK, Colorado SOC Auditors"/>
+        </Head>
           <Navbar/>
           <Banner/>
           <div className='totals-body-part float-start w-100  comon-body-part'>
@@ -188,6 +195,7 @@ function about(){
 
          </div>
           <Footer/>
+          </div>
         </>
     );
 }

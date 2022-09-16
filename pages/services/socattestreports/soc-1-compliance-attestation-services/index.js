@@ -6,11 +6,17 @@ import Link from "next/link";
 import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 import ComonSlide from "./components/ComonSlide";
+import Head from "next/head";
 
 
 function socreportingservices(){
     return(
         <>
+        <Head>
+            <title>Accedere - SOC 1 / SSAE 18 Examination</title>
+            <meta name="description" content="Accedere is the leading Cybersecurity services company offers SOC compliance certification in North America and globally for Type 2 SOC 2, SOC 2 Type II, SOC Compliance, SOC 1 SOC 2 Report, SOC for Cybersecurity."/>
+            <meta name="keywords" content="Type 2 SOC 2, SOC 2 Type II, SOC Compliance, SOC 2 Report, SOC For Cybersecurity, SOC Report, SOC 1 Reports, Accedere.io"/>
+        </Head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>
                

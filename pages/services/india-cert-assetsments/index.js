@@ -4,10 +4,16 @@ import Footer from "../../componets/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRightShort, BsXDiamondFill } from "react-icons/bs";
+import Head from "next/head";
 
 export default function indiaassessments() {
   return (
     <div>
+    
+    <Head>
+            <title>Accedere - India Assessments</title>
+            
+    </Head>
     <Navbar/>
     <div className='sub-page-body float-start w-100'>
            

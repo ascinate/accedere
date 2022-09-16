@@ -5,11 +5,18 @@ import Image from "next/image";
 import { BsXDiamondFill } from "react-icons/bs";
 import { FaFacebookF,FaTwitter, FaYoutube } from "react-icons/fa";
 import Link from "next/link";
+import Head from "next/head";
 
 
 function contact(){
     return(
         <>
+        <div>
+        <Head>
+            <title>Accedere - Conatct</title>
+            <meta name="description" content="Contact Us, Accedere"/>
+            <meta name="keywords" content="SOC 2 Type 2, SOC 1 Type 2, SSAE 18, Cloud CCSK, CCM 4, CCAK, ISO 27001"/>
+        </Head>
           <Navbar/>
           <div className='contact-page-1 float-start w-100'>
                
@@ -125,6 +132,7 @@ function contact(){
 
           </div>
           <Footer/>
+          </div>
         </>
     );
 }

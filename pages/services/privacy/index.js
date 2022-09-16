@@ -4,10 +4,18 @@ import Footer from "../../componets/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRightShort, BsXDiamondFill } from "react-icons/bs";
+import Head from "next/head";
 
 export default function privacy() {
   return (
     <div>
+    
+    <Head>
+            <title>Accedere - Privacy Services</title>
+            <meta name="description" content="Learn more about how Schellman &amp; Company’s team of experts can help you with your Privacy Assessment needs."/>
+    <meta name="generator" content="HubSpot"/>
+          
+   </Head>
     <Navbar/>
     <div className='sub-page-body float-start w-100'>
            
