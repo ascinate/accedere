@@ -13,18 +13,17 @@ export default function cloudsecurity() {
            
          <div className="comon-top-space">
             <div className="container">
-                <div className="row row-cols-1 row-cols-md-2 g-lg-5">
+                <div className="row row-cols-1 row-cols-md-2 g-lg-5 align-items-center">
                    <div className="col">
-                       <h2 className="text-white comon-head-main mt-0"> Cloud Security </h2>
-                       <p className="text-white"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
-                       typesetting, remaining essentially unchanged.</p>
-                       <p className="text-white"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
-                       typesetting, remaining essentially unchanged.</p>
+                       <h2 className="text-white comon-head-main mt-0"> 
+                       Targeted Security Assessments </h2>
+                       <h5 className="text-white"> Identify gaps and obtain feedback on key security
+                        risks and control sets. 
+                       </h5>
+   
                    </div>
                    <div className="col">
-                       <figure className="comon-banner-img">
+                       <figure className="comon-banner-img need1">
                           <Image src="/cloud-img.jpg"
                           alt="syber1"
                           layout="fill"/>
@@ -37,52 +36,40 @@ export default function cloudsecurity() {
 
          <div className="comon-inside-services py-5">
             <div className="container">
-                <h2 className="comon-head-main text-center"> Cloud Security Services </h2>
-                <p className="text-center col-lg-7 mx-auto"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever </p>
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-lg-5 mt-0">
+                <h2 className="comon-head-main text-center"> Focused cybersecurity expertise and experience </h2>
+                <p className="text-center col-lg-7 mx-auto"> Schellman&apos;s assessors have significant depth in both the current threat landscape and leading-edge client technologies. </p>
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-lg-5 g-lg-5 mt-0 justify-content-center">
                     <div className="col">
-                      <Link href="/services/cloudsecurity/cloudsecurityassessment">
+                      <Link href="/services/cloudsecurity/cloud-supply-chain-assessments">
                           <div className="comon-services-part">
                                <figure>
-                                  <Image src="/4673944.png"
+                                  <Image src="/4673944.svg"
                                   alt="cloud5"
                                   layout="fill"
                                   />
                                </figure>
-                               <h5> Cloud Security Assessment </h5>
-                               <p> As per Gartner &apos;The IoT will continue to deliver new opportunities for digital business innovation for the next decade
+                               <h5> Cloud Supply Chain Assessments</h5>
+                               <p> Reduce security risks in cloud computing to protect your organization and clients from the 
+                               threat of data loss and maintain a competitive edge.
                                </p>
                                <span className="btn"> read more <BsArrowRightShort/> </span> 
                           </div>
                       </Link>
                     </div>
+
                     <div className="col">
-                      <Link href="/services/cloudsecurity/soccloudsecurity">
+                      <Link href="/services/cloudsecurity/cloud-peneteration-testing">
                           <div className="comon-services-part">
                                <figure>
-                                  <Image src="/417669.png"
+                                  <Image src="/417669.svg"
                                   alt="cloud4"
                                   layout="fill"
                                   />
                                </figure>
-                               <h5> SOC for Cloud Security </h5>
-                               <p> Operations technology (OT) is the term used in industrial operations and is comprised...
-                               </p> 
-                               <span className="btn"> read more <BsArrowRightShort/> </span>
-                          </div>
-                      </Link>
-                    </div>
-                    <div className="col">
-                      <Link href="/services/cloudsecurity/socreportsprivacy">
-                          <div className="comon-services-part">
-                               <figure>
-                                  <Image src="/1265775.png"
-                                  alt="cloud3"
-                                  layout="fill"
-                                  />
-                               </figure>
-                               <h5> SOC Reports for Privacy </h5>
-                               <p>Average time to detect an attack (Dwell time) hovers about 200 days as reported...
+                               <h5> Cloud Peneteration Testing </h5>
+                               <p> 
+                               Reduce the impact of a potential incident by evaluating your organization&apos;s preparedness.
+                             
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
                           </div>
@@ -90,21 +77,25 @@ export default function cloudsecurity() {
                     </div>
 
                     <div className="col">
-                      <Link href="/services/cloudsecurity/hire-cybersecurity-contactor">
+                      <Link href="/services/cloudsecurity/cloud-csa-assessments">
                           <div className="comon-services-part">
                                <figure>
-                                  <Image src="/2273136.png"
-                                  alt="cloud2"
+                                  <Image src="/417669.svg"
+                                  alt="cloud4"
                                   layout="fill"
                                   />
                                </figure>
-                               <h5> Hire Cybersecurity Contractor </h5>
-                               <p>We primarily follow the Open Web Application Security Project (OWASP) guidelines
+                               <h5> Cloud CSA Star Assessments </h5>
+                               <p> 
+                               Reduce the impact of a potential incident by evaluating your organization&apos;s preparedness.
+                             
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
                           </div>
                       </Link>
                     </div>
+                    
+
 
 
 
@@ -113,90 +104,7 @@ export default function cloudsecurity() {
             </div>
          </div>
 
-         <div className="comon-next-gray-bg py-5">
-            <div className="container">
-               <div className="row row-cols-1 row-cols-lg-2 g-lg-5">
-                    <div className="col">
-                        <figure className="right-img-nm">
-                            <Image src="/cloud-img2.jpg"
-                            alt="cloud"
-                            layout="fill"/>
-                        </figure>
-                    </div>
-                    <div className="col">
-                        <h2 className="comon-head-main">  Get more from Reports </h2>
-                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry&apos;s standard </p>
-                        <ul className="list-unstyled">
-                            <li>
-                               <span className="conmo-icon">
-                               <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               Lorem Ipsum has been the industry&apos;s standard 
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               It is a long established fact that a reader will be distracted
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               Lorem Ipsum has been the industry&apos;s standard 
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                  <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               It is a long established fact that a reader will be distracted
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               Lorem Ipsum has been the industry&apos;s standard 
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                  <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               It is a long established fact that a reader will be distracted
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               Lorem Ipsum has been the industry&apos;s standard 
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                  <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               It is a long established fact that a reader will be distracted
-                               </span>
-                            </li>
-                        </ul>
-                    </div>
-               </div>
-            </div>
-         </div>
+         
    
 
     </div>

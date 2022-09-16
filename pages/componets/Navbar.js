@@ -30,21 +30,21 @@ function Navbar(){
                 <div className='logo-div'>
                    <div className='fiex-logo'>
                         <Image
-                        src="/logo.png"
+                        src="/logo-white.svg"
                         alt="Picture of the author"
-                        width={177}
-                        height={33}
+                        width={191}
+                        height={50}
                         
                         />
                    
                    </div> 
                    <div className='color-logo'>
                         <Image
-                        src="/logo-color.png"
+                        src="/logo.svg"
                         alt="Picture of the author"
                         
-                        width={177}
-                        height={33}
+                        width={191}
+                        height={50}
                        />
                    
                    </div>
@@ -80,71 +80,42 @@ function Navbar(){
                                         <div className='col'>
                                             
                                                 <h5> 
-                                                    <Link href='/services/aicpasocreports'> 
+                                                    <Link href='/services/socattestreports'> 
                                                         <a className='comon-link0'>
                                                         <figure className='sm-icbn m-0'>
-                                                        <Image src="/pri.png"
+                                                        <Image src="/pri.svg"
                                                         layout="fill"/>
-                                                        </figure> AICPA SOC 1, 2, 3 Reports <BsChevronRight/>
+                                                        </figure> 
+                                                        <span>  SOC Attest Reports </span>  <BsChevronRight/>
                                                         </a>
                                                     </Link>
                                                 </h5>
                                         </div>
 
                                         <div className='col'>
-                                            <h5>
-                                                <Link href='/services/cybersecurity'> 
-                                                    <a className='comon-link0'>
-                                                        <figure className='sm-icbn m-0'>
-                                                        <Image src="/sei.png"
-                                                        layout="fill"/>
-                                                        </figure>
-                                                        Cybersecurity 
-                                                        <BsChevronRight/>
-                                                    </a>
-                                                </Link>
-                                            </h5>
-                                        </div>
-
-                                        <div className='col'>
-                                            <h5>
-                                                <Link href='/services/cloudsecurity'> 
-                                                    <a className='comon-link0'>
-                                                        <figure className='sm-icbn m-0'>
-                                                        <Image src="/cld.png"
-                                                        layout="fill"/>
-                                                        </figure>
-                                                        Cloud Security 
-                                                        <BsChevronRight/>
-                                                    </a>
-                                                </Link>
-                                            </h5>
-                                        </div>
-
-                                        <div className='col'>
                                             <h5> 
-                                                <Link href='/services/privacy'> 
-                                                    <a className='comon-link0'>
-                                                        <figure className='sm-icbn m-0'>
-                                                        <Image src="/pri.png"
-                                                        layout="fill"/>
-                                                        </figure>
-                                                        Privacy 
-                                                        <BsChevronRight/>
-                                                    </a>
-                                                </Link>
-                                            </h5>
-                                        </div>
-
-                                        <div className='col'>
-                                            <h5> 
-                                                <Link href='/services/blockchain'> 
+                                                <Link href='/services/federal-assessments'> 
                                                     <a className='comon-link0'>
                                                     <figure className='sm-icbn m-0'>
-                                                        <Image src="/block.png"
+                                                        <Image src="/block.svg"
                                                         layout="fill"/>
                                                         </figure>
-                                                        Blockchain Assessments
+                                                       <span>  US Federal Assessments </span>
+                                                        <BsChevronRight/>
+                                                    </a>
+                                                </Link>
+                                            </h5>
+                                        </div>
+
+                                        <div className='col'>
+                                            <h5> 
+                                                <Link href='/services/india-cert-assetsments'> 
+                                                    <a className='comon-link0'>
+                                                    <figure className='sm-icbn m-0'>
+                                                        <Image src="/2910751.svg"
+                                                        layout="fill"/>
+                                                        </figure>
+                                                        <span> India CERT-IN Assetsments </span>
                                                         <BsChevronRight/>
                                                     </a>
                                                 </Link>
@@ -156,15 +127,81 @@ function Navbar(){
                                                 <Link href='/services/iso-certification-services'> 
                                                     <a className='comon-link0'>
                                                     <figure className='sm-icbn m-0'>
-                                                        <Image src="/iso.png"
+                                                        <Image src="/iso.svg"
                                                         layout="fill"/>
                                                         </figure>
-                                                        ISO Certification Services 
+                                                        <span> ISO/IEC Certifications </span>
                                                         <BsChevronRight/>
                                                     </a>
                                                 </Link>
                                             </h5>
                                         </div>
+
+                                        <div className='col'>
+                                            <h5> 
+                                                <Link href='/services/penetration-testing'> 
+                                                    <a className='comon-link0'>
+                                                    <figure className='sm-icbn m-0'>
+                                                        <Image src="/pri.svg"
+                                                        layout="fill"/>
+                                                        </figure>
+                                                        <span> Vulnerability Assessment & Penetration 
+                                                        Testing </span>
+                                                        <BsChevronRight/>
+                                                    </a>
+                                                </Link>
+                                            </h5>
+                                        </div>
+
+
+                                        <div className='col'>
+                                            <h5> 
+                                                <Link href='/services/privacy'> 
+                                                    <a className='comon-link0'>
+                                                        <figure className='sm-icbn m-0'>
+                                                        <Image src="/pri.svg"
+                                                        layout="fill"/>
+                                                        </figure>
+                                                       <span>  Privacy Assessments </span> 
+                                                        <BsChevronRight/>
+                                                    </a>
+                                                </Link>
+                                            </h5>
+                                        </div>
+
+                                        <div className='col'>
+                                            <h5>
+                                                <Link href='/services/cloudsecurity'> 
+                                                    <a className='comon-link0'>
+                                                        <figure className='sm-icbn m-0'>
+                                                        <Image src="/2910751.svg"
+                                                        layout="fill"/>
+                                                        </figure>
+                                                       <span>   Cloud Security Assessments  </span>
+                                                        <BsChevronRight/>
+                                                    </a>
+                                                </Link>
+                                            </h5>
+                                        </div>
+
+
+                                        <div className='col'>
+                                            <h5>
+                                                <Link href='/services/cybersecurity'> 
+                                                    <a className='comon-link0'>
+                                                        <figure className='sm-icbn m-0'>
+                                                        <Image src="/sei.svg"
+                                                        layout="fill"/>
+                                                        </figure>
+                                                       <span>   Other Cyber Security Services </span>
+                                                        <BsChevronRight/>
+                                                    </a>
+                                                </Link>
+                                            </h5>
+                                        </div>
+
+
+                                        
 
                                         
 
@@ -216,10 +253,10 @@ function Navbar(){
                     <Link href='/' className="navbar-brand">
                                 <a className='logo-side'> 
                                     <Image
-                                    src="/logo.png"
+                                    src="/logo.svg"
                                     alt="Picture of the author"
-                                    width={177}
-                                    height={33}
+                                    width={191}
+                                    height={50}
                                     />
                                 </a>
                     </Link>

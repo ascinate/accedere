@@ -39,12 +39,12 @@ export default function aicpasocreports() {
             <div className="container">
                 <h2 className="comon-head-main text-center"> Cybersecurity Services </h2>
                 <p className="text-center col-lg-7 mx-auto"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever </p>
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-5 gy-lg-5 mt-0">
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-5 gy-lg-5 mt-0 justify-content-center">
                     <div className="col">
                       <Link href="/services/cybersecurity/lotsecurity">
                           <div className="comon-services-part">
                                <figure>
-                                  <Image src="/1320500.png"
+                                  <Image src="/1320500.svg"
                                   layout="fill"
                                   />
                                </figure>
@@ -59,7 +59,7 @@ export default function aicpasocreports() {
                       <Link href="/services/cybersecurity/scadaics">
                           <div className="comon-services-part">
                                <figure>
-                                  <Image src="/1265775.png"
+                                  <Image src="/1265775.svg"
                                   layout="fill"
                                   />
                                </figure>
@@ -74,11 +74,11 @@ export default function aicpasocreports() {
                       <Link href="/services/cybersecurity/soc">
                           <div className="comon-services-part">
                                <figure>
-                                  <Image src="/1797588.png"
+                                  <Image src="/1797588.svg"
                                   layout="fill"
                                   />
                                </figure>
-                               <h5> Security Operations </h5>
+                               <h5> Blockchain </h5>
                                <p>Average time to detect an attack (Dwell time) hovers about 200 days as reported...
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
@@ -86,22 +86,7 @@ export default function aicpasocreports() {
                       </Link>
                     </div>
 
-                    <div className="col">
-                      <Link href="/services/aicpasocreports/soc2cloud">
-                          <div className="comon-services-part">
-                               <figure>
-                                  <Image src="/7818296.png"
-                                  layout="fill"
-                                  />
-                               </figure>
-                               <h5> Vulnerability Assessment </h5>
-                               <p>We primarily follow the Open Web Application Security Project (OWASP) guidelines
-                               </p> 
-                               <span className="btn"> read more <BsArrowRightShort/> </span>
-                          </div>
-                      </Link>
-                    </div>
-
+                   
 
 
                     

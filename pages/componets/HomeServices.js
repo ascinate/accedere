@@ -17,15 +17,15 @@ function HomeServices(){
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mt-0 gy-5 g-lg-4">
 
                     <div className="col">
-                        <Link href="/">
+                        <Link href="/services/socattestreports">
                             <div className="comon-card">
                                 <figure className="icon-comon-new">
-                                    <Image src="/1321938.png"
+                                    <Image src="/1321938.svg"
                                     alt="Picture of the author"
                                     layout="fill"/>
                                 </figure>
 
-                                <h4>SOC & Attestations</h4>
+                                <h4>SOC Attest Reports</h4>
                                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s </p>
 
                                 <span className="btn"> read more <BsArrowRightShort/> </span>
@@ -34,15 +34,15 @@ function HomeServices(){
                     </div>
 
                     <div className="col">
-                        <Link href="/">
+                        <Link href="/services/federal-assessments">
                             <div className="comon-card">
                                 <figure className="icon-comon-new">
-                                    <Image src="/2652313.png"
+                                    <Image src="/2652313.svg"
                                     alt="Picture of the author"
                                     layout="fill"/>
                                 </figure>
 
-                                <h4>Federal Assessments</h4>
+                                <h4>US Federal Assessments</h4>
                                 
                                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s </p>
 
@@ -56,12 +56,12 @@ function HomeServices(){
                         <Link href="/">
                             <div className="comon-card">
                                 <figure className="icon-comon-new">
-                                    <Image src="/4021708.png"
+                                    <Image src="/4021708.svg"
                                     alt="Picture of the author"
                                     layout="fill"/>
                                 </figure>
 
-                                <h4>Payment Card Assessments</h4>
+                                <h4>India CERT-IN Assetsments</h4>
                                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s </p>
 
                                 <span className="btn"> read more <BsArrowRightShort/> </span>
@@ -71,15 +71,15 @@ function HomeServices(){
 
 
                     <div className="col">
-                        <Link href="/">
+                        <Link href="/services/iso-certification-services">
                             <div className="comon-card">
                                 <figure className="icon-comon-new">
-                                    <Image src="/1962589.png"
+                                    <Image src="/1962589.svg"
                                     alt="Picture of the author"
                                     layout="fill"/>
                                 </figure>
 
-                                <h4>Healthcare Assessments</h4>
+                                <h4>ISO/IEC Certifications</h4>
                                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s </p>
 
                                 <span className="btn"> read more <BsArrowRightShort/> </span>
@@ -89,15 +89,15 @@ function HomeServices(){
 
                     
                     <div className="col">
-                        <Link href="/">
+                        <Link href="/services/penetration-testing">
                             <div className="comon-card">
                                 <figure className="icon-comon-new">
-                                    <Image src="/5261087.png"
+                                    <Image src="/5261087.svg"
                                     alt="Picture of the author"
                                     layout="fill"/>
                                 </figure>
 
-                                <h4> ISO Certifications </h4>
+                                <h4> Vulnerability Assessment & Penetration Testing </h4>
                                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s </p>
 
                                 <span className="btn"> read more <BsArrowRightShort/> </span>
@@ -106,15 +106,15 @@ function HomeServices(){
                     </div>
 
                     <div className="col">
-                        <Link href="/">
+                        <Link href="/services/privacy">
                             <div className="comon-card">
                                 <figure className="icon-comon-new">
-                                    <Image src="/1962589.png"
+                                    <Image src="/1962589.svg"
                                     alt="Picture of the author"
                                     layout="fill"/>
                                 </figure>
 
-                                <h4>Penetration Testing </h4>
+                                <h4>Privacy Assessments </h4>
                                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s </p>
 
                                 <span className="btn"> read more <BsArrowRightShort/> </span>
@@ -123,15 +123,15 @@ function HomeServices(){
                     </div>
 
                     <div className="col">
-                        <Link href="/">
+                        <Link href="/services/cloudsecurity">
                             <div className="comon-card">
                                 <figure className="icon-comon-new">
-                                    <Image src="/7790150.png"
+                                    <Image src="/7790150.svg"
                                     alt="Picture of the author"
                                     layout="fill"/>
                                 </figure>
 
-                                <h4>Privacy Assessments</h4>
+                                <h4>Cloud Security Assessments</h4>
                                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s </p>
 
                                 <span className="btn"> read more <BsArrowRightShort/> </span>
@@ -141,15 +141,15 @@ function HomeServices(){
 
 
                     <div className="col">
-                        <Link href="/">
+                        <Link href="/services/cybersecurity">
                             <div className="comon-card">
                                 <figure className="icon-comon-new">
-                                    <Image src="/1067263.png"
+                                    <Image src="/1067263.svg"
                                     alt="Picture of the author"
                                     layout="fill"/>
                                 </figure>
 
-                                <h4>Targeted Security Assessments </h4>
+                                <h4>Other Cyber Security Services</h4>
                                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s </p>
 
                                 <span className="btn"> read more <BsArrowRightShort/> </span>

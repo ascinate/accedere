@@ -73,7 +73,7 @@ function Clientlogo(){
                         <div className="items-client-logo">
                             <div className="comon-logo-clients1">
                                 <figure className="smm-all">
-                                      <Image src="/saisystem.png"
+                                      <Image src="/saisystem.svg"
                                       alt="Picture of the author"
                                       layout="fill"/>
                                 </figure>
@@ -84,7 +84,7 @@ function Clientlogo(){
                         <div className="items-client-logo">
                             <div className="comon-logo-clients1">
                                 <figure className="smm-all">
-                                      <Image src="/glance.png"
+                                      <Image src="/glance.svg"
                                       alt="Picture of the author"
                                       layout="fill"/>
                                 </figure>
@@ -96,7 +96,7 @@ function Clientlogo(){
                         <div className="items-client-logo">
                             <div className="comon-logo-clients1">
                                 <figure className="smm-all">
-                                      <Image src="/Measured_Logo.jpg"
+                                      <Image src="/Measured_Logo.svg"
                                       alt="Picture of the author"
                                       layout="fill"/>
                                 </figure>
@@ -107,7 +107,7 @@ function Clientlogo(){
                         <div className="items-client-logo">
                             <div className="comon-logo-clients1">
                                 <figure className="smm-all">
-                                      <Image src="/al.png"
+                                      <Image src="/al.svg"
                                       alt="Picture of the author"
                                       layout="fill"/>
                                 </figure>
@@ -118,7 +118,7 @@ function Clientlogo(){
                         <div className="items-client-logo">
                             <div className="comon-logo-clients1">
                                 <figure className="smm-all">
-                                      <Image src="/saisystem.png"
+                                      <Image src="/saisystem.svg"
                                       alt="Picture of the author"
                                       layout="fill"/>
                                 </figure>

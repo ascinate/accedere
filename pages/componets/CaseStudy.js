@@ -46,7 +46,7 @@ function CaseStudy(){
                                         </ul>
 
                                         <figure className="mt-4 case-st-img">
-                                            <Image src="/studies2.jpeg" alt="st1" 
+                                            <Image src="/studies2.svg" alt="st1" 
                                             layout="fill" />
                                         </figure>
                                         
@@ -87,7 +87,7 @@ function CaseStudy(){
                                         </ul>
 
                                         <figure className="mt-4 case-st-img">
-                                            <Image src="/studies1.jpeg" alt="st1" 
+                                            <Image src="/studie1.svg" alt="st1" 
                                             layout="fill" />
                                         </figure>
                                         
@@ -129,7 +129,7 @@ function CaseStudy(){
                                         </ul>
 
                                         <figure className="mt-4 case-st-img">
-                                            <Image src="/studies3.jpeg" alt="st1" 
+                                            <Image src="/studies3.svg" alt="st1" 
                                             layout="fill" />
                                         </figure>
                                         

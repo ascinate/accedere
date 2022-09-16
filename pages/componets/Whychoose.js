@@ -73,7 +73,7 @@ function Whychoose(){
                    </div>
                    <div className="col">
                         <figure className="why-imgs2">
-                            <Image src="/why1.jpg" alt="why"
+                            <Image src="/why1.svg" alt="why"
                             layout="fill" />
                         </figure>
                    </div>
