@@ -1398,7 +1398,11 @@ button.close-menu {
     text-align: center !important;
 
   }
+  .new-home .comon-card{
+    height:444px;
+  }
 
+  
 @keyframes slide-down {
 		  0% {
 			  transform: translateY(-100%);
