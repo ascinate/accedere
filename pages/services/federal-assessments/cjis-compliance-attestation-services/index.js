@@ -6,11 +6,16 @@ import Link from "next/link";
 import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 import BtmSlide from "./BtmSlide";
+import Head from "next/head";
 
 
 function cijspart(){
     return(
         <>
+          <Head>
+          <title>Accedere - CJIS, ITAR, Other</title>
+          <meta name="twitter:title" content="CJIS Compliance Attestation Services | Accedere &amp; Company"/>
+          </Head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>
                

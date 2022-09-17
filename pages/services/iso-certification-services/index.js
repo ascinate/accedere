@@ -11,6 +11,8 @@ export default function isocertificationservices() {
     <div>
     <Head>
             <title>Accedere - Iso certification services</title>
+            <meta name="description" content="Accedere is an IAS Accredited Certification Body for ISO 27001, ISO 27701 Certification at an affordable ISO 27001 and ISO 27701 Certification Cost. Get in touch to get your ISO 27001 or ISO 27701 Certification today."/>
+<meta name="keywords" content="ISO 27001, ISO 27701, ISO 27001 Certification Cost, ISO 27002, ISO 20000, ISO 22301 Accedere"/>
             
     </Head>
     <Navbar/>

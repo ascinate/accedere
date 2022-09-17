@@ -14,6 +14,7 @@ function csastar(){
         <>
         <Head>
             <title>Accedere - Csa Star Programs</title>
+            <meta name="twitter:title" content="CSA STAR Attestation and Certification | Accedere &amp; Company"/>
           
         </Head>
           <Navbar/>

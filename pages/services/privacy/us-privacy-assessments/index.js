@@ -6,11 +6,17 @@ import Link from "next/link";
 import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 import ComonSlide from "../../../componets/ComonSlide";
+import Head from "next/head";
 
 
 function usprivacypage(){
     return(
         <>
+          <Head>
+          <title>Accedere - Privacy Services</title>
+          <meta name="description" content="Learn more about how Accedere &amp; Company&apos;s team of experts can help you with your US State Privacy Assessments"/>
+  
+          </Head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>
                

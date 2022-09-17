@@ -15,7 +15,7 @@ function soc2examination(){
         
         <Head>
             <title>Accedere - SOC 2 Examination </title>
-            
+            <meta name="description" content="Learn more about how Accedere &amp;amp; Company&apos;s team of experts can help you with your SOC 2 examination needs."/>
         </Head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>

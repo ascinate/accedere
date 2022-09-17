@@ -7,11 +7,16 @@ import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 import BtmSlide from "./BtmSlide";
 import { FaMinus } from "react-icons/fa";
+import Head from "next/head";
 
 
 function ISso1st(){
     return(
         <>
+          <Head>
+             <title>Accedere -ISO 27701 Certification</title>
+             <meta name="twitter:title" content="ISO 27701 Certification &amp; Assessments | Schellman &amp; Company"/>
+          </Head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>
                

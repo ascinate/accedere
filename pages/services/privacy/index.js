@@ -12,7 +12,7 @@ export default function privacy() {
     
     <Head>
             <title>Accedere - Privacy Services</title>
-            <meta name="description" content="Learn more about how Schellman &amp; Company’s team of experts can help you with your Privacy Assessment needs."/>
+            <meta name="description" content="Learn more about how Accedere &amp; Company&apos;s team of experts can help you with your Privacy Assessment needs."/>
     <meta name="generator" content="HubSpot"/>
           
    </Head>

@@ -7,11 +7,16 @@ import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 import BtmSlide from "./BtmSlide";
 import { FaMinus } from "react-icons/fa";
+import Head from "next/head";
 
 
 function iSso3d(){
     return(
         <>
+          <Head>
+          <title>Accedere -ISO 9001 Certification</title>
+          <meta name="description" content="Complement other compliance efforts, such as ISO 27001, by gaining ISO 9001 certification which utilizes the same management system foundation."/>
+          </Head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>
                

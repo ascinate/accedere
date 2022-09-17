@@ -5,11 +5,17 @@ import { FaFacebookF,FaTwitter, FaYoutube } from "react-icons/fa";
 import Link from "next/link";
 import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
+import Head from "next/head";
 
 
 function fisma(){
     return(
         <>
+          <Head>
+             <title>Accedere -  FISMA NIST 800-53</title>
+             <meta name="description" content="Learn more about how Accedere &amp;amp; Company&apos;s team of experts can help you with your FISMA or NIST assessment needs."/>
+          
+          </Head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>
                

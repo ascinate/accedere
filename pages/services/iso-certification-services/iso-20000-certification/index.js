@@ -7,11 +7,16 @@ import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 import BtmSlide from "./BtmSlide";
 import { FaMinus } from "react-icons/fa";
+import Head from "next/head";
 
 
 function iS2001(){
     return(
         <>
+          <head>
+             <title>Accedere - ISO 20000-1 Certification</title>
+              <meta name="description" content="Build trust and confidence with your customers by aligning a consistent and quality IT service with your business through attaining ISO 20000-1 certification."/>
+          </head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>
                

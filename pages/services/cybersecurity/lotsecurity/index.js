@@ -4,10 +4,16 @@ import Footer from "../../../componets/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRightShort, BsXDiamondFill } from "react-icons/bs";
+import Head from "next/head";
 
 export default function lotsecurity() {
   return (
     <div>
+    <Head>
+    <title>Accedere - Vulnerability Assessment</title>
+    <meta name="keywords" content="Vulnerability Assessment, Pentesting , Penetration Testing, Accedere.io"/>
+    <meta name="description" content="Being an empanelled and 2 decades of experience into cloud security and compliances and certification, Accedere offers Vulnerability Assessment, Pentesting or Penetration Testing services to the IT companies across USA and Canada."/>
+    </Head>
     <Navbar/>
     <div className='sub-page-body float-start w-100'>
            

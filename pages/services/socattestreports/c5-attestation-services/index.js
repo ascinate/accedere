@@ -15,6 +15,7 @@ function socattendsr(){
         
         <Head>
             <title>Accedere - C5 Attestation </title>
+            <meta name="twitter:title" content="C5 Attestation Services | Accedere &amp; Company"/>
             
         </Head>
           <Navbar/>

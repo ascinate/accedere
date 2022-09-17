@@ -6,11 +6,17 @@ import Link from "next/link";
 import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 import BtmSlide from "./BtmSlide";
+import Head from "next/head";
 
 
 function fedaassients(){
     return(
         <>
+          <Head>
+             <title>Accedere - FedRAMP Assessment</title>
+             <meta name="description" content="Learn more about how Accedere &amp; Company&apos;s team of experts can help you with your FedRAMP assessment needs."/>
+          
+          </Head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>
                

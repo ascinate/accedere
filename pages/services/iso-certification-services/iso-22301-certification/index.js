@@ -7,11 +7,16 @@ import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 import BtmSlide from "./BtmSlide";
 import { FaMinus } from "react-icons/fa";
+import Head from "next/head";
 
 
 function iS2301(){
     return(
         <>
+          <Head>
+          <title>Accedere -ISO 22301 Certification </title>
+          <meta name="description" content="Give assurance with ISO 22301 that your organization has the appropriate business continuity policies and processes designed, implemented, and are effective."/>
+          </Head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>
                

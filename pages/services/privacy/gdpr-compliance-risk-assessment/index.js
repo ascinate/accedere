@@ -15,6 +15,7 @@ function gdrpage(){
        
         <Head>
             <title>Accedere -  GDPR Assessments</title>
+            <meta name="twitter:title" content="GDPR Compliance Risk Assessment | Accedere &amp; Company"/>
           
         </Head>
           <Navbar/>

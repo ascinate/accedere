@@ -14,7 +14,7 @@ function interprivacypage(){
         <>
             <Head>
                <title>Accedere -  International Privacy Assessments</title>
-      
+               <meta name="description" content="Learn more about how Accedere &amp; Company&apos;s team of experts can help you with your International Privacy Assessment needs"/>
           </Head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>

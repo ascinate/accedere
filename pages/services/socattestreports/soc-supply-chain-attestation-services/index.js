@@ -14,6 +14,7 @@ function socsupplychain(){
         <>
         <Head>
         <title>Accedere - SOC for Supply Chain </title>
+        <meta name="twitter:title" content="SOC for Supply Chain | Schellman &amp; Company"/>
         
         </Head>
           <Navbar/>

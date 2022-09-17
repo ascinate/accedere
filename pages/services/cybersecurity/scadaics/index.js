@@ -4,10 +4,15 @@ import Footer from "../../../componets/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRightShort, BsXDiamondFill } from "react-icons/bs";
+import Head from "next/head";
 
 export default function scadaics() {
   return (
     <div>
+    <Head>
+    <title>Accedere - Industrial Cyber Security</title>
+    <meta name="description" content="Industrial control systems (ICS), ICS Auditor, Industry 4.0, OT Audits, SCADA security, DCS Audits, ISO 27001 for ICS(OT)"/>
+    </Head>
     <Navbar/>
     <div className='sub-page-body float-start w-100'>
            
