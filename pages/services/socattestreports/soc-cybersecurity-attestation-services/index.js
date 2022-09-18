@@ -15,7 +15,7 @@ function socybersc(){
         
         <Head>
             <title>Accedere - SOC for Cybersecurity </title>
-            <meta name="description" content="Learn more about how Accedere &amp; Company’s team of experts can help you with your SOC for Cybersecurity needs."/>
+            <meta name="description" content="Learn more about how Accedere &amp; Company&apos;s team of experts can help you with your SOC for Cybersecurity needs."/>
         </Head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>

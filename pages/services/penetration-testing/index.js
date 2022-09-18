@@ -11,7 +11,7 @@ export default function penetrationtesting() {
     <div>
     <Head>
             <title>Accedere - Penetration Testing</title>
-            <meta name="description" content="IoT and Smart Infrastructure Security covering Smart Grid,Smart Cities, IoT Privacy using ISO 27701"/>
+            <meta name="twitter:title" content="Penetration Testing Services | Accedere &amp; Company"/>
             
     </Head>
     <Navbar/>

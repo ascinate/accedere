@@ -7,11 +7,17 @@ import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 import BtmSlide from "./BtmSlide";
 import { FaMinus } from "react-icons/fa";
+import Head from "next/head";
 
 
 function clud1(){
     return(
         <>
+          <Head>
+          <title>Accedere -   Cloud Security Assessment</title>
+          <meta name="description" content="Accedere Cloud Security Audit Services includes Security in Cloud Computing, Kubernetes Security. Docker Security, Cloud Penetration Testing, Zero Trust Security, Container Security, Application Security and more."/>
+          <meta name="keywords" content="Cloud Security, Security in Cloud Computing, Kubernetes Security,. Docker Security, Cloud Penetration Testing, Zero Trust Security, Container Security, Application Security, Cloud security,Cloud Security Alliance, Cloud Compliance auditor, VAPT Playbook,cloud application audits in usa,ISACA cloud audit tool,Cloud Vulnerability,Top Cloud Risks,Cloud Data Audit,Cloud Auditors in USA,Azure Pentest,cloud penetration testing,cloud security arcihtecture,CASB security,cloud app security,cloud computing security,cloud database security,Cloud SaaS Audit,Cloud PaaS Audit,Cloud Vulnerability Assessment,Cloud Penetration Testing,Cloud misconfigured Servers, Kunernetes for Cloud Security, Cloud CCSK, CCM 4, CCAK, SaaS Vulnerability Assessment, SaaS Penetration Testing, ISO19944 vs 27017, Cloud Pentest, PaaS Audit, SaaS VAPT, PaaS VAPT, IaaS VAPT, SecaaS audit, Cloud Security Alliance Auditor"/>
+          </Head>
           <Navbar/>
           <div className='contact-page-1 sub-page-body float-start w-100'>
                

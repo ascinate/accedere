@@ -14,6 +14,8 @@ export default function privacy() {
     <div>
     <Head>
     <title>Accedere -   HIPPA Compliance</title>
+    <meta name="description" content="HIPAA Privacy Auditor, SOC 2 Privacy, HIPAA and HITECH compliance audits,ISO 27701 Audits"/>
+    <meta name="keywords" content="HIPAA compliance, HITECH Omnibus Audit, HITECH Hitrust security, ISO19944 vs 27017, AICPA GAPP,GAPP Privacy, IoT effect on HIPAA, Wearables for Hipaa, HHS audit report, updated HITECH Rule, HIPAA Covered Entities, HIPAA Business Associate Audit, SOC 2 HIPAA Audit, HIPAA Privacy Rule,HIPAA vs HITRUST, HIPAA Certification in US, HIPAA Privacy Principle, HIPAA Omnibus rule,HIPAA Breach remediations, HIPAA certification in USA, DHS vs FTC vs HHS, HIPAA vs HITECH,latest HIPAA Breach HHS wall of shame,HIPAA vs CCPA, HIPAA vs GDPR"/>
 
     </Head>
     <Navbar/>

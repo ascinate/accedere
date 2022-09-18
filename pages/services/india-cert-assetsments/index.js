@@ -12,7 +12,7 @@ export default function indiaassessments() {
     
     <Head>
             <title>Accedere - India Assessments</title>
-            <meta name="keywords" content="ISO 27001, ISO 27701, ISO 27001 Certification Cost, ISO 27002, ISO 20000, ISO 22301 Accedere"/>
+            <meta name="keywords" content="India Assessments ISO 27001, ISO 27701, ISO 27001 Certification Cost, ISO 27002, ISO 20000, ISO 22301 Accedere"/>
             
     </Head>
     <Navbar/>
