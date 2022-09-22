@@ -724,7 +724,7 @@ figure.smm-all {
   justify-content: center;
   position: relative;
   margin: auto;
-  height: 190px;
+  height: 80px;
   overflow: hidden;
 }
 
@@ -743,7 +743,7 @@ figure.smm-all {
   font-size: 15px;
 }
 .services-ul-links{
-  column-count: 2;
+  /* column-count: 2; */
 }
 .social-links li {
   margin-right: 10px;
@@ -1288,6 +1288,9 @@ button.close-menu {
   }
 .fiex-logo{
   display: block;
+}
+.client-logo-div-slide .slick-prev:before, .slick-next:before{
+   color: #2b79db !important;
 }
 .color-list li,
 .color-list svg{
