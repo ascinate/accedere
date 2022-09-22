@@ -48,14 +48,14 @@ export default function aicpasocreports() {
                 <p className="text-center col-lg-7 mx-auto"> SOC Examinations are what we were founded on and through the years have expanded our capabilities to meet the market&apos;s growing needs to build trust and confidence: </p>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-5 gy-lg-5 mt-0 justify-content-center">
                     <div className="col">
-                      <Link href="/services/socattestreports/soc-1-compliance-attestation-services">
+                      <Link href="/services/socattestreports/soc-reporting-services">
                           <div className="comon-services-part">
                                <figure>
                                   <Image src="/1321938.svg"
                                   layout="fill"
                                   />
                                </figure>
-                               <h5> SOC 1 / SSAE 18 Examination
+                               <h5> SOC 1 Type 2 Compliance Audit
                                </h5>
                                <p> Present a strong position to your customers regarding your control environment 
                                relevant to processes that impact the controls over financial reporting.
@@ -65,34 +65,16 @@ export default function aicpasocreports() {
                       </Link>
                     </div>
                     <div className="col">
-                      <Link href="/services/socattestreports/soc2examination">
+                      <Link href="/services/socattestreports/soc-1-type-2-compliance-audit">
                           <div className="comon-services-part">
                                <figure>
                                   <Image src="/1265775.svg"
                                   layout="fill"
                                   />
                                </figure>
-                               <h5> SOC 2 Examination </h5>
+                               <h5> SOC 2Type 2 Compliance Audit </h5>
                                <p>Meet a broad set of reporting needs about the
                                 controls at your service organization.
-                               </p> 
-                               <span className="btn"> read more <BsArrowRightShort/> </span>
-                          </div>
-                      </Link>
-                    </div>
-                    <div className="col">
-                      <Link href="/services/socattestreports/soc3examination">
-                          <div className="comon-services-part">
-                               <figure>
-                                  <Image src="/1265775.svg"
-                                  layout="fill"
-                                  />
-                               </figure>
-                               <h5> SOC 3 Examination </h5>
-                               <p>
-                               Report on the operational controls pertaining to the suitability 
-                               of design and operating effectiveness of controls.
-                             
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
                           </div>
@@ -107,7 +89,7 @@ export default function aicpasocreports() {
                                   layout="fill"
                                   />
                                </figure>
-                               <h5> SOC for Supply Chain </h5>
+                               <h5> SOC Reports for CSA / C5 </h5>
                                <p>Provide relevant information to clients up and down their supply chain, specifically designed for
                                 all industries and stakeholders seeking to manage supply risks.
                                </p> 
@@ -117,32 +99,32 @@ export default function aicpasocreports() {
                     </div>
 
                     <div className="col">
-                      <Link href="/services/socattestreports/soc-cybersecurity-attestation-services">
-                          <div className="comon-services-part">
-                               <figure>
-                                  <Image src="/4248625.svg"
-                                  layout="fill"
-                                  />
-                               </figure>
-                               <h5> SOC for Cybersecurity </h5>
-                               <p>SOC for Cybersecurity reports include a description of your cybersecurity 
-                               risk management program
+                        <Link href="/services/socattestreports/soc2privacy">
+                            <div className="comon-services-part">
+                                <figure>
+                                    <Image src="/4248625.svg"
+                                    layout="fill"
+                                    />
+                                </figure>
+                                <h5> SOC Reports for Privacy </h5>
+                                <p>SOC for Cybersecurity reports include a description of your cybersecurity 
+                                risk management program
                                 and a set of benchmarks that we will evaluate your program against.
-                               </p> 
-                               <span className="btn"> read more <BsArrowRightShort/> </span>
-                          </div>
-                      </Link>
+                                </p> 
+                                <span className="btn"> read more <BsArrowRightShort/> </span>
+                            </div>
+                        </Link>
                     </div>
 
                     <div className="col">
-                      <Link href="/services/socattestreports/c5-attestation-services">
+                      <Link href="/services/socattestreports/soc4cyber">
                           <div className="comon-services-part">
                                <figure>
                                   <Image src="/1067263.svg"
                                   layout="fill"
                                   />
                                </figure>
-                               <h5>  C5 Attestation </h5>
+                               <h5> SOC Reports for Cyber Risk </h5>
                                <p>Better develop transparent and trusted relationships between
                                 yourselves and your cloud customers.
                                </p> 
@@ -152,14 +134,14 @@ export default function aicpasocreports() {
                     </div>
 
                     <div className="col">
-                      <Link href="/services/socattestreports/csa-star-programs">
+                      <Link href="/services/socattestreports/soc-supply-chain">
                           <div className="comon-services-part">
                               <figure>
                                   <Image src="/5074591.svg"
                                   layout="fill"
                                   />
                               </figure>
-                              <h5> CSA STAR Programs </h5>
+                              <h5> SOC for Supply Chain </h5>
                               <p>Recognizes assurance requirements and maturity levels of cloud service providers in a publicly available registry
                               </p> 
                               <span className="btn"> read more <BsArrowRightShort/> </span>

@@ -77,7 +77,7 @@ export default function federalassessments() {
                                   layout="fill"
                                   />
                                </figure>
-                               <h5> CMMC / NIST SP 800-171 </h5>
+                               <h5> CMMC </h5>
                                <p> Schellman is one of the first C3PAOs cleared by the CMMC Accreditation Body due
                                 to our experience performing
                                 FedRAMP Assessments for Civilian and DoD Environments.
@@ -94,7 +94,7 @@ export default function federalassessments() {
                                   layout="fill"
                                   />
                                </figure>
-                               <h5> FISMA/NIST </h5>
+                               <h5> FISAM / NIST </h5>
                                <p>While only government agencies can be FISMA compliant, Schellman performs 
                                both independent attestations and gap assessments against the NIST 800-53 standards,
                                 which are the detailed requirements behind FISMA.

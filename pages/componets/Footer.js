@@ -23,26 +23,16 @@ function Footer(){
                           J P Road 4 Bunglows, Andheri West,
                           Mumbai 400053</p> 
                           <ul className="list-unstyled d-flex align-items-center social-links mt-3">
+                              
                               <li>
                                  <Link href="/">
-                                     <FaFacebook/>
-                                 </Link>
-                              </li>
-                              <li>
-                                 <Link href="/">
-                                    <FaTwitterSquare/>
+                                    <FaYoutube/>
                                  </Link>
                                   
                               </li>
                               <li>
                                  <Link href="/">
                                     <FaLinkedin/>
-                                 </Link>
-                                  
-                              </li>
-                              <li>
-                                 <Link href="/">
-                                    <FaYoutube/>
                                  </Link>
                                   
                               </li>
@@ -58,15 +48,26 @@ function Footer(){
                                  </Link>
                                </li>
                                <li>
+                                  <Link href='/services/iso-certification-services'>
+                                    <span>  ISO/IEC Certifications </span>
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link href='/services/federal-assessments'>
+                                    <span> US Federal Assessments </span>
+                                  </Link>
+                                </li>
+                                
+                               <li>
                                  <Link href='/services/india-cert-assetsments'>
-                                   <span> India CERT-IN Assetsments</span>
+                                   <span> India Cert-In Assessments </span>
                                  </Link>
                                </li>
                                <li>
-                                 <Link href='/services/iso-certification-services'>
-                                   <span>  ISO/IEC Certifications </span>
-                                 </Link>
-                               </li>
+                                  <Link href='/services/privacy'>
+                                    <span> Privacy Assessments </span>
+                                  </Link>
+                                </li>
                               
                                <li>
                                  <Link href='/services/penetration-testing'>
@@ -74,11 +75,7 @@ function Footer(){
                                    Testing </span>
                                  </Link>
                                </li>
-                               <li>
-                                 <Link href='/services/privacy'>
-                                   <span> Privacy Assessments </span>
-                                 </Link>
-                               </li>
+                               
                                <li>
                                  <Link href='/services/cloudsecurity'>
                                    <span> Cloud Security Assessments </span>
@@ -95,7 +92,7 @@ function Footer(){
                          </div>
                       </div>
                       <div className="col-lg-3">
-                         <h5 className="ft-comon-part">Company </h5>
+                         <h5 className="ft-comon-part"> Investor Services  </h5>
                         <ul className="list-unstyled mt-4">
                                <li>
                                  <Link href="/about">

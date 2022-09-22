@@ -92,6 +92,22 @@ export default function aicpasocreports() {
                       </Link>
                     </div>
 
+                    <div className="col">
+                       <Link href="/services/cybersecurity/ics-nerc-cip">
+                           <div className="comon-services-part">
+                              <figure>
+                                 <Image src="/1797588.svg"
+                                 layout="fill"
+                                 />
+                              </figure>
+                              <h5> Hire Cyber Security Contractors  </h5>
+                              <p>Average time to detect an attack (Dwell time) hovers about 200 days as reported...
+                              </p> 
+                              <span className="btn"> read more <BsArrowRightShort/> </span>
+                           </div>
+                        </Link>
+                     </div>
+
                    
 
 

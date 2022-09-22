@@ -10,7 +10,7 @@ export default function penetrationtesting() {
   return (
     <div>
     <Head>
-            <title>Accedere - Penetration Testing</title>
+            <title>Accedere - VAPT</title>
             <meta name="twitter:title" content="Penetration Testing Services | Accedere &amp; Company"/>
             
     </Head>
@@ -22,7 +22,7 @@ export default function penetrationtesting() {
                 <div className="row row-cols-1 row-cols-md-2 g-lg-5 align-items-center">
                    <div className="col">
                        <h2 className="text-white comon-head-main mt-0"> 
-                       Penetration Testing  </h2>
+                       VAPT  </h2>
                        <h5 className="text-white"> Demonstrate to your customers that you take data security requirements
                         seriously with our independent third party assessments
                        </h5>
@@ -54,7 +54,7 @@ export default function penetrationtesting() {
                                   />
                                </figure>
                                <h5> 
-                               Application
+                               Application Security 
                                </h5>
                                <p> Identify vulnerabilities within software developed internally or by third parties. We assess 
                                the security of web applications, APIs, and client-side applications.
@@ -74,7 +74,25 @@ export default function penetrationtesting() {
                                   layout="fill"
                                   />
                                </figure>
-                               <h5> Social Engineering </h5>
+                               <h5> Network and Infrastructure Security </h5>
+                               <p>Our experienced team effectively assesses your organization&apos;s
+                                preparedness through phishing and vishing techniques.
+                               </p> 
+                          
+                          </div>
+                      </Link>
+                    </div>
+
+
+                    <div className="col">
+                      <Link href="/services/aicpasocreports/soc2cloud">
+                          <div className="comon-services-part">
+                               <figure>
+                                  <Image src="/7818296.svg"
+                                  layout="fill"
+                                  />
+                               </figure>
+                               <h5> Cloud Security (link to Cloud Penetration Testing) </h5>
                                <p>Our experienced team effectively assesses your organization&apos;s
                                 preparedness through phishing and vishing techniques.
                                </p> 
@@ -87,57 +105,7 @@ export default function penetrationtesting() {
             </div>
          </div>
 
-         <div className="comon-next-gray-bg py-5">
-            <div className="container">
-               <div className="row row-cols-1 row-cols-md-2 g-lg-5">
-                    <div className="col">
-                        <figure className="right-img-nm ">
-                            <Image src="/ad-comon1.jpg"
-                            layout="fill"/>
-                        </figure>
-                    </div>
-                    <div className="col">
-                        <h2 className="comon-head-main">   
-                        Delivering comprehensive, yet concise results </h2>
-                        <p>Schellman&apos;s combination of mature methodologies are delivered by 
-                        an experienced team and rooted in guidance from:
-                        </p>
-                        <ul className="list-unstyled crm-lisst-2">
-                            <li>
-                               <span className="conmo-icon">
-                               <BsXDiamondFill/>
-                               </span>
-                               <div className="right-cont">
-                                <h5> NIST </h5>
-                                
-                               </div>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <div className="right-cont">
-                                <h5> OWASP </h5>
-                                
-                               </div>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <div className="right-cont">
-                                <h5> Latest technologies and tools </h5>
-                               
-                               </div>
-                            </li>
-                           
-                            
-                            
-                        </ul>
-                    </div>
-               </div>
-            </div>
-         </div>
+       
    
 
     </div>

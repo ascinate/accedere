@@ -48,6 +48,65 @@ export default function privacy() {
                 <h2 className="comon-head-main text-center"> Privacy Services </h2>
                 <p className="text-center col-lg-7 mx-auto"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever </p>
                 <div className="row row-cols-1 row-cols-sm-2  row-cols-lg-4 gy-5 gy-lg-5 mt-0 justify-content-center">
+                   
+
+                    <div className="col">
+                      <Link href="/services/privacy/privacy-assessment-services">
+                          <div className="comon-services-part">
+                               <figure>
+                                  <Image src="/1962589.svg"
+                                  alt="pri"
+                                  layout="fill"
+                                  />
+                               </figure>
+                               <h5> 
+                              Privacy Assessment Services
+                               </h5>
+                               <p> 
+                               Companies with a customer footprint spanning outside of their country 
+                               or region may need to demonstrate compliance internationally.
+                             
+                               </p> 
+                               <span className="btn"> read more <BsArrowRightShort/> </span>
+                          </div>
+                      </Link>
+                    </div>
+
+                    <div className="col">
+                     <Link href="/services/privacy/soc-reports-for-privacy">
+                           <div className="comon-services-part">
+                              <figure>
+                                 <Image src="/7790150.svg"
+                                 alt="pri"
+                                 layout="fill"
+                                 />
+                              </figure>
+                              <h5> SOC 2 for Privacy </h5>
+                              <p>Navigate the privacy landscape of nearly all 50 states.
+                              </p> 
+                              <span className="btn"> read more <BsArrowRightShort/> </span>
+                           </div>
+                     </Link>
+                     </div>
+
+                     <div className="col">
+                      <Link href="/services/privacy/us-privacy-assessments">
+                          <div className="comon-services-part">
+                               <figure>
+                                  <Image src="/7790150.svg"
+                                  alt="pri"
+                                  layout="fill"
+                                  />
+                               </figure>
+                               <h5> US State Privacy Assessments </h5>
+                               <p>Navigate the privacy landscape of nearly all 50 states.
+                               </p> 
+                               <span className="btn"> read more <BsArrowRightShort/> </span>
+                          </div>
+                      </Link>
+                    </div>
+
+
                     <div className="col">
                       <Link href="/services/privacy/gdpr-compliance-risk-assessment">
                           <div className="comon-services-part">
@@ -65,60 +124,10 @@ export default function privacy() {
                           </div>
                       </Link>
                     </div>
-                    <div className="col">
-                      <Link href="/services/privacy/international-privacy-assessments">
-                          <div className="comon-services-part">
-                               <figure>
-                                  <Image src="/1962589.svg"
-                                  alt="pri"
-                                  layout="fill"
-                                  />
-                               </figure>
-                               <h5> 
-                               International Privacy Assessments
-                               </h5>
-                               <p> 
-                               Companies with a customer footprint spanning outside of their country 
-                               or region may need to demonstrate compliance internationally.
-                             
-                               </p> 
-                               <span className="btn"> read more <BsArrowRightShort/> </span>
-                          </div>
-                      </Link>
-                    </div>
-                    <div className="col">
-                      <Link href="/services/privacy/us-privacy-assessments">
-                          <div className="comon-services-part">
-                               <figure>
-                                  <Image src="/7790150.svg"
-                                  alt="pri"
-                                  layout="fill"
-                                  />
-                               </figure>
-                               <h5> US State Privacy Assessments </h5>
-                               <p>Navigate the privacy landscape of nearly all 50 states.
-                               </p> 
-                               <span className="btn"> read more <BsArrowRightShort/> </span>
-                          </div>
-                      </Link>
-                    </div>
+                    
+                    
 
-                    <div className="col">
-                      <Link href="/services/privacy/privacy-program">
-                          <div className="comon-services-part">
-                               <figure>
-                                  <Image src="/7790150.svg"
-                                  alt="pri"
-                                  layout="fill"
-                                  />
-                               </figure>
-                               <h5> Privacy program </h5>
-                               <p>Navigate the privacy landscape of nearly all 50 states.
-                               </p> 
-                               <span className="btn"> read more <BsArrowRightShort/> </span>
-                          </div>
-                      </Link>
-                    </div>
+                   
 
                     <div className="col">
                       <Link href="/services/privacy/soc2hipaa">

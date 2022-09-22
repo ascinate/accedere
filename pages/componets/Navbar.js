@@ -26,8 +26,8 @@ function Navbar(){
         <div className={scroll ? "bg-black" : "bg-white"}>
             <nav className="navbar navbar-expand-lg navbar-light float-start w-100">
             <div className="container">
-                <Link href='/' className="navbar-brand">
-                <div className='logo-div'>
+                <Link href='/' className="navbar-brand"  >
+                <a className='logo-div' data-bs-toggle="tooltip" data-bs-placement="top" title='Trusted By Many Leading Cloud Service Providers '>
                    <div className='fiex-logo'>
                         <Image
                         src="/logo-white.svg"
@@ -51,7 +51,7 @@ function Navbar(){
                     
 
                     
-                </div>
+                </a>
                
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasmenu" >
@@ -92,35 +92,6 @@ function Navbar(){
                                                 </h5>
                                         </div>
 
-                                        <div className='col'>
-                                            <h5> 
-                                                <Link href='/services/federal-assessments'> 
-                                                    <a className='comon-link0'>
-                                                    <figure className='sm-icbn m-0'>
-                                                        <Image src="/block.svg"
-                                                        layout="fill"/>
-                                                        </figure>
-                                                       <span>  US Federal Assessments </span>
-                                                        <BsChevronRight/>
-                                                    </a>
-                                                </Link>
-                                            </h5>
-                                        </div>
-
-                                        <div className='col'>
-                                            <h5> 
-                                                <Link href='/services/india-cert-assetsments'> 
-                                                    <a className='comon-link0'>
-                                                    <figure className='sm-icbn m-0'>
-                                                        <Image src="/2910751.svg"
-                                                        layout="fill"/>
-                                                        </figure>
-                                                        <span> India CERT-IN Assetsments </span>
-                                                        <BsChevronRight/>
-                                                    </a>
-                                                </Link>
-                                            </h5>
-                                        </div>
 
                                         <div className='col'>
                                             <h5> 
@@ -137,21 +108,42 @@ function Navbar(){
                                             </h5>
                                         </div>
 
+                                        
                                         <div className='col'>
                                             <h5> 
-                                                <Link href='/services/penetration-testing'> 
+                                                <Link href='/services/federal-assessments'> 
                                                     <a className='comon-link0'>
                                                     <figure className='sm-icbn m-0'>
-                                                        <Image src="/pri.svg"
+                                                        <Image src="/block.svg"
                                                         layout="fill"/>
                                                         </figure>
-                                                        <span> Vulnerability Assessment & Penetration 
-                                                        Testing </span>
+                                                       <span>  US Federal Assessments </span>
                                                         <BsChevronRight/>
                                                     </a>
                                                 </Link>
                                             </h5>
                                         </div>
+
+                                       
+
+                                        
+
+                                        <div className='col'>
+                                            <h5> 
+                                                <Link href='/services/india-cert-assetsments'> 
+                                                    <a className='comon-link0'>
+                                                    <figure className='sm-icbn m-0'>
+                                                        <Image src="/2910751.svg"
+                                                        layout="fill"/>
+                                                        </figure>
+                                                        <span> India CERT-IN Assetsments </span>
+                                                        <BsChevronRight/>
+                                                    </a>
+                                                </Link>
+                                            </h5>
+                                        </div>
+
+                                        
 
 
                                         <div className='col'>
@@ -163,6 +155,22 @@ function Navbar(){
                                                         layout="fill"/>
                                                         </figure>
                                                        <span>  Privacy Assessments </span> 
+                                                        <BsChevronRight/>
+                                                    </a>
+                                                </Link>
+                                            </h5>
+                                        </div>
+
+                                        <div className='col'>
+                                            <h5> 
+                                                <Link href='/services/penetration-testing'> 
+                                                    <a className='comon-link0'>
+                                                    <figure className='sm-icbn m-0'>
+                                                        <Image src="/pri.svg"
+                                                        layout="fill"/>
+                                                        </figure>
+                                                        <span> Vulnerability Assessment & Penetration 
+                                                        Testing </span>
                                                         <BsChevronRight/>
                                                     </a>
                                                 </Link>
@@ -217,7 +225,7 @@ function Navbar(){
                         </li>
 
                         <li>
-                            <Link href='/about' > 
+                            <Link href='/contact' > 
                                 <span className="btn lets-btn1"> Send a message </span>
                             </Link>
                         </li>

@@ -11,8 +11,7 @@ function HomeServices(){
         <>
         <div className='services-part-home new-home'>
             <div className='container'>
-                <h4 className='comon-head-sub text-center'> Our Services </h4>
-                <h2 className='comon-head-main text-center'> Introduce Our Best Security Services </h2>
+                <h2 className='comon-head-main text-center'> Introducing Our Security Services</h2>
 
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mt-0 gy-5 g-lg-4">
 
@@ -27,14 +26,35 @@ function HomeServices(){
 
                                 <h4>SOC Attest Reports</h4>
                                 <p> 
-                                Build trust and confidence with your customers and their auditors with an independent SOC 1, 
-                                SOC 2, or SOC 3 examination.
+                                Being a CPA licensed firm we can issue SOC 1, SOC 2 and SOC 3 reports for you to build your customers 
+                                confidence with how you manage your third-party data.
                                </p>
 
                                 <span className="btn"> read more <BsArrowRightShort/> </span>
                             </div>
                         </Link>
                     </div>
+
+                    <div className="col">
+                        <Link href="/services/iso-certification-services">
+                            <div className="comon-card">
+                                <figure className="icon-comon-new">
+                                    <Image src="/1962589.svg"
+                                    alt="Picture of the author"
+                                    layout="fill"/>
+                                </figure>
+
+                                <h4>ISO/IEC Certifications</h4>
+                                <p> 
+                                We&apos;re an Accredited ISO Certification body and can assist you with Audits & Certifications on ISO/IEC 27000 family of standard as well 
+                                as any Cloud Data Security and Privacy Certifications.
+                               </p>
+
+                                <span className="btn"> read more <BsArrowRightShort/> </span>
+                            </div>
+                        </Link>
+                    </div>
+
 
                     <div className="col">
                         <Link href="/services/federal-assessments">
@@ -48,8 +68,7 @@ function HomeServices(){
                                 <h4>US Federal Assessments</h4>
                                 
                                 <p> 
-                                Support your ATO for federal agencies by providing an independent assessment 
-                                with a FedRAMP or CMMC assessment.
+                                We can help you to stay compliant with FedRAMP and CMMC.
                                </p>
 
                                 <span className="btn"> read more <BsArrowRightShort/> </span>
@@ -59,7 +78,7 @@ function HomeServices(){
 
 
                     <div className="col">
-                        <Link href="/">
+                        <Link href="/services/india-cert-assetsments">
                             <div className="comon-card">
                                 <figure className="icon-comon-new">
                                     <Image src="/4021708.svg"
@@ -67,52 +86,10 @@ function HomeServices(){
                                     layout="fill"/>
                                 </figure>
 
-                                <h4>India CERT-IN Assetsments</h4>
+                                <h4> India CERT-In Assessments  </h4>
                                 <p> 
-                                Validate compliance by adherence to your PCI DSS requirements through a Report on Compliance.
+                                We can conduct Audits for RBI / SEBI compliance, Safe-to-Host, Data Localization and Aadhar AUI/KUA.
                                 </p>
-
-                                <span className="btn"> read more <BsArrowRightShort/> </span>
-                            </div>
-                        </Link>
-                    </div>
-
-
-                    <div className="col">
-                        <Link href="/services/iso-certification-services">
-                            <div className="comon-card">
-                                <figure className="icon-comon-new">
-                                    <Image src="/1962589.svg"
-                                    alt="Picture of the author"
-                                    layout="fill"/>
-                                </figure>
-
-                                <h4>ISO/IEC Certifications</h4>
-                                <p> 
-                                Evaluate the growing healthcare complexities to ensure you are providing
-                                 the highest level of security and privacy to your business associates and covered entities. 
-                               </p>
-
-                                <span className="btn"> read more <BsArrowRightShort/> </span>
-                            </div>
-                        </Link>
-                    </div>
-
-                    
-                    <div className="col">
-                        <Link href="/services/penetration-testing">
-                            <div className="comon-card">
-                                <figure className="icon-comon-new">
-                                    <Image src="/5261087.svg"
-                                    alt="Picture of the author"
-                                    layout="fill"/>
-                                </figure>
-
-                                <h4> Vulnerability Assessment & Penetration Testing </h4>
-                                <p> 
-                                Increase the confidence in your product or service by certification through the 
-                                standards developed and published by the International Organization for Standardization.
-                               </p>
 
                                 <span className="btn"> read more <BsArrowRightShort/> </span>
                             </div>
@@ -130,14 +107,36 @@ function HomeServices(){
 
                                 <h4>Privacy Assessments </h4>
                                 <p> 
-                                Strengthen your security to effectively respond and mitigate the threats  
-                                to an increasingly vulnerable technology landscape.
+                                We can help you with Privacy and related compliances like GDPR, HIPAA and other privacy mandates.
                                </p>
 
                                 <span className="btn"> read more <BsArrowRightShort/> </span>
                             </div>
                         </Link>
                     </div>
+
+                    
+                    
+                    <div className="col">
+                        <Link href="/services/penetration-testing">
+                            <div className="comon-card">
+                                <figure className="icon-comon-new">
+                                    <Image src="/5261087.svg"
+                                    alt="Picture of the author"
+                                    layout="fill"/>
+                                </figure>
+
+                                <h4> Vulnerability Assessment & Penetration Testing</h4>
+                                <p> 
+                                We can help you with Vulnerability Assessment & Penetration Testing for your Applications and Systems.
+                               </p>
+
+                                <span className="btn"> read more <BsArrowRightShort/> </span>
+                            </div>
+                        </Link>
+                    </div>
+
+                    
 
                     <div className="col">
                         <Link href="/services/cloudsecurity">
@@ -150,8 +149,8 @@ function HomeServices(){
 
                                 <h4>Cloud Security Assessments</h4>
                                 <p> 
-                                Identify and assess the strict data protection regulations across 
-                                the world and different industries to ensure the privacy of the data you process.
+                                We can help you with your cloud security requirements like Kubernetes / Docker Security, 
+                                Container Security, and other cloud related mandates.
                                </p>
 
                                 <span className="btn"> read more <BsArrowRightShort/> </span>
@@ -169,9 +168,10 @@ function HomeServices(){
                                     layout="fill"/>
                                 </figure>
 
-                                <h4>Other Cyber Security Services</h4>
+                                <h4> Other Cyber Security Services  </h4>
                                 <p> 
-                                Identify gaps and obtain feedback on key security risks and control sets.
+                                We can help you with SCADA, Blockchain, IoT related compliances and 
+                                provide you with Hire Cyber Security Contractors  
                                </p>
 
                                 <span className="btn"> read more <BsArrowRightShort/> </span>

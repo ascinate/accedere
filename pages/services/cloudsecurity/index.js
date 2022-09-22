@@ -45,23 +45,7 @@ export default function cloudsecurity() {
                 <h2 className="comon-head-main text-center"> Focused cybersecurity expertise and experience </h2>
                 <p className="text-center col-lg-7 mx-auto"> Schellman&apos;s assessors have significant depth in both the current threat landscape and leading-edge client technologies. </p>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-lg-5 g-lg-5 mt-0 justify-content-center">
-                    <div className="col">
-                      <Link href="/services/cloudsecurity/cloud-supply-chain-assessments">
-                          <div className="comon-services-part">
-                               <figure>
-                                  <Image src="/4673944.svg"
-                                  alt="cloud5"
-                                  layout="fill"
-                                  />
-                               </figure>
-                               <h5> Cloud Supply Chain Assessments</h5>
-                               <p> Reduce security risks in cloud computing to protect your organization and clients from the 
-                               threat of data loss and maintain a competitive edge.
-                               </p>
-                               <span className="btn"> read more <BsArrowRightShort/> </span> 
-                          </div>
-                      </Link>
-                    </div>
+                   
 
                     <div className="col">
                       <Link href="/services/cloudsecurity/cloud-peneteration-testing">
@@ -83,6 +67,44 @@ export default function cloudsecurity() {
                     </div>
 
                     <div className="col">
+                      <Link href="/services/cloudsecurity/cloudsecurityassessment">
+                          <div className="comon-services-part">
+                               <figure>
+                                  <Image src="/4673944.svg"
+                                  alt="cloud5"
+                                  layout="fill"
+                                  />
+                               </figure>
+                               <h5> Cloud Supply Chain Assessments</h5>
+                               <p> Reduce security risks in cloud computing to protect your organization and clients from the 
+                               threat of data loss and maintain a competitive edge.
+                               </p>
+                               <span className="btn"> read more <BsArrowRightShort/> </span> 
+                          </div>
+                      </Link>
+                    </div>
+
+                    
+                    <div className="col">
+                      <Link href="/services/cloudsecurity/soccloudsecurity">
+                          <div className="comon-services-part">
+                               <figure>
+                                  <Image src="/417669.svg"
+                                  alt="cloud4"
+                                  layout="fill"
+                                  />
+                               </figure>
+                               <h5> Cloud Container Security / Kubernetes</h5>
+                               <p> 
+                               Reduce the impact of a potential incident by evaluating your organization&apos;s preparedness.
+                             
+                               </p> 
+                               <span className="btn"> read more <BsArrowRightShort/> </span>
+                          </div>
+                      </Link>
+                    </div>
+
+                    <div className="col">
                       <Link href="/services/cloudsecurity/cloud-csa-assessments">
                           <div className="comon-services-part">
                                <figure>
@@ -91,7 +113,7 @@ export default function cloudsecurity() {
                                   layout="fill"
                                   />
                                </figure>
-                               <h5> Cloud CSA Star Assessments </h5>
+                               <h5> CSA / C5 Compliance </h5>
                                <p> 
                                Reduce the impact of a potential incident by evaluating your organization&apos;s preparedness.
                              

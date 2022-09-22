@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { BsDash } from "react-icons/bs";
 
 
 
@@ -17,7 +18,7 @@ function CaseStudy(){
                                 <Link href="/">
                                     <div className="case-styudies-div">
                                         <h6> Case Studies </h6>
-                                        <h4> Lorem Ipsum is simply dummy text of the printing and typesetting </h4>
+                                        <h4> Achieving CSA STAR Level 2 </h4>
 
                                         <ul className="list-unstyled d-flex align-items-center">
                                             <li>
@@ -58,7 +59,7 @@ function CaseStudy(){
                                 <Link href="/">
                                     <div className="case-styudies-div">
                                         <h6> Case Studies </h6>
-                                        <h4> New Acquisitions Prove No Problem for Corcentric, Who Continue to Roll </h4>
+                                        <h4> White Paper <BsDash/> SOC  </h4>
 
                                         <ul className="list-unstyled d-flex align-items-center">
                                             <li>
@@ -100,7 +101,7 @@ function CaseStudy(){
                                 <Link href="/">
                                     <div className="case-styudies-div">
                                         <h6> Case Studies </h6>
-                                        <h4> Wrike achieves remote audit success with communication and preparation </h4>
+                                        <h4> White Paper <BsDash/> ISO</h4>
 
                                         <ul className="list-unstyled d-flex align-items-center">
                                             <li>
