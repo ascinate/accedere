@@ -1569,6 +1569,7 @@ button.close-menu {
   font-size: 16px;
   color: #fff;
   margin-right: 5px;
+  display: inline-block;
 }
 .social-links li:first-child a{
   background: #FF0000;
