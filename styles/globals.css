@@ -1558,3 +1558,21 @@ button.close-menu {
     background: black;
   }
 }
+
+.social-links li a{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 5px;
+}
+.social-links li:first-child a{
+  background: #FF0000;
+}
+.social-links li:last-child a{
+  background: #0077B5;
+}

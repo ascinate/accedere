@@ -80,7 +80,7 @@ function Footer(){
                          </div>
                       </div>
                       <div className="col">
-                         <h5 className="ft-comon-part"> About Company  </h5>
+                         <h5 className="ft-comon-part"> Company  </h5>
                         <ul className="list-unstyled mt-4">
                                <li>
                                  <Link href="/about">
@@ -96,17 +96,22 @@ function Footer(){
                       </div>
 
                       <div className="col d-lg-grid justify-content-lg-end">
+                          <h5 className="ft-comon-part"> Social Connect </h5>
                           <ul className="list-unstyled d-flex align-items-center social-links mt-3">
                                       
                               <li>
                                 <Link href="/">
+                                   <a>
                                     <FaYoutube/>
+                                   </a>
                                 </Link>
                                   
                               </li>
                               <li>
                                 <Link href="/">
+                                    <a>
                                     <FaLinkedin/>
+                                    </a>
                                 </Link>
                                   
                               </li>
