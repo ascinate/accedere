@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import { BsXDiamondFill } from "react-icons/bs";
-import { FaFacebookF,FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebookF,FaTwitter, FaYoutube, FaAngleRight } from "react-icons/fa";
 import Link from "next/link";
 import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
@@ -156,23 +156,23 @@ function soc2privacy(){
 
                                  <h5 className="my-4"> SOC 2 compliance reports now have many flavors </h5>
 
-                                 <ul className="list-unstyled">
+                                 <ul className="list-unstyled blue-arrow">
                                      <li>
-                                       <span> <BsXDiamondFill/> </span>
+                                       <span> <FaAngleRight/> </span>
                                        <span>
                                        Software as a Service (SaaS)—The CSP is responsible for nearly all security because the cloud user can only access and manage their use of the application and cannot alter how the application works. For example, a SaaS provider is responsible for perimeter security, logging/monitoring/auditing, and application security, while
                                         the consumer may only be able to manage authorization and entitlements.
                                        </span>
                                      </li>
                                      <li>
-                                       <span> <BsXDiamondFill/> </span>
+                                       <span> <FaAngleRight/> </span>
                                        <span>
                                        Platform as a Service (PaaS)—The CSP is responsible for the security of the platform, while the consumer is responsible for everything they implement on the platform, including how they configure any offered security features. The responsibilities are, thus, more evenly split. For example, when using a Database as a Service, the provider manages fundamental security, patching, and core configuration, while the cloud user is responsible for everything else, including which security features of the 
                                        database to use to manage accounts or even authentication methods.
                                        </span>
                                      </li>
                                      <li>
-                                        <span> <BsXDiamondFill/> </span>
+                                        <span> <FaAngleRight/> </span>
                                        <span>
                                        Infrastructure as a Service (IaaS): Just like PaaS, the provider is responsible for foundational security, while the cloud user is responsible for everything they build on the infrastructure. Unlike PaaS, this places far more responsibility on the client. For example, the IaaS provider will likely monitor their perimeter for attacks, but the consumer is fully responsible for how they define and implement their virtual 
                                        network security, based on the tools available on the service.
@@ -316,10 +316,10 @@ function soc2privacy(){
                             <div className="col-lg-7 pe-lg-5">
                                 <h2 className="comon-head-main "> CSA STAR for Cloud-Benefits: </h2>
                                  
-                                <ul className="list-unstyled mt-4">
+                                <ul className="list-unstyled blue-arrow mt-4">
                                    <li>
                                       <span className="me-3">
-                                        <BsXDiamondFill/>
+                                        <FaAngleRight/>
                                       </span>
                                       <span>
                                       Based on an ISO 27001 Certification or SOC 2 Compliance and Attestation along with CCM.
@@ -327,7 +327,7 @@ function soc2privacy(){
                                    </li>
                                    <li>
                                       <span className="me-3">
-                                        <BsXDiamondFill/>
+                                        <FaAngleRight/>
                                       </span>
                                       <span>
                                       It is a Third-Party audit with CSA logo and ISO/IEC or SOC 2 (AICPA) logo that provides assurance to your customers.
@@ -335,7 +335,7 @@ function soc2privacy(){
                                     </li>
                                     <li>
                                       <span className="me-3">
-                                        <BsXDiamondFill/>
+                                        <FaAngleRight/>
                                       </span>
                                       <span>
                                         Most recognized assurance for Cloud Security.
@@ -343,7 +343,7 @@ function soc2privacy(){
                                     </li>
                                     <li>
                                       <span className="me-3">
-                                        <BsXDiamondFill/>
+                                        <FaAngleRight/>
                                       </span>
                                       <span>
                                       Covers a CSA Maturity model.
@@ -351,7 +351,7 @@ function soc2privacy(){
                                     </li>
                                     <li>
                                       <span className="me-3">
-                                        <BsXDiamondFill/>
+                                        <FaAngleRight/>
                                       </span>
                                       <span>
                                       Comprehensive Framework for AICPA, Security in Cloud Computing, Application Security and C5
@@ -360,7 +360,7 @@ function soc2privacy(){
                                     
                                     <li>
                                       <span className="me-3">
-                                        <BsXDiamondFill/>
+                                        <FaAngleRight/>
                                       </span>
                                       <span>
                                       A SOC 2 Type 2 with CSA STAR can only be provided by a CPA Firm or a Certification Body (for ISO/IEC 27001) and listed with Security in Cloud Computing, Application Security Alliance.

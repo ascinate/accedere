@@ -4,6 +4,8 @@ import Footer from "../../../componets/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRightShort, BsXDiamondFill } from "react-icons/bs";
+import { FaAngleRight } from "react-icons/fa";
+
 import Head from "next/head";
 
 export default function cybersecurity() {
@@ -31,10 +33,10 @@ export default function cybersecurity() {
                        <h5 className="text-white mt-4"> A SOC Audit Report for Supply Chain is intended for use by those who have sufficient knowledge and understanding of the entity, the products it produces, manufactures, and distributors, and the system that produces, manufactures, or distributes them. The expected knowledge of
                         intended users ordinarily includes the following:</h5>
 
-                        <ul className="list-unstyled comon-list-link mt-4">
+                        <ul className="list-unstyled why-arrow comon-list-link mt-4">
                             <li className="text-white">
                                <span>
-                                   <BsXDiamondFill/>
+                                   <FaAngleRight/>
                                </span>
                                <span>
                                The nature of the goods produced, manufactured or distributed by the entity
@@ -42,7 +44,7 @@ export default function cybersecurity() {
                             </li>
                             <li className="text-white">
                                <span>
-                                   <BsXDiamondFill/>
+                                   <FaAngleRight/>
                                </span>
                                <span>
                                Internal control and its limitations
@@ -50,7 +52,7 @@ export default function cybersecurity() {
                             </li>
                             <li className="text-white">
                               <span>
-                                 <BsXDiamondFill/>
+                                 <FaAngleRight/>
                               </span>
                               <span>
                               The applicable trust services criteria
@@ -58,7 +60,7 @@ export default function cybersecurity() {
                            </li>
                            <li className="text-white">
                               <span>
-                                 <BsXDiamondFill/>
+                                 <FaAngleRight/>
                               </span>
                               <span>
                               The risks that may threaten the achievement of the entity&apos;s principal system
@@ -71,7 +73,7 @@ export default function cybersecurity() {
 
                    </div>
                    <div className="col">
-                       <figure className="comon-banner-img">
+                       <figure className="comon-banner-img ison-sp1">
                           <Image src="/ad-socl-1.jpg"
                           layout="fill"/>
                        </figure>
@@ -88,7 +90,7 @@ export default function cybersecurity() {
                   <div className="row row-cols-1 row-cols-lg-2 g-lg-5 mt-0">
                      
                      <div className="col">
-                              <figure className="comon-sub-main2">
+                              <figure className="comon-sub-main2 ison-sp1">
                                  <Image src="/pexels-christina-morillo-1181216.jpg" alt="about"
                                  layout="fill"
                                  />
@@ -101,28 +103,28 @@ export default function cybersecurity() {
                            <p className="mt-4"> Manufacturers, producers, and distribution companies (organizations) must manage a complex network of plants, service providers, and suppliers to operate efficiently and meet commitments to customers. At the same time, the threats to and vulnerabilities of each supplier in the chain have increased significantly. When a supply chain is disrupted, the organization is at risk of failing to meet production or delivery commitments it has made to its customers.
                             Causes of disruption to supply chains include the following: </p>
 
-                           <ul className="list-unstyled">
+                           <ul className="list-unstyled blue-arrow">
                                <li>
                                   <span>
-                                     <BsXDiamondFill/>
+                                     <FaAngleRight/>
                                   </span>
                                   <span> Weather and other natural disasters (such as hurricanes or tornadoes) in a geographic area that is home to a supplier&apos;s facility</span>
                                </li>
                                <li>
                                  <span>
-                                    <BsXDiamondFill/>
+                                    <FaAngleRight/>
                                  </span>
                                   <span> The threat of war or military action in a geographic area that is home to a supplier&apos;s plant</span>
                                </li>
                                <li>
                                  <span>
-                                    <BsXDiamondFill/>
+                                    <FaAngleRight/>
                                  </span>
                                   <span> The lack of financial well-being of a key supplier or shipper</span>
                                </li>
                                <li>
                                     <span>
-                                       <BsXDiamondFill/>
+                                       <FaAngleRight/>
                                     </span>
                                   <span> Wide-spread diseases (such as COVID-19 coronavirus) that can affect the entire SOC audit supply chain</span>
                                </li>
@@ -145,10 +147,10 @@ export default function cybersecurity() {
                     <div className="col">
                         <p> For these reasons, an organization&apos;s ability to achieve its objectives is increasingly dependent on events, processes, and controls that are not visible to the organization and are often beyond its control, such as controls at the suppliers. Manufacturers, producers, and distribution companies are looking for visibility across their complex supply chain networks to better understand the risks of doing business with suppliers and the controls the suppliers have in place to mitigate those risks. 
                         The failure to manage these risks appropriately can result in </p>
-                        <ul className="list-unstyled">
+                        <ul className="list-unstyled blue-arrow">
                             <li>
                                <span className="conmo-icon">
-                               <BsXDiamondFill/>
+                               <FaAngleRight/>
                                </span>
                                <span>
                                reputational damage,
@@ -156,7 +158,7 @@ export default function cybersecurity() {
                             </li>
                             <li>
                                <span className="conmo-icon">
-                                   <BsXDiamondFill/>
+                                   <FaAngleRight/>
                                </span>
                                <span>
                                loss of intellectual property,
@@ -164,7 +166,7 @@ export default function cybersecurity() {
                             </li>
                             <li>
                                <span className="conmo-icon">
-                                   <BsXDiamondFill/>
+                                   <FaAngleRight/>
                                </span>
                                <span>
                                disruption of key business operations,
@@ -172,7 +174,7 @@ export default function cybersecurity() {
                             </li>
                             <li>
                                <span className="conmo-icon">
-                                  <BsXDiamondFill/>
+                                  <FaAngleRight/>
                                </span>
                                <span>
                                fines and penalties,
@@ -180,7 +182,7 @@ export default function cybersecurity() {
                             </li>
                             <li>
                                <span className="conmo-icon">
-                                   <BsXDiamondFill/>
+                                   <FaAngleRight/>
                                </span>
                                <span>
                                litigation and remediation costs, and
@@ -188,7 +190,7 @@ export default function cybersecurity() {
                             </li>
                             <li>
                                <span className="conmo-icon">
-                                  <BsXDiamondFill/>
+                                  <FaAngleRight/>
                                </span>
                                <span>
                                exclusion from strategic markets.
@@ -238,10 +240,10 @@ export default function cybersecurity() {
                     <div className="col">
                         <h2> SOC for Supply Chain Benefits: </h2>
                         
-                        <ul className="list-unstyled">
+                        <ul className="list-unstyled blue-arrow ">
                             <li>
                                <span className="conmo-icon">
-                               <BsXDiamondFill/>
+                               <FaAngleRight/>
                                </span>
                                <span>
                                SOC reports can cover the entire year and the effectiveness of the controls in place.
@@ -249,7 +251,7 @@ export default function cybersecurity() {
                             </li>
                             <li>
                                <span className="conmo-icon">
-                                   <BsXDiamondFill/>
+                                   <FaAngleRight/>
                                </span>
                                <span>
                                It is a Third-Party Period- of-Time assessment and so has Accountability.
@@ -257,7 +259,7 @@ export default function cybersecurity() {
                             </li>
                             <li>
                                <span className="conmo-icon">
-                                   <BsXDiamondFill/>
+                                   <FaAngleRight/>
                                </span>
                                <span>
                                Most other assurance programs or audits are only, at a point in time.
@@ -265,7 +267,7 @@ export default function cybersecurity() {
                             </li>
                             <li>
                                <span className="conmo-icon">
-                                  <BsXDiamondFill/>
+                                  <FaAngleRight/>
                                </span>
                                <span>
                                Since it is a period assessment, it is more like continuous compliance with low risk and high 
@@ -274,7 +276,7 @@ export default function cybersecurity() {
                             </li>
                             <li>
                                <span className="conmo-icon">
-                                   <BsXDiamondFill/>
+                                   <FaAngleRight/>
                                </span>
                                <span>
                                litigation and remediation costs, and
@@ -282,7 +284,7 @@ export default function cybersecurity() {
                             </li>
                             <li>
                                <span className="conmo-icon">
-                                  <BsXDiamondFill/>
+                                  <FaAngleRight/>
                                </span>
                                <span>
                                Comprehensive Framework by AICPA.
@@ -291,7 +293,7 @@ export default function cybersecurity() {
 
                             <li>
                                <span className="conmo-icon">
-                                  <BsXDiamondFill/>
+                                  <FaAngleRight/>
                                </span>
                                <span>
                                Provides a high-reliability SOC Seal by AICPA.

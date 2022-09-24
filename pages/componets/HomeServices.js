@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { BsArrowRightShort } from "react-icons/bs";
+import { FaAngleRight } from "react-icons/fa";
+
 
 
 
@@ -30,7 +32,7 @@ function HomeServices(){
                                 confidence with how you manage your third-party data.
                                </p>
 
-                                <span className="btn"> read more <BsArrowRightShort/> </span>
+                                <span className="btn"> read more <FaAngleRight/> </span>
                             </div>
                         </Link>
                     </div>
@@ -51,7 +53,7 @@ function HomeServices(){
                                 as any Cloud Data Security and Privacy Certifications.
                                </p>
 
-                                <span className="btn"> read more <BsArrowRightShort/> </span>
+                                <span className="btn"> read more <FaAngleRight/> </span>
                             </div>
                         </Link>
                     </div>
@@ -72,7 +74,7 @@ function HomeServices(){
                                 We can help you to stay compliant with FedRAMP and CMMC.
                                </p>
 
-                                <span className="btn"> read more <BsArrowRightShort/> </span>
+                                <span className="btn"> read more <FaAngleRight/> </span>
                             </div>
                         </Link>
                     </div>
@@ -92,7 +94,7 @@ function HomeServices(){
                                 We can conduct Audits for RBI / SEBI compliance, Safe-to-Host, Data Localization and Aadhar AUI/KUA.
                                 </p>
 
-                                <span className="btn"> read more <BsArrowRightShort/> </span>
+                                <span className="btn"> read more <FaAngleRight/> </span>
                             </div>
                         </Link>
                     </div>
@@ -112,7 +114,7 @@ function HomeServices(){
                                 We can help you with Privacy and related compliances like GDPR, HIPAA and other privacy mandates.
                                </p>
 
-                                <span className="btn"> read more <BsArrowRightShort/> </span>
+                                <span className="btn"> read more <FaAngleRight/> </span>
                             </div>
                         </Link>
                     </div>
@@ -133,7 +135,7 @@ function HomeServices(){
                                 We can help you with Vulnerability Assessment & Penetration Testing for your Applications and Systems.
                                </p>
 
-                                <span className="btn"> read more <BsArrowRightShort/> </span>
+                                <span className="btn"> read more <FaAngleRight/> </span>
                             </div>
                         </Link>
                     </div>
@@ -155,7 +157,7 @@ function HomeServices(){
                                 Container Security, and other cloud related mandates.
                                </p>
 
-                                <span className="btn"> read more <BsArrowRightShort/> </span>
+                                <span className="btn"> read more <FaAngleRight/> </span>
                             </div>
                         </Link>
                     </div>
@@ -176,7 +178,7 @@ function HomeServices(){
                                 provide you with Hire Cyber Security Contractors  
                                </p>
 
-                                <span className="btn"> read more <BsArrowRightShort/> </span>
+                                <span className="btn"> read more <FaAngleRight/> </span>
                             </div>
                         </Link>
                     </div>

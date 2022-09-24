@@ -32,7 +32,7 @@ export default function federalassessments() {
      
                    </div>
                    <div className="col">
-                       <figure className="comon-banner-img">
+                       <figure className="comon-banner-img ">
                           <Image src="/ad-socl-1.jpg"
                           layout="fill"/>
                        </figure>
@@ -105,42 +105,7 @@ export default function federalassessments() {
                       </Link>
                     </div>
 
-                    <div className="col">
-                      <Link href="/services/federal-assessments/cjis-compliance-attestation-services">
-                          <div className="comon-services-part">
-                               <figure>
-                                  <Image src="/7818296.svg"
-                                  layout="fill"
-                                  />
-                               </figure>
-                               <h5> ITAR </h5>
-                               <p>Assessments against the applicable controls for the International Trafficking of Arms Regulation 
-                               (ITAR) and other types of export control requirements.
-                               </p> 
-                               <span className="btn"> read more <BsArrowRightShort/> </span>
-                          </div>
-                      </Link>
-                    </div>
-
-                    <div className="col">
-                      <Link href="/services/federal-assessments/cjis-compliance-attestation-services">
-                          <div className="comon-services-part">
-                               <figure>
-                                  <Image src="/4248625.svg"
-                                  layout="fill"
-                                  />
-                               </figure>
-                               <h5> CJIS
-                               </h5>
-                               <p> Assessments against the applicable controls for the
-                                Criminal Justice Information Services (CJIS) Security 
-                                Policy found on the FBI website
-
-                               </p> 
-                               <span className="btn"> read more <BsArrowRightShort/> </span>
-                          </div>
-                      </Link>
-                    </div>
+                   
 
                     
 
