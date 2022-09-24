@@ -9,8 +9,8 @@ function CaseStudy(){
         <>
           <div className="case-study-div py-5">
                <div className="container">
-                    <h4 className="comon-head-sub"> Case Studies </h4>
-                    <h2 className="comon-head-main"> Featured Case Studies  </h2>
+                    <h2 className="comon-head-main comon-head-main blue-color"> Case Studies </h2>
+                    <h4 className="comon-head-main"> Featured Case Studies  </h4>
 
                     <div className="row row-cols-1 row-cols-lg-4 gy-5 g-lg-4 mt-0 mt-lg-5">
 

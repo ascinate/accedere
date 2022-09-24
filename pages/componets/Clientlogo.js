@@ -65,7 +65,7 @@ function Clientlogo(){
         <>
           <div className="client-logo-div-slide py-5">
              <div className="container">
-                  <h2 className="comon-head-main text-center"> Trusted By Many Leading Cloud Service Providers  </h2>
+                  <h2 className="comon-head-main text-center blue-color"> Trusted By Many Leading Cloud Service Providers  </h2>
                    <div className="client-logo-div-sec mt-5">
                    <Slider {...settings}>
                             

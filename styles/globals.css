@@ -496,6 +496,12 @@ border: none !important;
 .comon-head-main{
   font-weight: 700;
   text-transform: capitalize;
+  font-size: 45px;
+}
+.comon-head-main-sub1{
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 30px;
 }
 .comon-card figure{
   width:20%;

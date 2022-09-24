@@ -12,7 +12,7 @@ function Whychoose(){
                <div className="row row-cols-1 row-cols-md-2 align-items-center flex-column-reverse flex-md-row">
                    <div className="col">
                         <h2 className="mt-5 mt-lg-0 comon-head-main blue-color"> why choose us</h2>
-                        <h4 className="comon-head-main"> Accedere covers end-to-end  <span className="d-block">
+                        <h4 className="comon-head-main-sub1"> Accedere covers end-to-end  <span className="d-block">
                         Cybersecurity Assessments / Audit:  </span> </h4>
 
                         <ul className="list-unstyled mt-4">
@@ -102,7 +102,7 @@ function Whychoose(){
                         </ul>
 
                         <Link href="/about">
-                           <span className="btn about-btn mt-3"> Read more About <BsArrowRightShort/> </span>
+                           <span className="btn about-btn mt-3"> Read more About <FaAngleRight/> </span>
                         </Link>
                    </div>
                    <div className="col">

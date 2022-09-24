@@ -72,7 +72,7 @@ function Testimonial(){
     return(
         <>
             <div className="testimonials-div">
-                <h2 className="comon-head-main text-center"> What our clients are saying </h2>
+                <h2 className="comon-head-main text-center blue-color"> What our clients are saying </h2>
 
                 <div className="inside-divb2 my-5">
                     <div className="container">
