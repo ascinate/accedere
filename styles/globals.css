@@ -507,6 +507,11 @@ border: none !important;
   width:20%;
   text-align: left;
 }
+.why-arrow li svg{
+  color: #54c93d;
+  width: 24px;
+  height: 24px;
+}
 .comon-card figure img{
   position: relative !important;
   width:50px !important;

@@ -4,6 +4,7 @@ import Footer from "../componets/Footer";
 import Clientlogo from "../componets/Clientlogo";
 import Image from "next/image";
 import { BsXDiamondFill } from "react-icons/bs";
+import { FaAngleRight } from "react-icons/fa";
 import Head from "next/head";
 
 
@@ -90,54 +91,66 @@ function about(){
                             <h2 className="comon-head-main text-white"> Why Choose Us: </h2>
 
                           
-                            <ul className="list-unstyled mt-4">
+                            <ul className="list-unstyled mt-4 why-arrow">
                                <li>
                                   <span className="list-unstyled">
-                                      <BsXDiamondFill/>
+                                      <FaAngleRight/>
                                   </span>
                                   <span> Colorado Licensed CPA Firm</span>
                                </li>
                                <li>
                                   <span className="list-unstyled">
-                                      <BsXDiamondFill/>
+                                      <FaAngleRight/>
                                   </span>
                                   <span> PCAOB Registered Auditors </span>
                                </li>
                                <li>
                                   <span className="list-unstyled">
-                                      <BsXDiamondFill/>
+                                      <FaAngleRight/>
                                   </span>
                                   <span> CSA STAR Empaneled Auditors </span>
                                </li>
                                <li>
                                   <span className="list-unstyled">
-                                      <BsXDiamondFill/>
+                                      <FaAngleRight/>
                                   </span>
                                   <span> ISO/IEC Accredited Certification Body </span>
                                </li>
                                <li>
                                   <span className="list-unstyled">
-                                      <BsXDiamondFill/>
+                                      <FaAngleRight/>
                                   </span>
                                   <span> Cert-In Empaneled Auditors </span>
                                </li>
                                <li>
                                   <span className="list-unstyled">
-                                      <BsXDiamondFill/>
+                                      <FaAngleRight/>
                                   </span>
                                   <span> SOC 1, 2 and 3 Reports, SOC Report for Cloud Security & SOC Report for Privacy </span>
                                </li>
                                <li>
                                   <span className="list-unstyled">
-                                      <BsXDiamondFill/>
+                                      <FaAngleRight/>
                                   </span>
                                   <span> Cloud Vulnerability Assessment and Penetration Testing (Cloud VAPT) </span>
                                </li>
                                <li>
                                   <span className="list-unstyled">
-                                      <BsXDiamondFill/>
+                                      <FaAngleRight/>
                                   </span>
                                   <span> Cloud Network Architecture Review & Cloud Configurations Architecture Review </span>
+                               </li>
+                               <li>
+                                  <span className="list-unstyled">
+                                      <FaAngleRight/>
+                                  </span>
+                                  <span> Data Localization / Cloud Data Security and Privacy </span>
+                               </li>
+                               <li>
+                                  <span className="list-unstyled">
+                                      <FaAngleRight/>
+                                  </span>
+                                  <span> Dockers / Kubernetes and Cloud Supply Chain Security </span>
                                </li>
                             </ul>
                          </div>
