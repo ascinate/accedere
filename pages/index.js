@@ -20,7 +20,7 @@ export default function Home() {
     </Head>
     <Navbar/>
     <Banner/>
-    <div className='totals-body-part float-start w-100  comon-body-part'>
+    <div className='totals-body-part home-page-div float-start w-100  comon-body-part'>
  
        <HomeServices/>
       <CountingSection/>

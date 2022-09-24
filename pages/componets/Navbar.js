@@ -136,7 +136,7 @@ function Navbar(){
                                                         <Image src="/2910751.svg"
                                                         layout="fill"/>
                                                         </figure>
-                                                        <span> India CERT-IN Assetsments </span>
+                                                        <span>India CERT-In Assessments  </span>
                                                         <BsChevronRight/>
                                                     </a>
                                                 </Link>
@@ -169,8 +169,7 @@ function Navbar(){
                                                         <Image src="/pri.svg"
                                                         layout="fill"/>
                                                         </figure>
-                                                        <span> Vulnerability Assessment & Penetration 
-                                                        Testing </span>
+                                                        <span> Vulnerability Assessment and Pen Test  </span>
                                                         <BsChevronRight/>
                                                     </a>
                                                 </Link>

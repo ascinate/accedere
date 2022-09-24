@@ -16,17 +16,17 @@ function Footer(){
 
                               </span>
                           </Link>
-                          <h5 className="text-white mt-4"> Accedere USA  </h5>
+                          <h5 className="text-white mt-4">  USA address  </h5>
                           <p className="col-lg-10">999, 18th St,
                           #3000, Denver,
                           Colorado 80202</p> 
-                          <h5 className="text-white"> Accedere India </h5>
+                          <h5 className="text-white"> India address </h5>
                           <p className="col-lg-10">Spaces Inspire Hub, Western Heights,
                           J P Road 4 Bunglows, Andheri West,
                           Mumbai 400053</p> 
                           
                       </div>
-                      <div className="col">
+                      <div className="col ">
                          <div className="comon-footer-s mt-4 mt-lg-0">
                             <h5 className="ft-comon-part">Investor Services </h5>
                             <ul className="list-unstyled services-ul-links mt-4">
@@ -59,8 +59,7 @@ function Footer(){
                               
                                <li>
                                  <Link href='/services/penetration-testing'>
-                                   <span> Vulnerability Assessment & Penetration 
-                                   Testing </span>
+                                   <span> Vulnerability Assessment and Pen Test  </span>
                                  </Link>
                                </li>
                                
@@ -79,20 +78,23 @@ function Footer(){
                             </ul>
                          </div>
                       </div>
-                      <div className="col">
-                         <h5 className="ft-comon-part"> Company  </h5>
-                        <ul className="list-unstyled mt-4">
-                               <li>
-                                 <Link href="/about">
-                                   <span> About </span>
-                                 </Link>
-                               </li>
-                               <li>
-                                    <Link href="/contact">
-                                        <span> Contact </span>
-                                    </Link>
-                                </li>
-                        </ul>
+                      <div className="col d-lg-grid justify-content-lg-center">
+                          <div className="comon-footer-s mt-4 mt-lg-0">
+                                <h5 className="ft-comon-part"> Company  </h5>
+                                <ul className="list-unstyled mt-4 services-ul-links">
+                                      <li>
+                                        <Link href="/about">
+                                          <span> About </span>
+                                        </Link>
+                                      </li>
+                                      <li>
+                                            <Link href="/contact">
+                                                <span> Contact </span>
+                                            </Link>
+                                      </li>
+                                </ul>
+                          </div>
+                        
                       </div>
 
                       <div className="col d-lg-grid justify-content-lg-end">
@@ -118,26 +120,33 @@ function Footer(){
                           </ul>
                       </div>
                    </div>
-                   <ul className="list-unstyled trums mt-5">
-                       <li>
-                          © Accedere
-                       </li>
-                        <li>
-                            <Link href="/">
-                                Privacy Policy
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/">
-                               Sitemap
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/">
-                                Terms
-                            </Link>
-                        </li>
-                   </ul>
+                   <div className="d-md-flex align-items-center justify-content-between  mt-5 mb-3">
+                       <ul className="list-unstyled trums m-0">
+                            <li>
+                                © Accedere
+                            </li>
+                              <li>
+                                  <Link href="/">
+                                      Privacy Policy
+                                  </Link>
+                              </li>
+                              <li>
+                                  <Link href="/">
+                                    Sitemap
+                                  </Link>
+                              </li>
+                              <li>
+                                  <Link href="/">
+                                      Terms
+                                  </Link>
+                              </li>
+                        </ul>
+
+                       <Link href="/"> 
+                          <a className="btn p-0 text-white"> Investor Services </a>
+                       </Link> 
+                   </div>
+                  
 
                    
                 </div>

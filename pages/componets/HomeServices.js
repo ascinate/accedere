@@ -11,7 +11,7 @@ function HomeServices(){
         <>
         <div className='services-part-home new-home'>
             <div className='container'>
-                <h2 className='comon-head-main text-center'> Introducing Our Security Services</h2>
+                <h2 className='comon-head-main text-center blue-color'> Introducing Our Security Services</h2>
 
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mt-0 gy-5 g-lg-4">
 
@@ -39,7 +39,8 @@ function HomeServices(){
                         <Link href="/services/iso-certification-services">
                             <div className="comon-card">
                                 <figure className="icon-comon-new">
-                                    <Image src="/1962589.svg"
+                                    
+                                    <Image src="/5261087.svg"
                                     alt="Picture of the author"
                                     layout="fill"/>
                                 </figure>
@@ -81,12 +82,12 @@ function HomeServices(){
                         <Link href="/services/india-cert-assetsments">
                             <div className="comon-card">
                                 <figure className="icon-comon-new">
-                                    <Image src="/4021708.svg"
+                                    <Image src="/2830155.svg"
                                     alt="Picture of the author"
                                     layout="fill"/>
                                 </figure>
 
-                                <h4> India CERT-In Assessments  </h4>
+                                <h4> India CERT-in Assessments  </h4>
                                 <p> 
                                 We can conduct Audits for RBI / SEBI compliance, Safe-to-Host, Data Localization and Aadhar AUI/KUA.
                                 </p>
@@ -100,7 +101,8 @@ function HomeServices(){
                         <Link href="/services/privacy">
                             <div className="comon-card">
                                 <figure className="icon-comon-new">
-                                    <Image src="/1962589.svg"
+                                   
+                                    <Image src="/7790150.svg"
                                     alt="Picture of the author"
                                     layout="fill"/>
                                 </figure>
@@ -121,12 +123,12 @@ function HomeServices(){
                         <Link href="/services/penetration-testing">
                             <div className="comon-card">
                                 <figure className="icon-comon-new">
-                                    <Image src="/5261087.svg"
+                                    <Image src="/1995751.svg"
                                     alt="Picture of the author"
                                     layout="fill"/>
                                 </figure>
 
-                                <h4> Vulnerability Assessment & Penetration Testing</h4>
+                                <h4> Vulnerability Assessment and Pen Test </h4>
                                 <p> 
                                 We can help you with Vulnerability Assessment & Penetration Testing for your Applications and Systems.
                                </p>
@@ -142,7 +144,7 @@ function HomeServices(){
                         <Link href="/services/cloudsecurity">
                             <div className="comon-card">
                                 <figure className="icon-comon-new">
-                                    <Image src="/7790150.svg"
+                                    <Image src="/4842902.svg"
                                     alt="Picture of the author"
                                     layout="fill"/>
                                 </figure>
