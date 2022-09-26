@@ -3,7 +3,8 @@ import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
 import Image from "next/image";
 import Link from "next/link";
-import { BsArrowRightShort, BsXDiamondFill } from "react-icons/bs";
+import { BsArrowRightShort } from "react-icons/bs";
+import { FaAngleRight } from "react-icons/fa";
 
 export default function soc2hipaa() {
   return (
@@ -92,11 +93,11 @@ export default function soc2hipaa() {
                          of HIPAA that they have taken appropriate measures to:</p>
                         
 
-                         <ul className="list-unstyled">
+                         <ul className="list-unstyled blue-arrow">
                          
                          <li>
                                   <span>
-                                  <BsXDiamondFill/>
+                                  <FaAngleRight/>
                                </span>
                             <span> Secure their environment.
                             </span>
@@ -105,21 +106,21 @@ export default function soc2hipaa() {
 
                          <li>
                                   <span>
-                                  <BsXDiamondFill/>
+                                  <FaAngleRight/>
                                </span>
                             <span> Be vigilant in anticipating what might occur in the evolving security landscape. </span>
                          
                          </li>
                          <li>
                                   <span>
-                                  <BsXDiamondFill/>
+                                  <FaAngleRight/>
                                </span>
                             <span> Implement appropriate measures to detect and react to existing and emerging threats. </span>
                          
                          </li>
                          <li>
                                  <span>
-                                 <BsXDiamondFill/>
+                                 <FaAngleRight/>
                               </span>
                            <span> Be resilient in their ability to recover operations when a security incident does occur. </span>
                         
@@ -127,7 +128,7 @@ export default function soc2hipaa() {
 
                         <li>
                                  <span>
-                                 <BsXDiamondFill/>
+                                 <FaAngleRight/>
                               </span>
                            <span> Use encryption technologies to de-identify PII data.</span>
                         

@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRightShort, BsXDiamondFill } from "react-icons/bs";
 import Head from "next/head";
+import { FaFacebookF,FaTwitter, FaYoutube, FaAngleRight } from "react-icons/fa";
+
 
 export default function privacyassessmentservicest() {
   return (
@@ -241,11 +243,11 @@ export default function privacyassessmentservicest() {
                          designed to accomplish three main goals: </p>
 
 
-                         <ul className="list-unstyled">
+                         <ul className="list-unstyled blue-arrow">
                          
                            <li>
                                     <span>
-                                    <BsXDiamondFill/>
+                                    <FaAngleRight/>
                                  </span>
                               <span> Identify and evaluate the risks of data privacy and its impact on data breaches 
                               or other incidents and effects, should that happen. </span>
@@ -254,14 +256,14 @@ export default function privacyassessmentservicest() {
 
                            <li>
                                     <span>
-                                    <BsXDiamondFill/>
+                                    <FaAngleRight/>
                                  </span>
                               <span> Identify appropriate privacy controls to mitigate unacceptable risks. </span>
                            
                            </li>
                            <li>
                                     <span>
-                                    <BsXDiamondFill/>
+                                    <FaAngleRight/>
                                  </span>
                               <span> To understand what aspects to monitor to ensure conformance with applicable legal, regulatory, and policy requirements for 
                               privacy for e.g. GDPR, CCPA, HIPAA, etc. </span>
@@ -318,7 +320,7 @@ export default function privacyassessmentservicest() {
                          
                            <li>
                                     <span>
-                                    <BsXDiamondFill/>
+                                    <FaAngleRight/>
                                  </span>
                               <span> SOC 2 for Privacy by AICPA using the Trust Services Criteria for Privacy.
                                These were formerly known as the 
@@ -328,7 +330,7 @@ export default function privacyassessmentservicest() {
 
                            <li>
                                     <span>
-                                    <BsXDiamondFill/>
+                                    <FaAngleRight/>
                                  </span>
                               <span> ISO 27701 Certification, also known as 
                               Privacy Information Management System (PIMS) </span>
@@ -336,14 +338,14 @@ export default function privacyassessmentservicest() {
                            </li>
                            <li>
                                     <span>
-                                    <BsXDiamondFill/>
+                                    <FaAngleRight/>
                                  </span>
                               <span> HIPAA, GDPR, CCPA California Privacy Internal or External Audit Services </span>
                            
                            </li>
                            <li>
                                     <span>
-                                    <BsXDiamondFill/>
+                                    <FaAngleRight/>
                                  </span>
                               <span> More on SOC 2 vs ISO/IEC 27001, 27701 PIMS </span>
                            
@@ -352,7 +354,7 @@ export default function privacyassessmentservicest() {
                            <li>
 
                              <span>
-                                <BsXDiamondFill/>
+                                <FaAngleRight/>
                             </span>
                             <span> More on SOC Reporting Services </span>
                            

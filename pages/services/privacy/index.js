@@ -46,7 +46,7 @@ export default function privacy() {
          <div className="comon-inside-services py-5">
             <div className="container">
                 <h2 className="comon-head-main text-center"> Privacy Services </h2>
-                <p className="text-center col-lg-7 mx-auto"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever </p>
+                
                 <div className="row row-cols-1 row-cols-sm-2  row-cols-lg-4 gy-5 gy-lg-5 mt-0 justify-content-center">
                    
 
@@ -155,89 +155,7 @@ export default function privacy() {
             </div>
          </div>
 
-         <div className="comon-next-gray-bg py-5">
-            <div className="container">
-               <div className="row row-cols-1 row-cols-lg-2 g-lg-5">
-                    <div className="col">
-                        <figure className="right-img-nm">
-                            <Image src="/ad-comon1.jpg"
-                            layout="fill"/>
-                        </figure>
-                    </div>
-                    <div className="col">
-                        <h2 className="comon-head-main">  Get more from Reports </h2>
-                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry&apos;s standard </p>
-                        <ul className="list-unstyled">
-                            <li>
-                               <span className="conmo-icon">
-                               <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               Lorem Ipsum has been the industry&apos;s standard 
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               It is a long established fact that a reader will be distracted
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               Lorem Ipsum has been the industry&apos;s standard 
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                  <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               It is a long established fact that a reader will be distracted
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               Lorem Ipsum has been the industry&apos;s standard 
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                  <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               It is a long established fact that a reader will be distracted
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               Lorem Ipsum has been the industry&apos;s standard 
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                  <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               It is a long established fact that a reader will be distracted
-                               </span>
-                            </li>
-                        </ul>
-                    </div>
-               </div>
-            </div>
-         </div>
+      
    
 
     </div>
