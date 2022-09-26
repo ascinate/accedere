@@ -10,7 +10,7 @@ export default function cloudsecurity() {
   return (
     <div>
     <Head>
-            <title>Accedere - cloudsecurity</title>
+            <title>Accedere - Cloud Security Assessments</title>
             <meta name="description" content="IoT and Smart Infrastructure Security covering Smart Grid,Smart Cities, IoT Privacy using ISO 27701"/>
             
     </Head>
@@ -22,7 +22,7 @@ export default function cloudsecurity() {
                 <div className="row row-cols-1 row-cols-md-2 g-lg-5 align-items-center">
                    <div className="col">
                        <h2 className="text-white comon-head-main mt-0"> 
-                       Targeted Security Assessments </h2>
+                       Cloud Security Assessments </h2>
                        <h5 className="text-white"> Identify gaps and obtain feedback on key security
                         risks and control sets. 
                        </h5>
@@ -42,9 +42,9 @@ export default function cloudsecurity() {
 
          <div className="comon-inside-services py-5">
             <div className="container">
-                <h2 className="comon-head-main text-center"> Focused cybersecurity expertise and experience </h2>
-                <p className="text-center col-lg-7 mx-auto"> Schellman&apos;s assessors have significant depth in both the current threat landscape and leading-edge client technologies. </p>
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-lg-5 g-lg-5 mt-0 justify-content-center">
+                <h2 className="comon-head-main text-center"> Cloud Security Assessments </h2>
+               
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-lg-5 g-lg-5 mt-0 justify-content-center">
                    
 
                     <div className="col">
@@ -58,8 +58,7 @@ export default function cloudsecurity() {
                                </figure>
                                <h5> Cloud Peneteration Testing </h5>
                                <p> 
-                               Reduce the impact of a potential incident by evaluating your organization&apos;s preparedness.
-                             
+                               Cloud Security, Security in Cloud Computing, Kubernetes Security,
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
                           </div>
@@ -76,8 +75,7 @@ export default function cloudsecurity() {
                                   />
                                </figure>
                                <h5> Cloud Supply Chain Assessments</h5>
-                               <p> Reduce security risks in cloud computing to protect your organization and clients from the 
-                               threat of data loss and maintain a competitive edge.
+                               <p> Cloud Supply Chain Security (CSCS) is part of Supply Chain Management which focuses on risk..
                                </p>
                                <span className="btn"> read more <BsArrowRightShort/> </span> 
                           </div>
@@ -96,7 +94,7 @@ export default function cloudsecurity() {
                                </figure>
                                <h5> Cloud Container Security / Kubernetes</h5>
                                <p> 
-                               Reduce the impact of a potential incident by evaluating your organization&apos;s preparedness.
+                               When we discuss cloud supply chain, containerization is the thing which is been looked at for micro-services.
                              
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
@@ -115,7 +113,7 @@ export default function cloudsecurity() {
                                </figure>
                                <h5> CSA / C5 Compliance </h5>
                                <p> 
-                               Reduce the impact of a potential incident by evaluating your organization&apos;s preparedness.
+                               According to some estimates, there are more than 20,000 SaaS providers globally.
                              
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>

@@ -1363,12 +1363,20 @@ button.close-menu {
   padding-top: 10px !important;
 		
   }
+  .crm-india li{
+    margin-bottom: 20px;
+  }
 .fiex-logo{
   display: block;
 }
 .client-logo-div-slide .slick-prev:before, .slick-next:before{
    color: #2b79db !important;
    opacity: 9 !important;
+}
+.cm-links{
+  background: #2b79db !important;
+  color: #fff !important;
+  margin-right: 10px;
 }
 .color-list li,
 .color-list svg{
@@ -1510,6 +1518,21 @@ button.close-menu {
   .blue-color{
     color: #377dff;
   }
+
+  .fedarel-part1 .comon-services-part,
+  .pets-div .comon-services-part{
+    box-shadow: #e7e7e7 1px 27px 34px;
+    height: 185px;
+    display:grid;
+    align-content: center;
+    padding: 30px;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+}
+.pets-div .comon-services-part{
+  display: inline-block;
+}
   
 @keyframes slide-down {
 		  0% {

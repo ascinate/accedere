@@ -4,6 +4,7 @@ import Footer from "../../../componets/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRightShort, BsXDiamondFill } from "react-icons/bs";
+import { FaAngleRight } from "react-icons/fa";
 import Head from "next/head";
 
 export default function lotsecurity() {
@@ -69,48 +70,48 @@ export default function lotsecurity() {
                            Some of the IoT security challenges are: </h2>
 
 
-                           <ul className="list-unstyled">
+                           <ul className="list-unstyled blue-arrow">
                                <li>
                                   <span>
-                                     <BsXDiamondFill/>
+                                     <FaAngleRight/>
                                   </span>
                                   <span> Insecure Web Interface</span>
                                </li>
                                <li>
                                  <span>
-                                    <BsXDiamondFill/>
+                                    <FaAngleRight/>
                                  </span>
                                   <span> Insufficient Authentication or Authorization</span>
                                </li>
                                <li>
                                  <span>
-                                    <BsXDiamondFill/>
+                                    <FaAngleRight/>
                                  </span>
                                   <span> Insecure Network Services</span>
                                </li>
                                <li>
                                     <span>
-                                       <BsXDiamondFill/>
+                                       <FaAngleRight/>
                                     </span>
                                   <span> Lack of Transport Encryption</span>
                                </li>
                                <li>
                                        <span>
-                                       <BsXDiamondFill/>
+                                       <FaAngleRight/>
                                     </span>
                                  <span> IoT Privacy Concerns </span>
                                
                                </li>
                                <li>
                                        <span>
-                                       <BsXDiamondFill/>
+                                       <FaAngleRight/>
                                     </span>
                                  <span> Insecure Cloud Interface </span>
                                
                                </li>
                                <li>
                                           <span>
-                                          <BsXDiamondFill/>
+                                          <FaAngleRight/>
                                        </span>
                                     <span> Insecure Mobile Interface </span>
                                  
@@ -118,14 +119,14 @@ export default function lotsecurity() {
 
                                  <li>
                                           <span>
-                                          <BsXDiamondFill/>
+                                          <FaAngleRight/>
                                        </span>
                                     <span> Insufficient Security Configurability </span>
                                  
                                  </li>
                                  <li>
                                           <span>
-                                          <BsXDiamondFill/>
+                                          <FaAngleRight/>
                                        </span>
                                     <span> Insecure Software or Firmware </span>
                                  
@@ -133,7 +134,7 @@ export default function lotsecurity() {
 
                                  <li>
                                           <span>
-                                          <BsXDiamondFill/>
+                                          <FaAngleRight/>
                                        </span>
                                     <span> Poor Physical Security </span>
                                  

@@ -44,18 +44,18 @@ export default function aicpasocreports() {
          <div className="comon-inside-services py-5">
             <div className="container">
                 <h2 className="comon-head-main text-center"> Cybersecurity Services </h2>
-                <p className="text-center col-lg-7 mx-auto"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever </p>
+                
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-5 gy-lg-5 mt-0 justify-content-center">
                     <div className="col">
                       <Link href="/services/cybersecurity/lotsecurity">
                           <div className="comon-services-part">
                                <figure>
-                                  <Image src="/1320500.svg"
+                                  <Image src="/1067263.svg"
                                   layout="fill"
                                   />
                                </figure>
                                <h5> IoT Security </h5>
-                               <p> As per Gartner &apos;The IoT will continue to deliver new opportunities for digital business innovation for the next decade
+                               <p>As per Gartner “The IoT will continue to deliver new opportunities for digital business innovation for the next decade
                                </p>
                                <span className="btn"> read more <BsArrowRightShort/> </span> 
                           </div>
@@ -70,14 +70,14 @@ export default function aicpasocreports() {
                                   />
                                </figure>
                                <h5> SCADA | ICS </h5>
-                               <p> Operations technology (OT) is the term used in industrial operations and is comprised...
+                               <p> Operations technology (OT) is the term used in industrial operations and is comprised..
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
                           </div>
                       </Link>
                     </div>
                     <div className="col">
-                      <Link href="/services/cybersecurity/soc">
+                      <Link href="/services/cybersecurity/blockchain">
                           <div className="comon-services-part">
                                <figure>
                                   <Image src="/1797588.svg"
@@ -85,7 +85,7 @@ export default function aicpasocreports() {
                                   />
                                </figure>
                                <h5> Blockchain </h5>
-                               <p>Average time to detect an attack (Dwell time) hovers about 200 days as reported...
+                               <p> While blockchain is very efficient with respect to transactions, there are concerns...
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
                           </div>
@@ -93,15 +93,15 @@ export default function aicpasocreports() {
                     </div>
 
                     <div className="col">
-                       <Link href="/services/cybersecurity/ics-nerc-cip">
+                       <Link href="/services/cybersecurity/hire-cybersecurity-contactor">
                            <div className="comon-services-part">
                               <figure>
-                                 <Image src="/1797588.svg"
+                                 <Image src="/2273136.svg"
                                  layout="fill"
                                  />
                               </figure>
                               <h5> Hire Cyber Security Contractors  </h5>
-                              <p>Average time to detect an attack (Dwell time) hovers about 200 days as reported...
+                              <p> Enterprises have a need for expertise to help them detect, prevent...
                               </p> 
                               <span className="btn"> read more <BsArrowRightShort/> </span>
                            </div>
@@ -116,89 +116,6 @@ export default function aicpasocreports() {
             </div>
          </div>
 
-         <div className="comon-next-gray-bg py-5">
-            <div className="container">
-               <div className="row row-cols-1 row-cols-lg-2 g-lg-5">
-                    <div className="col">
-                        <figure className="right-img-nm">
-                            <Image src="/ad-comon1.jpg"
-                            layout="fill"/>
-                        </figure>
-                    </div>
-                    <div className="col">
-                        <h2 className="comon-head-main">  Get more from Reports </h2>
-                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry&apos;s standard </p>
-                        <ul className="list-unstyled">
-                            <li>
-                               <span className="conmo-icon">
-                               <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               Lorem Ipsum has been the industry&apos;s standard 
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               It is a long established fact that a reader will be distracted
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               Lorem Ipsum has been the industry&apos;s standard 
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                  <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               It is a long established fact that a reader will be distracted
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               Lorem Ipsum has been the industry&apos;s standard 
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                  <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               It is a long established fact that a reader will be distracted
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               Lorem Ipsum has been the industry&apos;s standard 
-                               </span>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                  <BsXDiamondFill/>
-                               </span>
-                               <span>
-                               It is a long established fact that a reader will be distracted
-                               </span>
-                            </li>
-                        </ul>
-                    </div>
-               </div>
-            </div>
-         </div>
    
 
     </div>

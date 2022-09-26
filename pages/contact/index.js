@@ -1,6 +1,6 @@
 import Navbar from "../componets/Navbar";
 import Banner from "../componets/Banner";
-import Footer from "../componets/Footer";
+import SpecialFooter from "./SpecialFooter";
 import Image from "next/image";
 import { BsXDiamondFill } from "react-icons/bs";
 import { FaFacebookF,FaTwitter, FaYoutube } from "react-icons/fa";
@@ -18,7 +18,7 @@ function contact(){
             <meta name="keywords" content="SOC 2 Type 2, SOC 1 Type 2, SSAE 18, Cloud CCSK, CCM 4, CCAK, ISO 27001"/>
         </Head>
           <Navbar/>
-          <div className='contact-page-1 float-start w-100'>
+          <div className='contact-page-1 contact-new float-start w-100'>
                
               <div className="top-contact-div">
                     <div className="container">
@@ -83,55 +83,10 @@ function contact(){
                         </div>
                     </div>   
               </div> 
-              <div className="next-contact-div">
-                  <div className="container">
-                      <div className="row row-cols-1 row-cols-lg-3">
-                          <div className="col">
-                             <div className="comon-cont-ft">
-                                <h5> Headquarters </h5>
-                                <p> 999, 18th St,
-                                #3000, Denver,
-                                Colorado 80202</p>
-
-                                <p> Spaces Inspire Hub, Western Heights,
-                                J P Road 4 Bunglows, Andheri West
-                                Mumbai 400053 </p>
-                             </div>
-                          </div>
-                          <div className="col d-lg-grid justify-content-lg-end">
-                             <div className="comon-cont-ft">
-                                <h5> Contact Us </h5>
-                                <p>info@accedere.io</p>
-                             </div>
-                          </div>
-                          <div className="col d-lg-grid justify-content-lg-end">
-                             <div className="comon-cont-ft">
-                                <h5> Follow Us </h5>
-                                 <ul className="list-unstyled d-flex align-items-center">
-                                    <Link href="/">
-                                       <span className="comon-soc">
-                                           <FaFacebookF/>
-                                       </span>
-                                    </Link>
-                                    <Link href="/">
-                                       <span className="comon-soc">
-                                           <FaTwitter/>
-                                       </span>
-                                    </Link>
-                                    <Link href="/">
-                                       <span className="comon-soc">
-                                           <FaYoutube/>
-                                       </span>
-                                    </Link>
-                                 </ul>
-                             </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+              
 
           </div>
-          <Footer/>
+          <SpecialFooter/>
           </div>
         </>
     );

@@ -63,8 +63,9 @@ export default function privacy() {
                               Privacy Assessment Services
                                </h5>
                                <p> 
-                               Companies with a customer footprint spanning outside of their country 
-                               or region may need to demonstrate compliance internationally.
+                               Privacy has grabbed the attention of Boards of Directors (BoD&apos;s) across regions as
+                                organizations look to 
+                               comply with new privacy regulations and compliance
                              
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
@@ -82,7 +83,8 @@ export default function privacy() {
                                  />
                               </figure>
                               <h5> SOC 2 for Privacy </h5>
-                              <p>Navigate the privacy landscape of nearly all 50 states.
+                              <p> The SOC 2 compliance report provides an assurance to the 
+                              internal and external stakeholders of the organization..
                               </p> 
                               <span className="btn"> read more <BsArrowRightShort/> </span>
                            </div>
@@ -117,7 +119,8 @@ export default function privacy() {
                                </figure>
                                <h5> GDPR Assessment </h5>
                                <p> 
-                               Assess and demonstrate your alignment with the GDPR provisions.
+                               Privacy has grabbed the attention of Boards of Directors (BoD&apos;s)
+                                across regions as organizations.. 
                              
                                </p>
                                <span className="btn"> read more <BsArrowRightShort/> </span> 
@@ -139,7 +142,8 @@ export default function privacy() {
                                   />
                                </figure>
                                <h5> HIPPA Compliance</h5>
-                               <p>Navigate the privacy landscape of nearly all 50 states.
+                               <p>The HIPAA Act was effective in 1996, the HITECH Act in 2009, and the Final Omnibus
+                                Rule in 2013 and despite years passed..
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
                           </div>

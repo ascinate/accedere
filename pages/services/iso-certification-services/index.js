@@ -3,7 +3,7 @@ import Navbar from "../../componets/Navbar";
 import Footer from "../../componets/Footer";
 import Image from "next/image";
 import Link from "next/link";
-import { BsArrowRightShort, BsXDiamondFill } from "react-icons/bs";
+import { BsArrowRightShort, BsXDiamondFill, BsDash } from "react-icons/bs";
 import Head from "next/head";
 
 export default function isocertificationservices() {
@@ -23,7 +23,7 @@ export default function isocertificationservices() {
                 <div className="row row-cols-1 row-cols-md-2 gy-5 g-lg-5 align-items-center">
                    <div className="col">
                        <h2 className="text-white comon-head-main mt-0">
-                       ISO Certifications </h2>
+                       ISO/IEC Certifications </h2>
                        <p className="text-white"> Today, organizations are facing a host of challenges — from security, privacy and service delivery to availability. A management system implementation and certification can form the foundation for handling these challenges and providing clients
                         with an internationally recognized certification.</p>
                        
@@ -45,9 +45,9 @@ export default function isocertificationservices() {
             <div className="container">
          
                <h2 className="comon-head-main text-center"> ISO Certification Suite of Services </h2>
-               <p className="text-center"> Staying in front of industry trends, Schellman is always adding and refining our IT audit and compliance offerings:</p>
+               
 
-               <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-5 gy-lg-5 mt-0 justify-content-center">
+               <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-5 gy-lg-5 mt-0 justify-content-center">
                     <div className="col">
                       <Link href="/services/iso-certification-services/iso-27001-certification">
                           <div className="comon-services-part">
@@ -57,13 +57,12 @@ export default function isocertificationservices() {
                                   />
                                </figure>
                                <h5>  
-                               ISO 27001
+                                ISO/IEC 27001 <BsDash/> ISMS 
                                </h5>
                                <p>
                                
-                                 Provide a framework and the necessary requirements for the design,
-                                 implementation, and continuous
-                                 monitoring of an information security management system (ISMS).
+                               Accedere is an IAS Accredited Certification Body for ISO 27000 /
+                                ISO 27701 Certifications.
                                                             
                                </p>
                                <span className="btn"> read more <BsArrowRightShort/> </span> 
@@ -79,11 +78,11 @@ export default function isocertificationservices() {
                                   />
                                </figure>
                                <h5> 
-                               ISO 27701
+                               ISO/IEC 27701 <BsDash/> PIMS 
                               </h5>
                                <p> 
-                               Providing organizations guidance, specific to supporting an 
-                               effective privacy information management system (PIMS).
+                               Accedere is an IAS Accredited Certification Body for ISO
+                                27000 / ISO 27701 Certifications. Our ISO 27000, ISO 27701, ISO 27701 Certifications..
                              
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
@@ -101,8 +100,8 @@ export default function isocertificationservices() {
                                <h5> 
                                ISO 9001
                               </h5>
-                               <p>Provides a systematic and process-driven approach through a formal
-                                quality management system (QMS) for companies and organizations.
+                               <p>ISO 9001 is majorly known for Quality management system
+                                (QMS) in the whole world
 
                              
                                </p> 
@@ -123,9 +122,7 @@ export default function isocertificationservices() {
                                ISO 22301
                               </h5>
                                <p>
-                               Designed to help organizations protect against,
-                                prepare for, respond to, and recover from a disruptive 
-                                incident to business processes.
+                               ISO/IEC 22301 standard helps organizations identify and prioritize threats. 
                              
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
@@ -134,7 +131,7 @@ export default function isocertificationservices() {
                     </div>
 
                     <div className="col">
-                      <Link href="/services/iso-certification-services/iso-20000-certification">
+                      <Link href="/services/iso-certification-services/iso-20001-certification">
                           <div className="comon-services-part">
                                <figure>
                                   <Image src="/4248625.svg"
@@ -142,14 +139,75 @@ export default function isocertificationservices() {
                                   />
                                </figure>
                                <h5> 
-                               ISO 20000-1
+                                ISO/IEC 20000-1
                              
                                </h5>
                                <p> 
-                               Provides a holistic approach for service providers 
-                               in the design, transition, delivery, and improvement of services 
-                               that fulfill both internal requirements and provide value for 
-                               clients through consistent and improved service levels.
+                               ISO/IEC 20000-1:2018 is the international ITSM
+                                (IT service management) standard. It enables IT departments 
+                               </p> 
+                               <span className="btn"> read more <BsArrowRightShort/> </span>
+                          </div>
+                      </Link>
+                    </div>
+
+
+                    <div className="col">
+                      <Link href="/services/iso-certification-services/iso-31000">
+                          <div className="comon-services-part">
+                               <figure>
+                                  <Image src="/4248625.svg"
+                                  layout="fill"
+                                  />
+                               </figure>
+                               <h5> 
+                                ISO 31000
+                             
+                               </h5>
+                               <p> 
+                               The long-term success of an organization relies on many things, 
+                               from continually assessing and updating 
+                               </p> 
+                               <span className="btn"> read more <BsArrowRightShort/> </span>
+                          </div>
+                      </Link>
+                    </div>
+
+
+                    <div className="col">
+                      <Link href="/services/iso-certification-services/iso-certification-process">
+                          <div className="comon-services-part">
+                               <figure>
+                                  <Image src="/4248625.svg"
+                                  layout="fill"
+                                  />
+                               </figure>
+                               <h5> 
+                               Our ISO Certification Process & Policies
+                             
+                               </h5>
+                               <p> 
+                               The ISO 27000 and ISO 27701 audit journey begins with the audit questionnaire, 
+                               </p> 
+                               <span className="btn"> read more <BsArrowRightShort/> </span>
+                          </div>
+                      </Link>
+                    </div>
+
+                    <div className="col">
+                      <Link href="/services/iso-certification-services/iso-csa">
+                          <div className="comon-services-part">
+                               <figure>
+                                  <Image src="/4248625.svg"
+                                  layout="fill"
+                                  />
+                               </figure>
+                               <h5> 
+                                ISO for CSA / C5
+                             
+                               </h5>
+                               <p> 
+                               According to some estimates, there are more than 20,000 SaaS providers globally.
                                </p> 
                                <span className="btn"> read more <BsArrowRightShort/> </span>
                           </div>

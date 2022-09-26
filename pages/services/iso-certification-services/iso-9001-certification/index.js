@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import { BsXDiamondFill } from "react-icons/bs";
-import { FaFacebookF,FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebookF,FaTwitter, FaYoutube, FaAngleRight } from "react-icons/fa";
 import Link from "next/link";
 import Navbar from "../../../componets/Navbar";
 import Footer from "../../../componets/Footer";
@@ -14,7 +14,7 @@ function iSso3d(){
     return(
         <>
           <Head>
-          <title>Accedere -ISO 9001 Certification</title>
+          <title>Accedere - ISO 9001</title>
           <meta name="description" content="Complement other compliance efforts, such as ISO 27001, by gaining ISO 9001 certification which utilizes the same management system foundation."/>
           </Head>
           <Navbar/>
@@ -22,19 +22,34 @@ function iSso3d(){
                
                 <div className="top-seco-sec comon-top-space">
                     <div className="container">
-                        <div className="row row-cols-1 row-cols-lg-2 g-lg-5 align-items-center">
+                        <div className="row row-cols-1 row-cols-lg-2 g-lg-5">
                            <div className="col">
                               <h2 className="comon-head-main text-white"> 
                                
-                               ISO 9001 Certification </h2>
-                              <p className="text-white mt-4"> An ISO 9001 certification can complement other compliance 
-                              efforts, such as ISO 27001,
-                               and utilizes the same management system foundation.
+                              ISO 9001 </h2>
+                              <p className="text-white mt-4"> ISO 9001 is majorly known for Quality management system 
+                              (QMS) in the whole world. It is mainly associated with the family of ISO 9000 which 
+                              concern with many different features and viewpoints of quality management. ISO 9001 sets the standards for the company to cope with the expectations and needs of its customers. Thus, ISO 9001 Certification aid the business in meeting the 
+                              customer requirements and to work business activities smoothly.
+                              </p>
+
+                              <p className="text-white"> ISO 9001 is the international standard for Quality Management System 
+                              published by the International Organization for Standardization (ISO), an
+                               independent, non-governmental international organization with a membership of 
+                               165 national standards bodies. The standard was first published in 1987 by ISO and has
+                                been updated over the years, the most recent update was in 2015, and it is referred to as 
+                                ISO 9001:2015. 
+                              </p>
+                              <p className="text-white">
+                              This standard can be implemented by any organization, large or small, irrespective of 
+                              its industry and field of activity. The standard is widely used by organizations to 
+                              showcase their quality management principles and demonstrate a strong customer focus, involvement of 
+                              top management, regulatory requirement fulfilment and continual improvement.  
                               </p>
 
                            </div>
                            <div className="col">
-                               <figure className="mn-big-div need1">
+                               <figure className="mn-big-div need1 ison-sp1">
                                     <Image src="/soc-2.jpg" alt="about"
                                     layout="fill"
                                     />
@@ -56,59 +71,99 @@ function iSso3d(){
                 <div className="para-grap-div">
                     <div className="container">
                         
-                        <div className="row row-cols-1 row-cols-lg-2 g-lg-5 mt-0">
-                            
-                            <div className="col">
-                                    <figure className="comon-sub-main2">
-                                        <Image src="/pexels-christina-morillo-1181216.jpg" alt="about"
-                                        layout="fill"
-                                        />
-                                </figure>
-                            </div>
-                            <div className="col">
-                                <h2 className="comon-head-main "> 
-                                 
-                                Why ISO 9001? </h2>
+                        
+                    
 
-                                <p className="mt-4"> The ISO 9001 standard is focused on quality and an organization&apos;s 
-                                approach to the design, planning, implementation, and monitoring 
-                                of its products and services where consistency and quality are a must.</p>
+                    <p className="mt-2"> One of the major benefits of ISO 9001 certification is that it helps 
+                    organizations ensure that their customers receive high quality products and services consistently, 
+                    which in turn creates a beneficial outcome for the organizations and brings in many
+                     business benefits including satisfied customers, top management, and employees.</p>
 
-                                <p className="mt-2"> It is a valuable tool not only for any organization,
-                                 specifically for SaaS and Cloud Solution providers, where customers not only 
-                                 expect but demand a high level of consistency and reliability from their service providers 
-                                to address customer expectations in relation to service delivery.</p>
+                     <h5>  The benefits of ISO 9001 Certification can be summarized as below: </h5>
 
-                             
+                     <ul className="list-unstyled blue-arrow why-divbn mt-4 mb-5">
+                     <li> 
+                     <span className="conmo-icon">
+                     <FaAngleRight/>
+                     </span>
+                     <span>
+                       International recognition for quality products / services
+                     </span>
+                       </li>
+                     <li> 
+                     <span className="conmo-icon">
+                     <FaAngleRight/>
+                     </span>
+                     <span>
+                      Information gathering & decision making based on data and facts
+                     </span>
+                     </li>
+                     <li> 
+                     <span className="conmo-icon">
+                     <FaAngleRight/>
+                     </span>
+                     <span>
+                       Traceable documentation which improves consistency and reduces errors
+                     </span>
+                     </li>
 
-                            </div>
-                            
-                            
-                        </div>
+                     <li> 
+                     <span className="conmo-icon">
+                     <FaAngleRight/>
+                     </span>
+                     <span>
+                       Satisfied customers lead to customer retention & word of mouth marketing
+                     </span>
+                     </li>
+
+                     <li> 
+                     <span className="conmo-icon">
+                     <FaAngleRight/>
+                     </span>
+                     <span>
+                       Increased work efficiencies by streamlined processes
+                     </span>
+                     </li>
+
+                     <li> 
+                     <span className="conmo-icon">
+                     <FaAngleRight/>
+                     </span>
+                     <span>
+                       Continuous improvement of business processes
+                     </span>
+                     </li>
+
+                     <li> 
+                     <span className="conmo-icon">
+                     <FaAngleRight/>
+                     </span>
+                     <span>
+                       Improve supplier relationships and management
+                     </span>
+                     </li>
+
+                     <li> 
+                     <span className="conmo-icon">
+                     <FaAngleRight/>
+                     </span>
+                     <span>
+                       Increased revenue
+                     </span>
+                     </li>
+
+
+                    
+
+                 </ul>
+
                         
 
                         
                     </div>
                 </div>
 
-                <div className="para-grap-div mt-5">
-                    <div className="container">
-                          <h2 className="comon-head-main mt-5 mt-lg-0 text-center"> Our Process </h2>
-                            <p className="col-lg-9 mx-auto d-block text-center"> We begin each project with your end goals in mind and to provide preparation for future key project activities. Effective communication and timely coordination of project planning activities are 
-                            central to our methodology with our clients.
-
-                            </p>
-                            <p> As one of the only US firms accredited by ANAB and UKAS accreditation bodies
-                             to perform certification assessments against ISO 27001. When you engage with us,
-                              you will receive a dedicated team that is certified and has 
-                            exclusive experience in information technology and audit.</p>
-                      
-                            <BtmSlide/>
-                       
-
-                        
-                    </div>
-                </div>
+             
 
             
           </div>

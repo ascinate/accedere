@@ -60,8 +60,7 @@ export default function aicpasocreports() {
                                </figure>
                                <h5> SOC 1 Type 2 Compliance Audit
                                </h5>
-                               <p> Present a strong position to your customers regarding your control environment 
-                               relevant to processes that impact the controls over financial reporting.
+                               <p> One of the most important reports for third-party (vendor) data security, and SOX compliance is the SOC 1 Type 2 Attestation (some call Audit).
                                </p>
                                <span className="btn"> read more <FaAngleRight/> </span> 
                           </div>
@@ -76,8 +75,8 @@ export default function aicpasocreports() {
                                   />
                                </figure>
                                <h5> SOC 2Type 2 Compliance Audit </h5>
-                               <p>Meet a broad set of reporting needs about the
-                                controls at your service organization.
+                               <p>One of the most important reports for third party (vendor)
+                                data security and SOX compliance is the SOC 2 Type 2 Audit.
                                </p> 
                                <span className="btn"> read more <FaAngleRight/> </span>
                           </div>
@@ -93,8 +92,9 @@ export default function aicpasocreports() {
                                   />
                                </figure>
                                <h5> SOC Reports for CSA / C5 </h5>
-                               <p>Provide relevant information to clients up and down their supply chain, specifically designed for
-                                all industries and stakeholders seeking to manage supply risks.
+                               <p>According to some estimates, there are more than 20,000 SaaS providers globally.
+                                SaaS Software as a service (SaaS) will remain the largest market segment, 
+                               which is forecast to grow to $141 billion by 2022.
                                </p> 
                                <span className="btn"> read more <FaAngleRight/> </span>
                           </div>
@@ -110,9 +110,8 @@ export default function aicpasocreports() {
                                     />
                                 </figure>
                                 <h5> SOC Reports for Privacy </h5>
-                                <p>SOC for Cybersecurity reports include a description of your cybersecurity 
-                                risk management program
-                                and a set of benchmarks that we will evaluate your program against.
+                                <p>The SOC 2 compliance report provides an assurance to the internal and external stakeholders
+                                 of the organization, the specific controls implemented,
                                 </p> 
                                 <span className="btn"> read more <FaAngleRight/> </span>
                             </div>
@@ -128,8 +127,8 @@ export default function aicpasocreports() {
                                   />
                                </figure>
                                <h5> SOC Reports for Cyber Risk </h5>
-                               <p>Better develop transparent and trusted relationships between
-                                yourselves and your cloud customers.
+                               <p>In 2017 AICPA has developed a SOC 2 cybersecurity reporting framework that 
+                               organizations can use to demonstrate to key stakeholders..
                                </p> 
                                <span className="btn"> read more <FaAngleRight/> </span>
                           </div>
@@ -145,7 +144,8 @@ export default function aicpasocreports() {
                                   />
                               </figure>
                               <h5> SOC for Supply Chain </h5>
-                              <p>Recognizes assurance requirements and maturity levels of cloud service providers in a publicly available registry
+                              <p>A SOC audit report for Supply Chain is designed to provide intended users with information
+                               about a system that produces, manufactures,
                               </p> 
                               <span className="btn"> read more <FaAngleRight/> </span>
                           </div>
@@ -158,65 +158,6 @@ export default function aicpasocreports() {
             </div>
          </div>
 
-         <div className="comon-next-gray-bg py-5">
-            <div className="container">
-               <div className="row row-cols-1 row-cols-md-2 g-lg-5">
-                    <div className="col">
-                        <figure className="right-img-nm ison-sp1">
-                            <Image src="/ad-comon1.jpg"
-                            layout="fill"/>
-                        </figure>
-                    </div>
-                    <div className="col">
-                        <h2 className="comon-head-main">   
-                        A variety of assessments to meet your needs </h2>
-                        <p>Our team of specialists can provide any of the following to complete your SOC Examinations.
-                        </p>
-                        <ul className="list-unstyled crm-lisst-2">
-                            <li>
-                               <span className="conmo-icon">
-                               <BsXDiamondFill/>
-                               </span>
-                               <div className="right-cont">
-                                <h5> Readiness Assessment </h5>
-                                <p> Schellman performs readiness assessments that enable your organization to assess
-                                 your current control environment against the requisite control objectives or criteria. 
-                                 Our purpose is to provide clients with actionable intelligence about their preparedness 
-                                and overall readiness to promote successful examinations.</p>
-                               </div>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <div className="right-cont">
-                                <h5> Type 1 Report </h5>
-                                <p> Schellman performs &apos;Type 1&apos; SOC examinations when management requires a 
-                                report on the service organization&apos;s operational controls pertaining to the
-                                 suitability of the design of controls intended to meet control objectives or 
-                                criteria identified as of a point in time.</p>
-                               </div>
-                            </li>
-                            <li>
-                               <span className="conmo-icon">
-                                   <BsXDiamondFill/>
-                               </span>
-                               <div className="right-cont">
-                                <h5> Type 2 Report </h5>
-                                <p> Schellman performs &apos;Type 2&apos; SOC examinations when management requires a report on the
-                                 service organization&apos;s operational controls pertaining to the suitability of the design 
-                                 and operating effectiveness of controls intended to meet the 
-                                control objectives or criteria identified over a specific period of time.</p>
-                               </div>
-                            </li>
-                           
-                            
-                            
-                        </ul>
-                    </div>
-               </div>
-            </div>
-         </div>
    
 
     </div>

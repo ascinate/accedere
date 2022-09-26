@@ -39,11 +39,11 @@ export default function penetrationtesting() {
             </div>
          </div>
 
-         <div className="comon-inside-services py-5">
+         <div className="comon-inside-services pets-div py-5">
             <div className="container">
                
                 <h2 className="comon-head-main text-center"> Penetration Testing Suite of Services </h2>
-                <p className="text-center col-lg-7 mx-auto"> Staying in front of industry trends, Schellman is always adding and refining our IT audit and compliance offerings: </p>
+               
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-5 gy-lg-5 mt-0 justify-content-center">
                     <div className="col">
                       <Link href="/services/aicpasocreports/soc-reporting-services">
@@ -56,9 +56,7 @@ export default function penetrationtesting() {
                                <h5> 
                                Application Security 
                                </h5>
-                               <p> Identify vulnerabilities within software developed internally or by third parties. We assess 
-                               the security of web applications, APIs, and client-side applications.
-                               </p>
+                              
                             
                           </div>
                       </Link>
@@ -75,9 +73,7 @@ export default function penetrationtesting() {
                                   />
                                </figure>
                                <h5> Network and Infrastructure Security </h5>
-                               <p>Our experienced team effectively assesses your organization&apos;s
-                                preparedness through phishing and vishing techniques.
-                               </p> 
+                             
                           
                           </div>
                       </Link>
@@ -88,14 +84,12 @@ export default function penetrationtesting() {
                       <Link href="/services/aicpasocreports/soc2cloud">
                           <div className="comon-services-part">
                                <figure>
-                                  <Image src="/7818296.svg"
+                                  <Image src="/4842902.svg"
                                   layout="fill"
                                   />
                                </figure>
                                <h5> Cloud Security (link to Cloud Penetration Testing) </h5>
-                               <p>Our experienced team effectively assesses your organization&apos;s
-                                preparedness through phishing and vishing techniques.
-                               </p> 
+                              
                           
                           </div>
                       </Link>
