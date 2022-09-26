@@ -9,34 +9,33 @@ import Footer from "../../componets/Footer";
 import Head from "next/head";
 
 
-function pdf1(){
-    return(
-        <>
-          <Head>
-             <title>Accedere -ISO 27701 Certification</title>
-             <meta name="twitter:title" content="ISO 27701 Certification &amp; Assessments | Schellman &amp; Company"/>
-          </Head>
-          <Navbar/>
-          <div className='contact-page-1 sub-page-body float-start w-100'>
-          <div className="special-divn"></div> 
+const Download= () => {
 
-            <div className="pdf-div1 mt-5">
-               <div className="container">
-                 <div className="comon-padf d-flex align-items-center">
-                      <figure>
-                        <Image src="/pdf1.png" 
-                        alt="am" layout="fill" />
-                     </figure>
-                        <span></span>
-                 </div>
-                  
-               </div>
-            </div>
+  function downloadFile(filePath) {
+    if(process.browser) {
 
-            
-          </div>
-          <Footer/>
-        </>
-    );
-}
-export default pdf1;
+      var link = document.createElement('a');
+      link.href = filePath;
+      link.target = "_blank"
+      link.download = filePath.substr(filePath.lastIndexOf('/') + 1);
+      link.click();
+    }
+  }
+  
+  downloadFile("/ISO Certification Services.pdf");
+
+  return (
+    <div>
+      <div>
+          <div className="comon-padf d-flex align-items-center">
+            <figure className="m-0">
+              <Image src="/pdf1.png" alt="am" layout="fill"/>
+            </figure>
+            <span> Cloud VAPT </span>
+         </div>
+      </div>
+    </div>
+  );
+};
+
+export default Download;

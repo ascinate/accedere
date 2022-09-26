@@ -21,7 +21,7 @@ function CaseStudy(){
                                         <h4> <Link href="/"> Achieving CSA STAR Level 2 </Link> </h4>
 
                                         <Link href="/pdf-file/one">
-                                          <a className="btn download"> Download </a> 
+                                          <a target="_blank" rel="noopener noreferrer" className="btn download"> Download </a> 
                                         </Link>
 
                                         <figure className="mt-4 case-st-img">
@@ -40,7 +40,7 @@ function CaseStudy(){
                                         <h4>  <Link href="/"> SOC Reporting Services </Link>  </h4>
 
                                         <Link href="/pdf-file/two">
-                                          <a className="btn download"> Download </a> 
+                                          <a target="_blank" rel="noopener noreferrer" className="btn download"> Download </a> 
                                         </Link>
 
                                         <figure className="mt-4 case-st-img">
@@ -60,7 +60,7 @@ function CaseStudy(){
                                         <h4> <Link href="/"> ISOCertification Services </Link> </h4>
 
                                         <Link href="/pdf-file/three">
-                                          <a className="btn download"> Download </a> 
+                                          <a target="_blank" rel="noopener noreferrer" className="btn download"> Download </a> 
                                         </Link>
 
                                         <figure className="mt-4 case-st-img">
@@ -80,7 +80,7 @@ function CaseStudy(){
                                         <h4> <Link href="/"> Cloud VAPT </Link> </h4>
 
                                         <Link href="/pdf-file/four">
-                                           <a className="btn download"> Download </a> 
+                                           <a target="_blank" rel="noopener noreferrer" className="btn download"> Download </a> 
                                         </Link>
 
                                         <figure className="mt-4 case-st-img">
