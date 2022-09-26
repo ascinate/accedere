@@ -15,12 +15,12 @@ function CaseStudy(){
                     <div className="row row-cols-1 row-cols-lg-4 gy-5 g-lg-4 mt-0 mt-lg-5">
 
                         <div className="col">
-                                <Link href="/">
+                               
                                     <div className="case-styudies-div">
                                         <h6> Case Studies </h6>
-                                        <h4> Achieving CSA STAR Level 2 </h4>
+                                        <h4> <Link href="/"> Achieving CSA STAR Level 2 </Link> </h4>
 
-                                        <Link href="/">
+                                        <Link href="/pdf-file/one">
                                           <a className="btn download"> Download </a> 
                                         </Link>
 
@@ -30,16 +30,16 @@ function CaseStudy(){
                                         </figure>
                                         
                                     </div>
-                                </Link>
+                                
                         </div>
 
                         <div className="col">
-                                <Link href="/">
+                               
                                     <div className="case-styudies-div">
                                         <h6> Case Studies </h6>
-                                        <h4> SOC Reporting Services  </h4>
+                                        <h4>  <Link href="/"> SOC Reporting Services </Link>  </h4>
 
-                                        <Link href="/">
+                                        <Link href="/pdf-file/two">
                                           <a className="btn download"> Download </a> 
                                         </Link>
 
@@ -49,17 +49,17 @@ function CaseStudy(){
                                         </figure>
                                         
                                     </div>
-                                </Link>
+                                
                         </div>
 
 
                         <div className="col">
-                                <Link href="/">
+                                
                                     <div className="case-styudies-div">
                                         <h6> Case Studies </h6>
-                                        <h4> ISOCertification Services </h4>
+                                        <h4> <Link href="/"> ISOCertification Services </Link> </h4>
 
-                                        <Link href="/">
+                                        <Link href="/pdf-file/three">
                                           <a className="btn download"> Download </a> 
                                         </Link>
 
@@ -69,17 +69,17 @@ function CaseStudy(){
                                         </figure>
                                         
                                     </div>
-                                </Link>
+                               
                         </div>
 
 
                         <div className="col">
-                                <Link href="/">
+                                
                                     <div className="case-styudies-div">
                                         <h6> Case Studies </h6>
-                                        <h4> Cloud VAPT</h4>
+                                        <h4> <Link href="/"> Cloud VAPT </Link> </h4>
 
-                                        <Link href="/">
+                                        <Link href="/pdf-file/four">
                                            <a className="btn download"> Download </a> 
                                         </Link>
 
@@ -89,7 +89,7 @@ function CaseStudy(){
                                         </figure>
                                         
                                     </div>
-                                </Link>
+                                
                             </div>
                        
                     </div>

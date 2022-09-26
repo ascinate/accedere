@@ -956,7 +956,20 @@ figure.smm-all {
   width: 100%;
   background: #377dff;
 }
-
+.pdf-div1{
+  min-height: 300px;
+  display: inline-block;
+  width: 100%;
+}
+.comon-padf figure{
+  width:80px;
+  height:80px;
+  position: relative;
+}
+.case-styudies-div a{
+  text-decoration: none;
+  color: #000;
+}
 
 /* contact us */
 .contact-page-1 .top-contact-div{
