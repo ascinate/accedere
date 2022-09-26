@@ -87,7 +87,11 @@ function Testimonial(){
                                   
                                     <div className="content-div-t">
                                         <FaQuoteLeft/>
-                                        <p>We at Jio Data Center Operations, Would like thank and extend our sincere appreciation for all your devoted contributions & commitment towards our SSAE18 SOC 1 & 2 certification process. As an industry veteran along with your deep knowledge of the domain, You have made the entire process so seamless especially considering the number of functions & controls involved. You have also helped us to create integrated controls. You have been so diligent, 
+                                        <p>We at Jio Data Center Operations, Would like thank and extend our sincere appreciation for all your devoted contributions & commitment towards
+                                         our SSAE18 SOC 1 & 2 certification process. As an industry veteran along with your deep knowledge
+                                          of the domain, You have made the entire process so seamless especially considering the number of 
+                                          functions & controls involved. You have also helped us to create integrated controls. You have 
+                                          been so diligent, 
                                         honest and systematic in approach throughout the process.  </p>
                                         <figure className="ts-logo">
                                               <Image src="/test1.svg"

@@ -32,7 +32,7 @@ function iso1st(){
                               27xxx audits under one roof, thus saving considerable costs and efforts.</p>
 
                               <p className="text-white"> As the SOC 2 broadly covers many of the ISO 27001 certification requirements, it makes sense for organizations to combine the audits by us under one brand. The AICPA SOC 2 Type 2 engagements require continuous monitoring for evaluating the operative effectiveness of the controls, in parallel we are also able to evaluate most of the ISO
-                               27000 controls pertaining to our customers' environment.</p>
+                               27000 controls pertaining to our customers&apos; environment.</p>
 
                                 <p className="text-white"> Thus, this is a win-win situation for our customers as they can get the ISO 27000 and ISO 27701 certifications along with the SOC 2 Type 2 Compliance reports under one roof (brand) and perhaps conducted together to save considerable time and effort. The new ISO 27002 :2022 has recently been 
                                 announced and will define the upcoming ISO 27001 standard.</p>
@@ -86,7 +86,7 @@ function iso1st(){
 
                                  <p className="mt-4"> The ISO/IEC 27xxx certificate provides evidence of an audit of 
                                  Confidentiality, Integrity, and Availability (CIA) of an organization that follows an 
-                                 internationally recognized process to manage their customer's information or data. The 
+                                 internationally recognized process to manage their customer&apos;s information or data. The 
                                  ISO 27017 demonstrates Cloud Service Providers (CSP&apos;s) controls overs its cloud services. 
                                  The ISO/IEC 27018 is used for Personal Data (PII) data in the cloud. ISO 27001 combined with 
                                  Cloud CSA CCM4 can enable an 
@@ -107,7 +107,7 @@ function iso1st(){
                             <FaAngleRight/>
                             </span>
                             <span>
-                            Assures your customers about your organization's standards in managing the information or data.
+                            Assures your customers about your organization&apos;s standards in managing the information or data.
                             </span>
                               </li>
                             <li> 

@@ -10,7 +10,7 @@ export default function indiacta() {
   return (
     <div>
     <Head>
-            <title>Accedere - India Cert-In Assessments</title>
+            <title>Accedere - India Cert<BsDash/>In Assessments</title>
             <meta name="description" content="IoT and Smart Infrastructure Security covering Smart Grid,Smart Cities, IoT Privacy using ISO 27701"/>
             
     </Head>
@@ -22,8 +22,8 @@ export default function indiacta() {
                 <div className="row row-cols-1 row-cols-md-2 g-lg-5 align-items-center">
                    <div className="col">
                        <h2 className="text-white comon-head-main mt-0"> 
-                       India Cert-In Assessments  </h2>
-                       <h5 className="text-white"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                       India Cert<BsDash/>In Assessments  </h2>
+                       <h5 className="text-white"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s
                        </h5>
    
                    </div>
@@ -41,7 +41,7 @@ export default function indiacta() {
 
          <div className="comon-inside-services py-5">
             <div className="container">
-                <h2 className="comon-head-main text-center"> India Cert-In Assessments </h2>
+                <h2 className="comon-head-main text-center"> India Cert<BsDash/>In Assessments </h2>
                
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-lg-5 g-lg-5 mt-0 justify-content-center">
                    
@@ -73,7 +73,7 @@ export default function indiacta() {
                                   layout="fill"
                                   />
                                </figure>
-                               <h5> Safe-to-Host Applications Audit </h5>
+                               <h5> Safe<BsDash/>to<BsDash/>Host Applications Audit </h5>
                                <p> Safe to host audits are conducted to recognize servers and encrypted communication..
                                </p>
                                <span className="btn"> read more <BsArrowRightShort/> </span> 

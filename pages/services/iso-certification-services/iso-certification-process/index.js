@@ -74,7 +74,7 @@ function isoprocess(){
                         During Stage 1, it is established whether the requirements of the standard(s) are being met by the 
                         auditee organization. This can be done by review of the available evidence. The goal of the Stage 1 
                         audit is to 
-                        determine if the client's ISMS is developed sufficiently to be certified. </p>
+                        determine if the client&apos;s ISMS is developed sufficiently to be certified. </p>
 
 
                         <h2 className="comon-head-main"> Stage 2 Audit: </h2>
@@ -113,7 +113,7 @@ function isoprocess(){
                          management system as a whole is followed and the continued relevance and applicability of the 
                          scope of certification, commitment to enhance and maintain overall effectiveness and improvement 
                          of the management system, and whether the operations of a certified client contributes to the 
-                         achievement of the client's policy and objective.
+                         achievement of the client&apos;s policy and objective.
                           If all requirements are fulfilled a new certificate is issued. </p>
 
                           <h2 className="comon-head-main"> Extensions/Reduction/Change to Scope : </h2>

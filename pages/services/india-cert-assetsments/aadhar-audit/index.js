@@ -13,7 +13,7 @@ export default function indiaassessments() {
     <div>
     
     <Head>
-            <title>Accedere - Aadhar Audit – UIDAI AUA & KUA</title>
+            <title>Accedere - Aadhar Audit <BsDash/> UIDAI AUA & KUA</title>
             <meta name="keywords" content="India Assessments ISO 27001, ISO 27701, ISO 27001 Certification Cost, ISO 27002, ISO 20000, ISO 22301 Accedere"/>
             
     </Head>
@@ -30,7 +30,7 @@ export default function indiaassessments() {
 
                        <p className="text-white"> Any firm which wants to get empaneled as KUA (KYC User Agency) or AUA
                         (Aadhaar Authentication Services) must get their security assessment done and achieve their 
-                       compliance certification only from a CERT-In empaneled auditor.</p>
+                       compliance certification only from a CERT<BsDash/>In empaneled auditor.</p>
 
                        <p className="text-white"> As per the UIDAI guidelines in India, client applications need to be audited 
                        only by CERT-In empaneled auditors and AUA&apos;s and KUA&apos;s need to ensure that they get
@@ -38,7 +38,7 @@ export default function indiaassessments() {
                         and need basis to ensure compliance
                         as per UIDAI&apos;s requirements and standards. </p>
 
-                        <p className="text-white"> Since we&apos;re empaneled auditors with CERT-In we can audit and assess your
+                        <p className="text-white"> Since we&apos;re empaneled auditors with CERT<BsDash/>In we can audit and assess your
                          information security environment, its risks, and controls over such information 
                          security assets and information on a periodic basis as per
                          UIDAI&apos;s security audit and compliance requirements. </p>
