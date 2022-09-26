@@ -23,7 +23,7 @@ export default function aicpasocreports() {
                 <div className="row row-cols-1 row-cols-md-2 g-lg-5 align-items-center">
                    <div className="col">
                        <h2 className="text-white comon-head-main mt-0"> 
-                       SOC Examinations & Attestations  </h2>
+                       SOC Attest Reports </h2>
                        <h5 className="text-white"> One of the most important reports for a third party 
                        (vendor) data security and SOX compliance is the SOC Report, SOC 1 Report or SOC 2
                         Type 2 Report. The SOC Report, SOC 1 Report or SOC 2 Type 2 attest report provides 
