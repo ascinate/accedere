@@ -67,7 +67,7 @@ export default function cloudsecurity() {
                     </div>
 
                     <div className="col">
-                      <Link href="/services/cloudsecurity/cloudsecurityassessment">
+                      <Link href="/services/cloudsecurity/cloud-supply-chain-assessments">
                           <div className="comon-services-part">
                                <figure>
                                   <Image src="/4673944.svg"
