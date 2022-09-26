@@ -120,7 +120,7 @@ function Footer(){
                           </ul>
                       </div>
                    </div>
-                   <div className="d-md-flex align-items-center justify-content-between  mt-5 mb-3">
+                   <div className="d-md-flex align-items-center justify-content-between  mt-3 mb-3">
                        <ul className="list-unstyled trums m-0">
                             <li>
                                 © Accedere

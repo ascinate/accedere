@@ -100,11 +100,7 @@ function Testimonial(){
 
                             <div className="comon-items-slide">
                               <div className="comon-testi-com">
-                                    <figure className="ts-big">
-                                          <Image src="/bg-testimonial-new.jpg"
-                                          alt="Picture of the author"
-                                          layout="fill"/>
-                                    </figure>
+                                    
                                     <div className="content-div-t">
                                         <FaQuoteLeft/>
                                         <p>Accedere is conducting SOC-2 Audit for Ricoh Data Centres and Cloud Services since last 3 years. Audit done by your 
