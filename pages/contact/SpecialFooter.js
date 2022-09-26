@@ -120,7 +120,7 @@ function SpecialFooter(){
                           </ul>
 
                           <div className="comon-cont-ft mt-3">
-                                <h5> Contact Us </h5>
+                                <h5> Email </h5>
                                 <p>info@accedere.io</p>
                              </div>
                       </div>

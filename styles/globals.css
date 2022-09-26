@@ -692,15 +692,21 @@ border: none !important;
   display: block !important;
 
 }
+
+
+.tesimonsli-slide .slick-dots{
+  right: inherit !important;
+  text-align: left;
+  padding-left: 200px;
+  }
 .inside-divb2 .slick-dots li button:before{
   width: 20px !important;
   height: 20px !important;
   font-size: 16px !important;
   left: 0;
    right: inherit !important;
-   color: #2b79db;
+   color: #fff ;
    opacity: 9 !important;
-   background: #fff !important;
 }
 .inside-divb2 .slick-dots li.slick-active button:before{
   color: #2b79db !important;
@@ -921,7 +927,7 @@ figure.smm-all {
 }
 .ourvaule-div{
   display: inline-block;
-  background: #377dff;
+  /* background: #377dff; */
   width: 100%;
   margin-top: 100px;
   padding: 100px 0;
@@ -932,6 +938,9 @@ figure.smm-all {
   display: flex;
   align-items: baseline;
   margin-bottom: 12px;
+}
+.ourvaule-div ul li{
+  color: #000;
 }
 .our-customer-div,
 .our-customer-div ul li{
@@ -945,8 +954,7 @@ figure.smm-all {
 .our-customer-div{
   display: inline-block;
   width: 100%;
-  padding-top:100px;
-  
+  background: #377dff;
 }
 
 
@@ -1339,9 +1347,7 @@ button.close-menu {
 .ison-sp1{
   height:620px;
 }
-.iso-main-page h2{
-  font-size: 30px;
-}
+
 .lot-img{
   height: 600px;
 }
@@ -1533,7 +1539,20 @@ button.close-menu {
 .pets-div .comon-services-part{
   display: inline-block;
 }
-  
+.contact-new{
+  background: none !important;
+  padding-top: 100px !important;
+}
+.special-divn {
+  background: #377dff !important;
+  height: 120px;
+  display: inline-block;
+  width: 100%;
+}
+.contact-new .sub-mit-bn{
+  background: #377dff !important;
+  color: #fff !important;
+}
 @keyframes slide-down {
 		  0% {
 			  transform: translateY(-100%);

@@ -18,14 +18,14 @@ function contact(){
             <meta name="keywords" content="SOC 2 Type 2, SOC 1 Type 2, SSAE 18, Cloud CCSK, CCM 4, CCAK, ISO 27001"/>
         </Head>
           <Navbar/>
-          <div className='contact-page-1 contact-new float-start w-100'>
-               
-              <div className="top-contact-div">
+          <div className='contact-page-1  float-start w-100'>
+              <div className="special-divn"></div> 
+              <div className="top-contact-div contact-new">
                     <div className="container">
                         <div className="row row-cols-1 row-cols-md-2 g-lg-5">
                             <div className="col">
-                                <h2 className="comon-head-main text-white">Contact Us </h2>
-                                <p className="text-white"> Our team is ready to assist you with any of your compliance, cybersecurity and privacy needs. 
+                                <h2 className="comon-head-main">Contact Us </h2>
+                                <p > Our team is ready to assist you with any of your compliance, cybersecurity and privacy needs. 
                                 Complete the contact form and our team will reach out within 24 hours.  </p>
                                 
                                 <div className="map-div-1 mt-4">
@@ -36,7 +36,7 @@ function contact(){
                                 </div>
                             </div>
                             <div className="col">
-                                <h5 className="text-white"> Fill The Form Below </h5>
+                                <h5> Fill The Form Below </h5>
                                 <form method="get" action="an">
                                     <div className="row mt-4">
                                         <div className="col-lg-12">

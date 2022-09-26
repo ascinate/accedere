@@ -183,6 +183,103 @@ function Clientlogo(){
                             </div>
                         </div>
 
+                        <div className="items-client-logo">
+                            <div className="comon-logo-clients1">
+                                <figure className="smm-all">
+                                      <Image src="/dcx.svg"
+                                      alt="Picture of the author"
+                                      layout="fill"/>
+                                </figure>
+                                
+                            </div>
+                        </div>
+
+                        <div className="items-client-logo">
+                            <div className="comon-logo-clients1">
+                                <figure className="smm-all">
+                                      <Image src="/kalpita-logo.svg"
+                                      alt="Picture of the author"
+                                      layout="fill"/>
+                                </figure>
+                                
+                            </div>
+                        </div>
+
+                        <div className="items-client-logo">
+                            <div className="comon-logo-clients1">
+                                <figure className="smm-all">
+                                      <Image src="/Picture28.svg"
+                                      alt="Picture of the author"
+                                      layout="fill"/>
+                                </figure>
+                                
+                            </div>
+                        </div>
+
+                        <div className="items-client-logo">
+                            <div className="comon-logo-clients1">
+                                <figure className="smm-all">
+                                      <Image src="/Picture20.svg"
+                                      alt="Picture of the author"
+                                      layout="fill"/>
+                                </figure>
+                                
+                            </div>
+                        </div>
+
+                        <div className="items-client-logo">
+                            <div className="comon-logo-clients1">
+                                <figure className="smm-all">
+                                      <Image src="/Picture29.svg"
+                                      alt="Picture of the author"
+                                      layout="fill"/>
+                                </figure>
+                                
+                            </div>
+                        </div>
+
+                        <div className="items-client-logo">
+                            <div className="comon-logo-clients1">
+                                <figure className="smm-all">
+                                      <Image src="/Picture17.svg"
+                                      alt="Picture of the author"
+                                      layout="fill"/>
+                                </figure>
+                                
+                            </div>
+                        </div>
+
+                        <div className="items-client-logo">
+                            <div className="comon-logo-clients1">
+                                <figure className="smm-all">
+                                      <Image src="/Picture24.svg"
+                                      alt="Picture of the author"
+                                      layout="fill"/>
+                                </figure>
+                                
+                            </div>
+                        </div>
+
+                        <div className="items-client-logo">
+                            <div className="comon-logo-clients1">
+                                <figure className="smm-all">
+                                      <Image src="/digizone.svg"
+                                      alt="Picture of the author"
+                                      layout="fill"/>
+                                </figure>
+                                
+                            </div>
+                        </div>
+
+                        
+                        
+
+
+                        
+                        
+
+                        
+                       
 
                         
                         
